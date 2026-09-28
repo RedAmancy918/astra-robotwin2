@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a0e759-e122-7a23-9b6f-41f4f01519ac"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"{\"kind\":\"eef\",\"steps\":[{\"arm\":\"right\",\"code\":\"Z-\",\"level\":1,\"pose\":null}],\"visual_assessment\":\"Green appears approximately centered above red and remains held. Contact is uncertain; left gripper is open.\",\"reason\":\"Lower 5 mm cautiously before checking support and releasing.\",\"memory\":\"Right TCP [0.1424,-0.0577,0.8365], right closed, left open. Last Y- moved toward robot 1.88 cm and improved apparent alignment. Grasp acquired at z0.7797; current height is 5.68 cm higher. Green remains held above red; support is not yet confirmed.\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":16259,"cached_input_tokens":6912,"cache_write_input_tokens":0,"output_tokens":2220,"reasoning_output_tokens":2070}}

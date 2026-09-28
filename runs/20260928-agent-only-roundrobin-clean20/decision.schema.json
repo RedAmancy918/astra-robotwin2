@@ -1,0 +1,72 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "kind": {
+      "type": "string",
+      "enum": [
+        "eef"
+      ]
+    },
+    "steps": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "arm": {
+            "type": "string",
+            "enum": [
+              "left",
+              "right"
+            ]
+          },
+          "code": {
+            "type": "string",
+            "enum": [
+              "X+",
+              "X-",
+              "Y+",
+              "Y-",
+              "Z+",
+              "Z-",
+              "OPEN",
+              "CLOSE"
+            ]
+          },
+          "level": {
+            "type": "integer",
+            "enum": [
+              1,
+              2,
+              3
+            ]
+          }
+        },
+        "required": [
+          "arm",
+          "code",
+          "level"
+        ]
+      },
+      "minItems": 1,
+      "maxItems": 8
+    },
+    "visual_assessment": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "memory": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "kind",
+    "steps",
+    "visual_assessment",
+    "reason",
+    "memory"
+  ]
+}

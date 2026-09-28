@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a0e6eb-ac9b-7bd3-bec1-97649ab6e131"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"{\"kind\":\"eef\",\"steps\":[{\"arm\":\"right\",\"code\":\"Z-\",\"level\":2,\"pose\":null}],\"visual_assessment\":\"Green remains centered in the right wrist view and separate from red. The open right gripper is above green.\",\"reason\":\"Lower another 2 cm cautiously toward grasp depth, then reassess.\",\"memory\":\"Right TCP is [0.2554,0.0223,0.8613], pointing downward. Last 2 cm descent succeeded accurately. Green remains centered, but grasp depth and camera-to-TCP offset are uncertain. No grasp established; both grippers remain open.\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":13114,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":1255,"reasoning_output_tokens":1116}}

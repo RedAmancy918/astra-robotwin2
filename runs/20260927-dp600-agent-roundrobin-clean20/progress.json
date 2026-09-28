@@ -1,0 +1,225 @@
+{
+  "status": "stopped_by_user",
+  "updated_at": 1790562472.6259074,
+  "runner_pid": 481092,
+  "round": 36,
+  "planned": 20,
+  "started": 20,
+  "completed": 0,
+  "successes": 0,
+  "failures": 0,
+  "pending": 20,
+  "current_seed": 100009,
+  "action_count": 459,
+  "agent_decisions": 35,
+  "episode_step_limit": null,
+  "episode_time_limit_s": null,
+  "decisions_per_visit": 1,
+  "scenes": [
+    {
+      "seed": 100000,
+      "status": "interrupted_by_user",
+      "visits": 35,
+      "action_count": 363,
+      "agent_decisions": 42,
+      "success": null,
+      "error": null,
+      "status_before_stop": "pending_next_round"
+    },
+    {
+      "seed": 100001,
+      "status": "interrupted_by_user",
+      "visits": 36,
+      "action_count": 342,
+      "agent_decisions": 36,
+      "success": null,
+      "error": null,
+      "status_before_stop": "pending_next_round"
+    },
+    {
+      "seed": 100002,
+      "status": "interrupted_by_user",
+      "visits": 36,
+      "action_count": 343,
+      "agent_decisions": 36,
+      "success": null,
+      "error": null,
+      "status_before_stop": "pending_next_round"
+    },
+    {
+      "seed": 100003,
+      "status": "interrupted_by_user",
+      "visits": 36,
+      "action_count": 334,
+      "agent_decisions": 36,
+      "success": null,
+      "error": null,
+      "status_before_stop": "pending_next_round"
+    },
+    {
+      "seed": 100004,
+      "status": "interrupted_by_user",
+      "visits": 36,
+      "action_count": 318,
+      "agent_decisions": 36,
+      "success": null,
+      "error": null,
+      "status_before_stop": "pending_next_round"
+    },
+    {
+      "seed": 100005,
+      "status": "interrupted_by_user",
+      "visits": 36,
+      "action_count": 478,
+      "agent_decisions": 36,
+      "success": null,
+      "error": null,
+      "status_before_stop": "pending_next_round"
+    },
+    {
+      "seed": 100006,
+      "status": "interrupted_by_user",
+      "visits": 36,
+      "action_count": 330,
+      "agent_decisions": 36,
+      "success": null,
+      "error": null,
+      "status_before_stop": "pending_next_round"
+    },
+    {
+      "seed": 100007,
+      "status": "interrupted_by_user",
+      "visits": 36,
+      "action_count": 403,
+      "agent_decisions": 36,
+      "success": null,
+      "error": null,
+      "status_before_stop": "pending_next_round"
+    },
+    {
+      "seed": 100008,
+      "status": "interrupted_by_user",
+      "visits": 36,
+      "action_count": 231,
+      "agent_decisions": 36,
+      "success": null,
+      "error": null,
+      "status_before_stop": "pending_next_round"
+    },
+    {
+      "seed": 100009,
+      "status": "interrupted_by_user",
+      "visits": 36,
+      "action_count": 459,
+      "agent_decisions": 35,
+      "success": null,
+      "error": null,
+      "status_before_stop": "in_progress"
+    },
+    {
+      "seed": 100010,
+      "status": "interrupted_by_user",
+      "visits": 35,
+      "action_count": 219,
+      "agent_decisions": 35,
+      "success": null,
+      "error": null,
+      "status_before_stop": "pending_next_round"
+    },
+    {
+      "seed": 100011,
+      "status": "interrupted_by_user",
+      "visits": 35,
+      "action_count": 309,
+      "agent_decisions": 35,
+      "success": null,
+      "error": null,
+      "status_before_stop": "pending_next_round"
+    },
+    {
+      "seed": 100012,
+      "status": "interrupted_by_user",
+      "visits": 35,
+      "action_count": 314,
+      "agent_decisions": 35,
+      "success": null,
+      "error": null,
+      "status_before_stop": "pending_next_round"
+    },
+    {
+      "seed": 100013,
+      "status": "interrupted_by_user",
+      "visits": 35,
+      "action_count": 368,
+      "agent_decisions": 35,
+      "success": null,
+      "error": null,
+      "status_before_stop": "pending_next_round"
+    },
+    {
+      "seed": 100014,
+      "status": "interrupted_by_user",
+      "visits": 35,
+      "action_count": 260,
+      "agent_decisions": 35,
+      "success": null,
+      "error": null,
+      "status_before_stop": "pending_next_round"
+    },
+    {
+      "seed": 100015,
+      "status": "interrupted_by_user",
+      "visits": 35,
+      "action_count": 301,
+      "agent_decisions": 35,
+      "success": null,
+      "error": null,
+      "status_before_stop": "pending_next_round"
+    },
+    {
+      "seed": 100016,
+      "status": "interrupted_by_user",
+      "visits": 35,
+      "action_count": 416,
+      "agent_decisions": 35,
+      "success": null,
+      "error": null,
+      "status_before_stop": "pending_next_round"
+    },
+    {
+      "seed": 100017,
+      "status": "interrupted_by_user",
+      "visits": 35,
+      "action_count": 347,
+      "agent_decisions": 35,
+      "success": null,
+      "error": null,
+      "status_before_stop": "pending_next_round"
+    },
+    {
+      "seed": 100018,
+      "status": "interrupted_by_user",
+      "visits": 35,
+      "action_count": 273,
+      "agent_decisions": 35,
+      "success": null,
+      "error": null,
+      "status_before_stop": "pending_next_round"
+    },
+    {
+      "seed": 100019,
+      "status": "interrupted_by_user",
+      "visits": 35,
+      "action_count": 297,
+      "agent_decisions": 35,
+      "success": null,
+      "error": null,
+      "status_before_stop": "pending_next_round"
+    }
+  ],
+  "inference_pid": null,
+  "inference_elapsed_s": null,
+  "stopped_at": "2026-09-28T10:27:52+08:00",
+  "stop_reason": "User requested end",
+  "interrupted": 20
+}

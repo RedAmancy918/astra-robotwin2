@@ -1,0 +1,10 @@
+{
+  "checked_at": "2026-09-27 12:15:52 +0800",
+  "completed_episodes": 20,
+  "unique_seeds": 20,
+  "successes": 0,
+  "rollout_errors": 0,
+  "videos_checked": 20,
+  "all_video_final_frames_decoded": true,
+  "policy_server_stopped": true
+}

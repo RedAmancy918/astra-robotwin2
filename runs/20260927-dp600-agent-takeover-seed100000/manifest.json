@@ -1,0 +1,23 @@
+{
+  "run_id": "20260927-dp600-agent-takeover-seed100000",
+  "created_at": "2026-09-27 12:34:06 +0800",
+  "task": "stack_blocks_two",
+  "task_config": "demo_clean",
+  "seed": 100000,
+  "checkpoint_epoch": 600,
+  "checkpoint_sha256": "f9a36941e0ff7d77a095a84aa1a2ad64ab505ee78ff1684df3b0270a7e641130",
+  "scope": "single-scene interactive vision-agent takeover feasibility test; not a success-rate estimate",
+  "controller": "assistant decisions from three RGB images and robot proprioception through REST tools",
+  "object_ground_truth_exposed": false,
+  "expert_actions_used": false,
+  "input_cameras": [
+    "head",
+    "left_wrist",
+    "right_wrist"
+  ],
+  "control_interface": "bounded world-frame EEF translations and gripper OPEN/CLOSE; DP can be cancelled or resumed",
+  "dp_history": "updated after each action; preserved between uninterrupted DP commands; reset after EEF correction",
+  "step_limit": 10000,
+  "baseline_scene_result": "600.ckpt failed at 800 actions in official isolated evaluation",
+  "video": "three views; action-time samples at 5 fps, idle periods omitted; wall timestamps in video-frames.jsonl"
+}

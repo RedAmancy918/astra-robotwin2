@@ -1,0 +1,88 @@
+{
+  "ready": true,
+  "owner": "vision-agent",
+  "epoch": 2,
+  "applied_epoch": 2,
+  "revision": 9,
+  "mode": "hold",
+  "busy": false,
+  "error": null,
+  "active_command": null,
+  "snapshot": {
+    "frame_id": 696,
+    "captured_at": 1790484295.057343,
+    "seed": 100000,
+    "task": "stack_blocks_two",
+    "instruction": "Stack the green block on the red block.",
+    "task_success": false,
+    "coordinates": "world; metres; quaternion wxyz",
+    "action_count": 155,
+    "fixed_checkpoint_epoch": 600,
+    "left_eef": [
+      -0.2980966567993164,
+      -0.3138744533061981,
+      0.9423694014549255,
+      0.6994387315749211,
+      0.0011489233625077396,
+      0.00033660825774506353,
+      0.7146915610547345
+    ],
+    "right_eef": [
+      0.07790952920913696,
+      0.01828552410006523,
+      1.014877438545227,
+      0.23419998499967556,
+      -0.6195152791423091,
+      0.11861275847491948,
+      0.7397852387432106
+    ],
+    "left_joints": [
+      0.0016700273845344782,
+      -0.00010344442125642672,
+      0.0010382778709754348,
+      3.002053745149169e-05,
+      0.00010001624468713999,
+      0.002120058052241802,
+      1.0
+    ],
+    "right_joints": [
+      0.4556419253349304,
+      2.9128024578094482,
+      3.4095025062561035,
+      -1.8315589427947998,
+      -0.003995746374130249,
+      -0.5789423584938049,
+      0.0
+    ],
+    "left_gripper_target": 1.0,
+    "right_gripper_target": 0.0,
+    "cameras": {
+      "head": {
+        "url": "/v1/frame/head",
+        "shape": [
+          240,
+          320,
+          3
+        ]
+      },
+      "left_wrist": {
+        "url": "/v1/frame/left_wrist",
+        "shape": [
+          240,
+          320,
+          3
+        ]
+      },
+      "right_wrist": {
+        "url": "/v1/frame/right_wrist",
+        "shape": [
+          240,
+          320,
+          3
+        ]
+      }
+    },
+    "simulation": "stepped during actions; paused between commands"
+  },
+  "frame_age_s": 0.863
+}

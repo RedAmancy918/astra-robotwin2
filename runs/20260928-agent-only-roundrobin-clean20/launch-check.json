@@ -1,0 +1,29 @@
+{
+  "verified_at": 1790566623.3310807,
+  "runner_alive": true,
+  "initial_states": [
+    {
+      "seed": 100000,
+      "action_count": 0
+    },
+    {
+      "seed": 100001,
+      "action_count": 0
+    },
+    {
+      "seed": 100002,
+      "action_count": 0
+    }
+  ],
+  "executed_agent_decisions": 2,
+  "dp_commands": 0,
+  "actual_action_kinds": {
+    "switch": 3,
+    "eef": 2,
+    "checkpoint": 2
+  },
+  "started": 3,
+  "successes": 0,
+  "failures": 0,
+  "pending": 20
+}

@@ -1,0 +1,88 @@
+{
+  "ready": true,
+  "owner": "vision-agent",
+  "epoch": 2,
+  "applied_epoch": 2,
+  "revision": 8,
+  "mode": "hold",
+  "busy": false,
+  "error": null,
+  "active_command": null,
+  "snapshot": {
+    "frame_id": 631,
+    "captured_at": 1790484234.0985396,
+    "seed": 100000,
+    "task": "stack_blocks_two",
+    "instruction": "Stack the green block on the red block.",
+    "task_success": false,
+    "coordinates": "world; metres; quaternion wxyz",
+    "action_count": 154,
+    "fixed_checkpoint_epoch": 600,
+    "left_eef": [
+      -0.2980966866016388,
+      -0.3138740062713623,
+      0.9423673152923584,
+      0.6994387626483375,
+      0.001146656142055714,
+      0.00033890305175776625,
+      0.7146915332011257
+    ],
+    "right_eef": [
+      0.091021828353405,
+      0.009643664583563805,
+      1.033033013343811,
+      0.18825121421538604,
+      -0.6788650806356271,
+      0.17804858194635775,
+      0.6870242973191762
+    ],
+    "left_joints": [
+      0.0016700649866834283,
+      -0.00010306018521077931,
+      0.0010322198504582047,
+      2.999214302690234e-05,
+      9.998664609156549e-05,
+      0.0021200599148869514,
+      1.0
+    ],
+    "right_joints": [
+      0.4406418800354004,
+      2.6341054439544678,
+      2.899578332901001,
+      -1.817764401435852,
+      0.009155690670013428,
+      -0.5820659399032593,
+      0.0
+    ],
+    "left_gripper_target": 1.0,
+    "right_gripper_target": 0.0,
+    "cameras": {
+      "head": {
+        "url": "/v1/frame/head",
+        "shape": [
+          240,
+          320,
+          3
+        ]
+      },
+      "left_wrist": {
+        "url": "/v1/frame/left_wrist",
+        "shape": [
+          240,
+          320,
+          3
+        ]
+      },
+      "right_wrist": {
+        "url": "/v1/frame/right_wrist",
+        "shape": [
+          240,
+          320,
+          3
+        ]
+      }
+    },
+    "simulation": "stepped during actions; paused between commands"
+  },
+  "frame_age_s": 0.84
+}

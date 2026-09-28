@@ -1,0 +1,15 @@
+{
+  "checked_at": 1790580272.2216284,
+  "passed": true,
+  "protocol_files_unchanged": true,
+  "input_field_allowlist_passed": true,
+  "audited_model_calls": 5,
+  "distinct_model_sessions": 5,
+  "forbidden_tool_events": 0,
+  "forbidden_file_accesses": 0,
+  "executed_or_submitted_model_batches": 5,
+  "model_commands_match": true,
+  "unknown_external_commands": 0,
+  "fresh_scene_commitment_intact": true,
+  "seed_exclusion_check_passed": true
+}

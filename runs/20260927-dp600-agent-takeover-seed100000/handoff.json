@@ -1,0 +1,24 @@
+{
+  "time": 1790483856.0391972,
+  "event": "live_dp_to_vision_agent_takeover",
+  "old_receipt": {
+    "command_id": "0e572a48-88dd-45cf-8379-5d647f016632",
+    "client_id": "dp600-controller",
+    "status": "cancelled",
+    "fingerprint": "0aefac211298a4771bf7f05f1dc92de4e15bf713f9c9799dd5255c507b232bcb",
+    "epoch": 1,
+    "submitted_at": 1790483852.9300256,
+    "started_at": 1790483852.930135,
+    "finished_at": 1790483855.9945161,
+    "revision": 2,
+    "actions_executed": 18,
+    "checkpoint": "/mnt/data/yjh/RoboTwin/XPolicyLab/policy/DP/checkpoints/yjh_dp50_clean-stack_blocks_two-aloha_agilex-joint-0/600.ckpt"
+  },
+  "busy_before_claim": true,
+  "before_actions": 138,
+  "after_actions": 138,
+  "takeover_applied_s": 0.10325042298063636,
+  "owner_after": "vision-agent",
+  "epoch_after": 2,
+  "applied_epoch": 2
+}

@@ -1,0 +1,146 @@
+{
+  "run_id": "20260927-dp600-agent-roundrobin-clean20",
+  "created_at": "2026-09-27 16:01:30 +0800",
+  "task": "stack_blocks_two",
+  "task_config": "demo_clean",
+  "seeds": [
+    100000,
+    100001,
+    100002,
+    100003,
+    100004,
+    100005,
+    100006,
+    100007,
+    100008,
+    100009,
+    100010,
+    100011,
+    100012,
+    100013,
+    100014,
+    100015,
+    100016,
+    100017,
+    100018,
+    100019
+  ],
+  "planned": 20,
+  "checkpoint_epoch": 600,
+  "checkpoint_sha256": "f9a36941e0ff7d77a095a84aa1a2ad64ab505ee78ff1684df3b0270a7e641130",
+  "agent": {
+    "model": "gpt-6-astra",
+    "reasoning_effort": "max",
+    "runtime": "codex-cli 0.156.1",
+    "auth": "existing ChatGPT login; no credentials in artifacts",
+    "input": "three RGB views + robot proprioception + receipts + memory",
+    "tools": "shell, unified_exec, multi_agent, plugins, skill_search, web disabled; discard tool-using decisions"
+  },
+  "control": "interleaved fixed DP600 and RGB agent bounded Cartesian translations + gripper; same EEF primitives as pilot",
+  "episode_step_limit": null,
+  "episode_time_limit_s": null,
+  "decision_count_limit": null,
+  "retry_limit": null,
+  "initial_dp_observation_interval": 120,
+  "dp_chunk_actions": [
+    6,
+    12,
+    24,
+    60,
+    120
+  ],
+  "eef_chunk_steps_max": 8,
+  "chunk_limit_is_not_episode_limit": true,
+  "termination": [
+    "official success",
+    "block falls to floor below 0.30 m"
+  ],
+  "infrastructure_errors": "suspend/retry, never scored as task failure",
+  "object_ground_truth_exposed_to_agent": false,
+  "expert_actions_used": false,
+  "object_ground_truth_judge_only": "official check_success and below-floor terminal predicate; no coordinates in policy observation",
+  "scene_pairing": "same seeds as 600 baseline; unequal action/time budgets by user request",
+  "source_hashes": {
+    "server.py": "aebad06f9e2d2cd3e073716b3eea860ab8b296292d578672c8870dda6c23b75f",
+    "scene_state.py": "4d82eeaf47a4249274e6cb6359f33c8eda8fa803a6b183bfc0904a786d2b2ea5",
+    "roundrobin.py": "b2d3cdc44490775021840a669fe82c577829bd395bf3cb6ad042dec9c651ce64",
+    "agent_runtime.py": "81fc0c172dc852d1f4361aab21d17672108fd311a38d1c92a20a5611e55f6387",
+    "client.py": "d86992fd7c812d9058243f8a8ad5f67e88ca662ae1c58527d07b73fa91dba304",
+    "agent-instructions.md": "5bec8bdd99f1fe980f18f33fdc2c590f3a68b901c7abf248b1da275af95b9f0e",
+    "decision.schema.json": "480c4e1c4be03ab8f2d6a4bac327a4905d78e8112d3427a04524d7c4dc056a6d",
+    "status.py": "6340aa92db58979efa6eb1da59e9681489831d60f05572236c021428a3624ada"
+  },
+  "baseline": "20260927-dp600-stack-blocks-two-clean20",
+  "prior_pilot": "20260927-dp600-agent-takeover-seed100000",
+  "implementation_references": [
+    "https://learn.chatgpt.com/docs/non-interactive-mode",
+    "https://learn.chatgpt.com/docs/developer-commands?surface=cli",
+    "https://sapien-sim.github.io/docs/api/sapien.pysapien.physx.html",
+    "https://github.com/haosulab/SAPIEN/blob/master/src/physx/physx_system.cpp"
+  ],
+  "preflight": "Passed real RGB inference and schema validation; no robot actions executed.",
+  "baseline_episode_log_sha256": "2627d1a51c258aab6f2cba3101dd56fd2ba73f5351b823c4e4dccb827611666d",
+  "versions": {
+    "RoboTwin": "ea8b21121ebb3cd201ff5b3fe361944ac94eda3f",
+    "XPolicyLab": "fa431ecd893ee706883e64fe5fe1464ec8cd928d"
+  },
+  "status": "running",
+  "scheduling": {
+    "type": "round_robin",
+    "order": [
+      100001,
+      100002,
+      100003,
+      100004,
+      100005,
+      100006,
+      100007,
+      100008,
+      100009,
+      100010,
+      100011,
+      100012,
+      100013,
+      100014,
+      100015,
+      100016,
+      100017,
+      100018,
+      100019,
+      100000
+    ],
+    "agent_decisions_per_visit": 1,
+    "episode_time_limit_s": null,
+    "episode_action_limit": null,
+    "round_limit": null,
+    "unfinished": "pending_next_round; never scored as failure"
+  },
+  "continuation": {
+    "source_run": "20260927-dp600-agent-unlimited-clean20",
+    "seed100000": {
+      "backend_port": 8768,
+      "server_pid": 477931,
+      "serial_scheduler_pid_stopped": 477932,
+      "preserved_actions": 178,
+      "preserved_executed_agent_decisions": 7,
+      "physical_state": "kept alive in original paused simulator; not reset",
+      "limitation": "first-scene physical state is in memory, not portable across backend restart"
+    },
+    "other_seeds": {
+      "backend_port": 8769,
+      "snapshots": "private named block/robot states, drives, velocities, grippers, DP observation history and RNG"
+    }
+  },
+  "restore_limitations": [
+    "derived joint acceleration cache not exactly restored",
+    "solver contact warm-start caches and renderer noise are not bitwise preserved",
+    "full restarts of backend require restoring model before a DP-history snapshot can load"
+  ],
+  "validation_seeds": [
+    999000,
+    999001
+  ],
+  "validation_excluded": true,
+  "launched_at": "2026-09-27 16:02:59 +0800",
+  "restore_verification_sha256": "11b90840592556f4e5323ec83c0c239871c33ffee2e7d1cbbaf6a49419165970"
+}

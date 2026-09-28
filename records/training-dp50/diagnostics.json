@@ -1,0 +1,17 @@
+{
+  "lowest_logged_validation_loss_among_saved_checkpoints": {
+    "epoch": 75,
+    "validation_loss": 0.012023144401609898
+  },
+  "final_epoch": 600,
+  "final_train_loss": 0.00030754270132338663,
+  "final_validation_loss": 0.030614178627729416,
+  "validation_metric_model": "online training model, as implemented in RobotWorkspace; rollout uses EMA",
+  "interpretation": "Training loss falls while validation loss rises after its early minimum, suggesting overfitting. Validation loss alone does not establish rollout success rate.",
+  "input_check": {
+    "HDF_vs_training_Zarr_head_frame_max_pixel_difference": 0,
+    "episode_index": 0,
+    "frame_index": 0,
+    "RGB_color_order": "visually verified red/green"
+  }
+}

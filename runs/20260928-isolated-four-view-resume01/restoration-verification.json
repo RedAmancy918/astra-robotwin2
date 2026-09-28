@@ -1,0 +1,31 @@
+{
+  "restoration": {
+    "physical_max_abs_error": 0.0,
+    "history_equal": true,
+    "rng_equal": true,
+    "action_count": 115,
+    "derived_acceleration_cache_error": 0.05441371537744999,
+    "derived_acceleration_cache_exact": false
+  },
+  "physics_steps_before_first_observation": 0,
+  "source_action_count": 115,
+  "fourth_camera": {
+    "name": "oblique_camera",
+    "position_world_m": [
+      0.65,
+      0.65,
+      1.719238815542512
+    ],
+    "look_at_world_m": [
+      0.0,
+      0.0,
+      0.8
+    ],
+    "downward_angle_degrees": 45.00000000000001,
+    "azimuth_position_degrees": 45.0,
+    "width": 1280,
+    "height": 960,
+    "vertical_fov_degrees": 50.0,
+    "placement_uses_object_ground_truth": false
+  }
+}

@@ -1,0 +1,20 @@
+Initializing simulator before starting HTTP threads
+/mnt/data/yjh/conda_envs/robotwin/lib/python3.10/site-packages/sapien/__init__.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Warp DeprecationWarning: The namespace `warp.torch` will soon be removed from the public API. It can still be accessed from `warp._src.torch` but might be changed or removed without notice.
+Warp DeprecationWarning: The symbol `warp.torch.device_from_torch` will soon be removed from the public API. Use `warp.device_from_torch` instead.
+Traceback (most recent call last):
+  File "/mnt/data/yjh/astra-vla/runs/20260928-agent-only-roundrobin-clean20/server.py", line 368, in <module>
+    simulation=Simulation()
+  File "/mnt/data/yjh/astra-vla/runs/20260928-agent-only-roundrobin-clean20/server.py", line 143, in __init__
+    self.reset(int(os.environ.get('ASTRA_INITIAL_SEED','999010')))
+  File "/mnt/data/yjh/astra-vla/runs/20260928-agent-only-roundrobin-clean20/server.py", line 169, in reset
+    self.publish()
+  File "/mnt/data/yjh/astra-vla/runs/20260928-agent-only-roundrobin-clean20/server.py", line 248, in publish
+    'action_count':int(self.task.take_action_cnt),'fixed_checkpoint_epoch':CHECKPOINT_EPOCH,
+NameError: name 'CHECKPOINT_EPOCH' is not defined
+Thread 0x00007868e7fff640 (most recent call first):
+  <no Python frame>
+
+Current thread 0x0000786cf05da440 (most recent call first):
+  File "/mnt/data/yjh/astra-vla/runs/20260928-agent-only-roundrobin-clean20/server.py", line 379 in <module>

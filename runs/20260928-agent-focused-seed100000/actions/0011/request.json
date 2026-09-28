@@ -1,0 +1,22 @@
+{
+  "time": 1790577395.218863,
+  "controller": "Codex supervised visual control",
+  "observation_revision": 10,
+  "kind": "eef",
+  "reason": "Green is aligned above red in HEAD, and right wrist shows red below the grasp. Lower to TCP z0.830 (slightly above the expected stacked center given grasp offset), then inspect before release.",
+  "steps": [
+    {
+      "arm": "right",
+      "code": "POSE",
+      "pose": [
+        -0.002,
+        -0.103,
+        0.83,
+        0.5,
+        -0.5,
+        0.5,
+        0.5
+      ]
+    }
+  ]
+}

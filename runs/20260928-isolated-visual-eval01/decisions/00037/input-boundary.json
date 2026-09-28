@@ -1,0 +1,54 @@
+{
+  "blocked": {
+    "/mnt/data/yjh/RoboTwin": true,
+    "/mnt/data/yjh/astra-vla": true,
+    "/mnt/data/yjh/dataset": true,
+    "/home/aaa/.codex/sessions": true,
+    "/home/aaa/.codex/config.toml": true,
+    "/home/aaa/.codex/skills": true,
+    "/root": true,
+    "/proc/1/root/mnt/data/yjh/RoboTwin": true
+  },
+  "input_files": [
+    "decision.schema.json",
+    "head.jpg",
+    "instructions.md",
+    "left_wrist.jpg",
+    "previous.jpg",
+    "prompt.json",
+    "right_wrist.jpg"
+  ],
+  "workspace_files": [],
+  "codex_home_files": [
+    "auth.json"
+  ],
+  "visible_processes": 2,
+  "passed": true,
+  "input_sha256": {
+    "prompt.json": "e1f3c859cd6c562671a00dd8f2babd5f44e87677f914b6f19c10bbd0653db208",
+    "left_wrist.jpg": "7b9cedf773f35aad08d4dcb4ff31eac4f48c2c8036d9ae70cd3bc9bafa65e036",
+    "previous.jpg": "6a5e86c471c7b95d13d0c6e630a4106fce85bde0cb39d8fdae39415c3ca1598f",
+    "decision.schema.json": "40057252441d9608ca9facbe6afe0a8309a80299e31e656cec0112b0aec03c8a",
+    "instructions.md": "62612b58051dab0dbbd7b99a687401da28f7ebfe591977553ab2c5168a651377",
+    "head.jpg": "d521eabb7e1068d2bdeea8edf955faa152b59918924078217d5032db983ffc82",
+    "right_wrist.jpg": "0430b1fa752317f6cc1dcb3141420e0e8854821bff1b2d6fdf2f81d963206884"
+  },
+  "payload_fields": [
+    "task",
+    "robot",
+    "memory",
+    "recent_actions",
+    "image_order",
+    "episode_action_limit",
+    "episode_time_limit_s"
+  ],
+  "robot_fields": [
+    "coordinates",
+    "left_tcp",
+    "right_tcp",
+    "left_joints",
+    "right_joints",
+    "left_gripper_target",
+    "right_gripper_target"
+  ]
+}

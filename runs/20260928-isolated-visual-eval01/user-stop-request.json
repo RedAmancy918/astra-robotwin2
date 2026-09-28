@@ -1,0 +1,21 @@
+{
+  "requested_at": 1790585941.252129,
+  "progress_at_request": {
+    "status": "agent_thinking",
+    "updated_at": 1790585939.5154293,
+    "runner_pid": 722292,
+    "planned": 1,
+    "completed": 0,
+    "successes": 0,
+    "pending": 1,
+    "action_count": 115,
+    "agent_decisions": 72,
+    "dp_actions": 0,
+    "control": "isolated_rgb_proprio_agent",
+    "episode_step_limit": null,
+    "episode_time_limit_s": null,
+    "inference_pid": 744637,
+    "inference_elapsed_s": 0.0
+  },
+  "reason": "User requested stop and fourth oblique downward camera view"
+}

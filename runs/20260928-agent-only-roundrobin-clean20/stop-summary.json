@@ -1,0 +1,45 @@
+{
+  "status": "stopped_by_user",
+  "reason": "Concentrate on one task and make it succeed",
+  "stopped_at": "2026-09-28T14:24:40+0800",
+  "round": 7,
+  "successes": 0,
+  "terminal_failures": 0,
+  "interrupted": 20,
+  "executed_decisions": 128,
+  "dp_actions": 0,
+  "current_seed": 100008,
+  "checkpoint": {
+    "command_id": "106cdcf4-a3b5-4def-9f95-dc41104118fd",
+    "client_id": "user-stop-single-task",
+    "status": "completed",
+    "fingerprint": "3ac153fda04e790aa2cff86f669be213f02978d8511b72cf4738a4ba921cd148",
+    "epoch": 3,
+    "submitted_at": 1790576679.6959984,
+    "started_at": 1790576679.696225,
+    "finished_at": 1790576679.7327592,
+    "revision": 396,
+    "seed": 100008,
+    "action_count": 6,
+    "history_sha256": null,
+    "checkpoint_sha256": "b805b7dedb37aea4438894c27a6c46b0624c2d2cda6fea3ff7a91e6f160f6d4d"
+  },
+  "finish": {
+    "command_id": "a61f1491-fe73-46cd-a3e6-57bf3fcd29b1",
+    "client_id": "user-stop-single-task",
+    "status": "completed",
+    "fingerprint": "8bb363f11ba4fd9eb16d613ca0635fcbcb546a26967e6e01cbb9b37607d11039",
+    "epoch": 3,
+    "submitted_at": 1790576679.802423,
+    "started_at": 1790576679.802487,
+    "finished_at": 1790576679.8679824,
+    "revision": 397,
+    "task_success": false,
+    "video": "/mnt/data/yjh/astra-vla/runs/20260928-agent-only-roundrobin-clean20/videos/agent-seed100008-133.mp4"
+  },
+  "stopped_pids": [
+    676039,
+    676882
+  ],
+  "remaining_processes": {}
+}

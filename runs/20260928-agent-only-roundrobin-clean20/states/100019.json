@@ -1,0 +1,606 @@
+{
+  "seed": 100019,
+  "started_at": 1790566471.1133513,
+  "decision_index": 6,
+  "inference_attempt": 6,
+  "history": [
+    {
+      "decision": {
+        "kind": "eef",
+        "steps": [
+          {
+            "arm": "left",
+            "code": "Y+",
+            "level": 3
+          },
+          {
+            "arm": "left",
+            "code": "Y+",
+            "level": 3
+          },
+          {
+            "arm": "right",
+            "code": "Y+",
+            "level": 3
+          },
+          {
+            "arm": "right",
+            "code": "Y+",
+            "level": 3
+          }
+        ],
+        "visual_assessment": "Green is on the left and red on the right; both grippers are open and neither holds a block.",
+        "reason": "Advance both hands toward the blocks at the current height and calibrate motion in the wrist views.",
+        "memory": "Initial approach: left targets green, right targets red. Green appears head upper-left, red upper-right. Home EEFs x≈±0.30,y≈-0.313,z≈0.942; both open. Observe wrist changes after +100mm Y before descending."
+      },
+      "receipt": {
+        "command_id": "8a168a18-65c0-4216-843f-e363addac44a",
+        "client_id": "astra-agent-only",
+        "status": "completed",
+        "fingerprint": "e0832254cb0f20bcb642da4c170532118d097ec364f41ec3b75615f76488ede0",
+        "epoch": 2,
+        "submitted_at": 1790567583.7043705,
+        "started_at": 1790567583.70444,
+        "finished_at": 1790567584.8100367,
+        "revision": 69,
+        "steps": [
+          {
+            "arm": "left",
+            "code": "Y+",
+            "level": 3,
+            "target_xyz": [
+              -0.2979237139225006,
+              -0.26380388140678407,
+              0.9419986009597778
+            ],
+            "actual_xyz": [
+              -0.29802191257476807,
+              -0.26453283429145813,
+              0.9407336115837097
+            ],
+            "displacement_m": [
+              -9.819865226745605e-05,
+              0.04927104711532593,
+              -0.0012649893760681152
+            ],
+            "position_error_m": 0.001463288558332559
+          },
+          {
+            "arm": "left",
+            "code": "Y+",
+            "level": 3,
+            "target_xyz": [
+              -0.29802191257476807,
+              -0.21453283429145814,
+              0.9407336115837097
+            ],
+            "actual_xyz": [
+              -0.29821187257766724,
+              -0.21555349230766296,
+              0.9398674964904785
+            ],
+            "displacement_m": [
+              -0.00018996000289916992,
+              0.048979341983795166,
+              -0.0008661150932312012
+            ],
+            "position_error_m": 0.001352029194754133
+          },
+          {
+            "arm": "right",
+            "code": "Y+",
+            "level": 3,
+            "target_xyz": [
+              0.3064330220222473,
+              -0.26280124187469484,
+              0.9410064220428467
+            ],
+            "actual_xyz": [
+              0.30637621879577637,
+              -0.26351454854011536,
+              0.9397784471511841
+            ],
+            "displacement_m": [
+              -5.6803226470947266e-05,
+              0.04928669333457947,
+              -0.0012279748916625977
+            ],
+            "position_error_m": 0.0014212513289438365
+          },
+          {
+            "arm": "right",
+            "code": "Y+",
+            "level": 3,
+            "target_xyz": [
+              0.30637621879577637,
+              -0.21351454854011537,
+              0.9397784471511841
+            ],
+            "actual_xyz": [
+              0.30625540018081665,
+              -0.21454370021820068,
+              0.9389296770095825
+            ],
+            "displacement_m": [
+              -0.0001208186149597168,
+              0.04897084832191467,
+              -0.0008487701416015625
+            ],
+            "position_error_m": 0.0013394629772789327
+          }
+        ]
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "steps": [
+          {
+            "arm": "left",
+            "code": "X+",
+            "level": 3
+          },
+          {
+            "arm": "left",
+            "code": "Z-",
+            "level": 3
+          },
+          {
+            "arm": "right",
+            "code": "X-",
+            "level": 3
+          },
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 3
+          }
+        ],
+        "visual_assessment": "Green remains left and red right. Both grippers are open; neither wrist currently shows its target.",
+        "reason": "Move each hand inward toward its block and lower 50 mm to obtain closer alignment views.",
+        "memory": "Approaching green with left, red with right; both empty/open. +100mm Y executed successfully, moving left gripper upward in head view and green below left-wrist frame. Current EEFs approximately x=-.298/+.306,y=-.215,z=.939. Head suggests both hands need inward X correction; next inspect after 50mm inward and downward."
+      },
+      "receipt": {
+        "command_id": "d0b17bc1-da41-4775-b7c6-cfc5fd320cee",
+        "client_id": "astra-agent-only",
+        "status": "completed",
+        "fingerprint": "7c05be3877eaaa1ade522a860778cb36d5ef5ac533c9819f928e83c5b577e031",
+        "epoch": 2,
+        "submitted_at": 1790569006.56646,
+        "started_at": 1790569006.5666432,
+        "finished_at": 1790569007.9216695,
+        "revision": 129,
+        "steps": [
+          {
+            "arm": "left",
+            "code": "X+",
+            "level": 3,
+            "target_xyz": [
+              -0.2482102632522583,
+              -0.21555301547050476,
+              0.9398698210716248
+            ],
+            "actual_xyz": [
+              -0.24913741648197174,
+              -0.21619316935539246,
+              0.9393206238746643
+            ],
+            "displacement_m": [
+              0.04907284677028656,
+              -0.0006401538848876953,
+              -0.0005491971969604492
+            ],
+            "position_error_m": 0.0012534064260462626
+          },
+          {
+            "arm": "left",
+            "code": "Z-",
+            "level": 3,
+            "target_xyz": [
+              -0.24913741648197174,
+              -0.21619316935539246,
+              0.8893206238746643
+            ],
+            "actual_xyz": [
+              -0.2488900125026703,
+              -0.2153356373310089,
+              0.8900821208953857
+            ],
+            "displacement_m": [
+              0.00024740397930145264,
+              0.0008575320243835449,
+              -0.049238502979278564
+            ],
+            "position_error_m": 0.0011732210424234746
+          },
+          {
+            "arm": "right",
+            "code": "X-",
+            "level": 3,
+            "target_xyz": [
+              0.25625447630882264,
+              -0.21454335749149323,
+              0.938931941986084
+            ],
+            "actual_xyz": [
+              0.25719183683395386,
+              -0.2152206003665924,
+              0.9384541511535645
+            ],
+            "displacement_m": [
+              -0.049062639474868774,
+              -0.0006772428750991821,
+              -0.00047779083251953125
+            ],
+            "position_error_m": 0.001251234089044324
+          },
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 3,
+            "target_xyz": [
+              0.25719183683395386,
+              -0.2152206003665924,
+              0.8884541511535644
+            ],
+            "actual_xyz": [
+              0.2567320764064789,
+              -0.21441204845905304,
+              0.8892062902450562
+            ],
+            "displacement_m": [
+              -0.0004597604274749756,
+              0.0008085519075393677,
+              -0.0492478609085083
+            ],
+            "position_error_m": 0.0011961810276072547
+          }
+        ]
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "steps": [
+          {
+            "arm": "left",
+            "code": "X+",
+            "level": 2
+          },
+          {
+            "arm": "left",
+            "code": "Z-",
+            "level": 2
+          },
+          {
+            "arm": "right",
+            "code": "X-",
+            "level": 2
+          },
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2
+          }
+        ],
+        "visual_assessment": "Green is at the bottom edge of the left wrist view. Red remains left of the visible right fingertip in the head view. Both grippers are open and empty.",
+        "reason": "Make modest inward and downward corrections, then reassess wrist alignment before approaching contact.",
+        "memory": "Approach phase: left targets green, right targets red; both open/empty. Prior 50mm inward and downward moves succeeded. Current EEFs x=-.249/+.257,y≈-.215,z≈.890. Green barely enters lower-right left-wrist view; red absent from right wrist. Head X+ moves right; Z- moves down. Continue short alignment corrections."
+      },
+      "receipt": {
+        "command_id": "1b592846-0b50-4b38-a413-ade2edf97a14",
+        "client_id": "astra-agent-only",
+        "status": "target_not_reached",
+        "fingerprint": "10e51e9b7a12f8568e3f052b7376de51294dbbc57c330b69ce7b24a2c73a6b6b",
+        "epoch": 2,
+        "submitted_at": 1790570572.325372,
+        "started_at": 1790570572.3256981,
+        "finished_at": 1790570577.1589537,
+        "revision": 189,
+        "steps": [
+          {
+            "arm": "left",
+            "code": "X+",
+            "level": 2,
+            "target_xyz": [
+              -0.22889020621776582,
+              -0.21533577144145966,
+              0.890080451965332
+            ],
+            "actual_xyz": [
+              -0.2298528403043747,
+              -0.21583861112594604,
+              0.8902215957641602
+            ],
+            "displacement_m": [
+              0.019037365913391113,
+              -0.0005028396844863892,
+              0.000141143798828125
+            ],
+            "position_error_m": 0.0010951866073611893
+          },
+          {
+            "arm": "left",
+            "code": "Z-",
+            "level": 2,
+            "target_xyz": [
+              -0.2298528403043747,
+              -0.21583861112594604,
+              0.8702215957641601
+            ],
+            "actual_xyz": [
+              -0.2296031415462494,
+              -0.21577508747577667,
+              0.8900393843650818
+            ],
+            "displacement_m": [
+              0.0002496987581253052,
+              6.352365016937256e-05,
+              -0.00018221139907836914
+            ],
+            "position_error_m": 0.019819463407336743
+          }
+        ]
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "steps": [
+          {
+            "arm": "left",
+            "code": "CLOSE",
+            "level": 1
+          },
+          {
+            "arm": "left",
+            "code": "Z+",
+            "level": 2
+          }
+        ],
+        "visual_assessment": "Left jaws appear to straddle green. The attempted descent produced almost no movement; right-arm steps were skipped.",
+        "reason": "Test a grasp at the reachable height, then lift slightly to verify whether green follows.",
+        "memory": "Testing left grasp of green; not yet verified. Left EEF≈(-.230,-.216,.890); downward 20mm failed with negligible displacement. Right remains open at≈(.257,-.214,.889), beside red; its planned corrections never executed. Check green movement after this 20mm lift."
+      },
+      "receipt": {
+        "command_id": "decfa959-bdbd-4532-adfa-4c57f4ea06b7",
+        "client_id": "astra-agent-only",
+        "status": "completed",
+        "fingerprint": "ce3f71d83de05877254738989135093c2cae6759128f82ab34bd81be66082c8e",
+        "epoch": 2,
+        "submitted_at": 1790572219.894313,
+        "started_at": 1790572219.8944082,
+        "finished_at": 1790572220.4009874,
+        "revision": 249,
+        "steps": [
+          {
+            "arm": "left",
+            "code": "CLOSE",
+            "level": 1,
+            "target_xyz": [
+              -0.2296031415462494,
+              -0.21577508747577667,
+              0.8900393843650818
+            ],
+            "actual_xyz": [
+              -0.22960223257541656,
+              -0.21577520668506622,
+              0.8900360465049744
+            ],
+            "displacement_m": [
+              9.08970832824707e-07,
+              -1.1920928955078125e-07,
+              -3.337860107421875e-06
+            ],
+            "position_error_m": 3.461466297157841e-06
+          },
+          {
+            "arm": "left",
+            "code": "Z+",
+            "level": 2,
+            "target_xyz": [
+              -0.22960223257541656,
+              -0.21577520668506622,
+              0.9100360465049744
+            ],
+            "actual_xyz": [
+              -0.22981874644756317,
+              -0.21646346151828766,
+              0.9090819954872131
+            ],
+            "displacement_m": [
+              -0.00021651387214660645,
+              -0.0006882548332214355,
+              0.01904594898223877
+            ],
+            "position_error_m": 0.0011961548046870256
+          }
+        ]
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "steps": [
+          {
+            "arm": "left",
+            "code": "OPEN",
+            "level": 1
+          },
+          {
+            "arm": "left",
+            "code": "Y+",
+            "level": 2
+          },
+          {
+            "arm": "left",
+            "code": "Z-",
+            "level": 2
+          }
+        ],
+        "visual_assessment": "Green remained stationary relative to red during the lift; the left grasp appears to have missed.",
+        "reason": "Reopen, shift 20 mm toward the far side of green, and return to the previous approach height before reassessing.",
+        "memory": "Left grasp test did not visibly lift green; treat left as empty. Left EEF≈(-.230,-.216,.909), right open≈(.257,-.214,.889). Green remains head upper-left, red upper-right. Previous descent below left z≈.890 was blocked. Reopen and correct +Y20 before returning to z≈.889; inspect alignment before closing."
+      },
+      "receipt": {
+        "command_id": "31017dbc-8933-4b25-ad08-f236b1b15a60",
+        "client_id": "astra-agent-only",
+        "status": "completed",
+        "fingerprint": "abe537f5a2a7eab82ac7d47440c0f15b2050c7e875d5409bd4f7c0c44c359873",
+        "epoch": 2,
+        "submitted_at": 1790574029.3279254,
+        "started_at": 1790574029.3280308,
+        "finished_at": 1790574030.0799086,
+        "revision": 309,
+        "steps": [
+          {
+            "arm": "left",
+            "code": "OPEN",
+            "level": 1,
+            "target_xyz": [
+              -0.22981874644756317,
+              -0.21646346151828766,
+              0.9090819954872131
+            ],
+            "actual_xyz": [
+              -0.22981861233711243,
+              -0.21646323800086975,
+              0.9090847969055176
+            ],
+            "displacement_m": [
+              1.341104507446289e-07,
+              2.2351741790771484e-07,
+              2.8014183044433594e-06
+            ],
+            "position_error_m": 2.8135191781072625e-06
+          },
+          {
+            "arm": "left",
+            "code": "Y+",
+            "level": 2,
+            "target_xyz": [
+              -0.22981861233711243,
+              -0.19646323800086976,
+              0.9090847969055176
+            ],
+            "actual_xyz": [
+              -0.22923918068408966,
+              -0.1975073665380478,
+              0.9094409942626953
+            ],
+            "displacement_m": [
+              0.0005794316530227661,
+              0.01895587146282196,
+              0.0003561973571777344
+            ],
+            "position_error_m": 0.0012461227868611623
+          },
+          {
+            "arm": "left",
+            "code": "Z-",
+            "level": 2,
+            "target_xyz": [
+              -0.22923918068408966,
+              -0.1975073665380478,
+              0.8894409942626953
+            ],
+            "actual_xyz": [
+              -0.22902384400367737,
+              -0.1966891586780548,
+              0.8903398513793945
+            ],
+            "displacement_m": [
+              0.00021533668041229248,
+              0.000818207859992981,
+              -0.01910114288330078
+            ],
+            "position_error_m": 0.001234414073285842
+          }
+        ]
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "steps": [
+          {
+            "arm": "left",
+            "code": "CLOSE",
+            "level": 1
+          },
+          {
+            "arm": "left",
+            "code": "Z+",
+            "level": 2
+          }
+        ],
+        "visual_assessment": "Green appears between the open left fingers after the forward correction. Wrist views do not show the blocks; no grasp is verified.",
+        "reason": "Test the corrected grasp with a small lift before attempting transport.",
+        "memory": "Testing left grasp after +Y20 correction at EEF≈(-.229,-.197,.890). Previous grasp at y≈-.216 missed; descent below z≈.890 was blocked there. Verify green follows this 20mm lift. Right remains open≈(.257,-.214,.889), beside red. Green head upper-left, red upper-right."
+      },
+      "receipt": {
+        "command_id": "a15e2960-5eb8-4b90-b5ee-53cb90c01974",
+        "client_id": "astra-agent-only",
+        "status": "completed",
+        "fingerprint": "31a0daad198e30439906a5730d5e06274cdeb0eb76b12e7978ed8ac71ae8750e",
+        "epoch": 2,
+        "submitted_at": 1790575831.333327,
+        "started_at": 1790575831.333414,
+        "finished_at": 1790575831.834744,
+        "revision": 369,
+        "steps": [
+          {
+            "arm": "left",
+            "code": "CLOSE",
+            "level": 1,
+            "target_xyz": [
+              -0.22902384400367737,
+              -0.1966891586780548,
+              0.8903398513793945
+            ],
+            "actual_xyz": [
+              -0.22902387380599976,
+              -0.19668936729431152,
+              0.8903375267982483
+            ],
+            "displacement_m": [
+              -2.9802322387695312e-08,
+              -2.086162567138672e-07,
+              -2.3245811462402344e-06
+            ],
+            "position_error_m": 2.33411362757698e-06
+          },
+          {
+            "arm": "left",
+            "code": "Z+",
+            "level": 2,
+            "target_xyz": [
+              -0.22902387380599976,
+              -0.19668936729431152,
+              0.9103375267982483
+            ],
+            "actual_xyz": [
+              -0.2292098104953766,
+              -0.1973632574081421,
+              0.9093533158302307
+            ],
+            "displacement_m": [
+              -0.00018593668937683105,
+              -0.0006738901138305664,
+              0.019015789031982422
+            ],
+            "position_error_m": 0.0012072164543035036
+          }
+        ]
+      }
+    }
+  ],
+  "memory": "Testing left grasp after +Y20 correction at EEF≈(-.229,-.197,.890). Previous grasp at y≈-.216 missed; descent below z≈.890 was blocked there. Verify green follows this 20mm lift. Right remains open≈(.257,-.214,.889), beside red. Green head upper-left, red upper-right.",
+  "action_count": 17,
+  "visits": 6,
+  "episode_status": "pending_next_round",
+  "pending_command": null,
+  "initial_observation_saved": true,
+  "pending_decision": null,
+  "previous_views": "/mnt/data/yjh/astra-vla/runs/20260928-agent-only-roundrobin-clean20/episodes/100019/decision-00005-attempt-00006/three-views.jpg"
+}

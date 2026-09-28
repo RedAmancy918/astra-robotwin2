@@ -1,0 +1,23 @@
+{
+  "episodes": 50,
+  "train_episodes": 45,
+  "validation_episodes": 5,
+  "cameras": [
+    "head",
+    "left_wrist",
+    "right_wrist"
+  ],
+  "epochs": 600,
+  "batch_size": 16,
+  "seed": 0,
+  "action_dim": 14,
+  "image_input": [
+    240,
+    320
+  ],
+  "encoder_resize": [
+    120,
+    160
+  ],
+  "checkpoint_directory": "/mnt/data/yjh/RoboTwin/XPolicyLab/policy/DP/checkpoints/yjh_dp50_clean-stack_blocks_two-aloha_agilex-joint-0"
+}

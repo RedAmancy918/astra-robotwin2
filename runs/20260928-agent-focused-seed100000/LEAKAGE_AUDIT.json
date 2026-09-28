@@ -1,0 +1,55 @@
+{
+  "audit_date": "2026-09-28",
+  "strict_no_leakage_claim_supported": false,
+  "confirmed_expert_source_exposure": true,
+  "exposed_source": "/mnt/data/yjh/RoboTwin/envs/stack_blocks_two.py:62-114, play_once and pick_and_place_block",
+  "source_exposure_timing": "Before the first action of the focused success run; visible in this conversation tool output.",
+  "dataset_demonstration_or_video_reuse_found": false,
+  "expert_function_execution_found_in_control_path": false,
+  "object_truth_poses_found_in_control_observations": false,
+  "camera_calibration_and_geometry_priors_provided": true,
+  "previously_inspected_development_seed": 100000,
+  "continuous_video_is_recorded_command_replay": true,
+  "replay_requests_exactly_match_focused_requests": true,
+  "interpretation": "Engineering demonstration with expert-source exposure and additional calibrated control inputs; exclude from strict pure-RGB autonomous evaluation.",
+  "scope_limitations": [
+    "Static control-code and recorded-artifact audit, plus known conversation source exposure; no retrospective OS-level file-access trace.",
+    "Cannot quantify how much reading the expert source influenced later choices.",
+    "No new robot run or independent blinded evaluation was performed during this audit."
+  ],
+  "evidence": {
+    "20260928-agent-focused-seed100000": {
+      "manifest_code_hash_matches": {
+        "control.py": true,
+        "server.py": true,
+        "scene_state.py": true,
+        "client.py": true
+      },
+      "command_kinds": {
+        "eef": 12,
+        "verify": 1,
+        "checkpoint": 1,
+        "finish": 1
+      },
+      "scene_restore_events": 0,
+      "video_sha256": "f0c3781d7e5716811e39ea7574fc35f1e56ab7597d8b3e0db249fdec8f632f05"
+    },
+    "20260928-agent-focused-seed100000-continuous": {
+      "manifest_code_hash_matches": {
+        "replay.py": true,
+        "audit_video.py": true,
+        "server.py": true,
+        "scene_state.py": true,
+        "client.py": true
+      },
+      "command_kinds": {
+        "eef": 12,
+        "verify": 1,
+        "checkpoint": 1,
+        "finish": 1
+      },
+      "scene_restore_events": 0,
+      "video_sha256": "b07120d405321bade9190e6d55c5c4fec20a02b59611d68a0e621912d6c8ce34"
+    }
+  }
+}

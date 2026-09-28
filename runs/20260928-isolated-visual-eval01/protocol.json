@@ -1,0 +1,63 @@
+{
+  "version": 1,
+  "frozen_at": 1790579948.6386325,
+  "episodes": 1,
+  "task": "Stack green block on red block and release both grippers",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "max",
+  "account": "Existing is5090 Codex login; no account changes",
+  "decision_inputs": [
+    "Current head/left-wrist/right-wrist RGB",
+    "Previous RGB from this episode only",
+    "Robot TCP/joints/gripper targets",
+    "Own episode decisions, memory and sanitized motion receipts",
+    "Neutral task and robot-interface description"
+  ],
+  "prohibited_inputs": [
+    "Expert policy source or demonstrations",
+    "Prior experiments or successful action sequences",
+    "Dataset files",
+    "Object ground-truth poses",
+    "Depth/segmentation",
+    "Camera calibration or table dimensions",
+    "Scene seed",
+    "Current assistant conversation",
+    "Host skills, memories, rules or tools"
+  ],
+  "isolation": {
+    "filesystem": "bubblewrap private mount/user/PID/IPC/UTS namespaces; no project/user directory mounts",
+    "model_sessions": "New ephemeral invocation per decision; no resume; only this episode memory supplied",
+    "tools": "Execution/search/MCP/plugins/skills/memories disabled; non-text model events fail closed",
+    "filesystem_audit": "strace file syscalls per call, with input hashes",
+    "network": "Provider transport uses host network; no model tools enabled; bridge credential is outside namespace",
+    "preflight": "Passed filesystem + scene-free inference + unknown-tool rejection tests",
+    "startup_diagnostic": "Exact pre-turn code-mode-disabled message permitted; no other error/tool item permitted"
+  },
+  "scene_selection": "Cryptographic random seed excluded from training and recorded earlier runs; sampled once, no solvability filtering",
+  "controller": "Model chooses world TCP poses/translations/gripper targets; generic motion planner executes them",
+  "manual_action_or_advice": false,
+  "dp_actions": 0,
+  "expert_policy_execution": false,
+  "replay_previous_commands": false,
+  "episode_action_limit": null,
+  "episode_time_limit_s": null,
+  "success": "Official task success and all 500 additional physics-step checks successful",
+  "terminal_failure": "Block fell below floor threshold or official success failed stability verification",
+  "infrastructure_failure": "Pause and report separately; do not count as task failure or silently change policy",
+  "recording": "All action physics at 25 fps / 10 physics steps per frame; paused inference time omitted",
+  "limitations": [
+    "Cannot audit model pretraining",
+    "Generic controller was developed before this run; independent model receives no expert solution, prior dialogue or earlier actions",
+    "One episode does not estimate robust task success rate"
+  ],
+  "frozen_files": {
+    "server.py": "c83a4712dc15b0ebb00112d6edd5c58cb9d6bbdae591272a7538eb661bcb0c94",
+    "client.py": "d86992fd7c812d9058243f8a8ad5f67e88ca662ae1c58527d07b73fa91dba304",
+    "scene_state.py": "4d82eeaf47a4249274e6cb6359f33c8eda8fa803a6b183bfc0904a786d2b2ea5",
+    "isolation.py": "56de629a4bbb9fa6647aa173ed10ec0647215946c1b9d718812ffc1a6c054429",
+    "runner.py": "b001d8d00d6b627e16a9e01898f46a9db034e92ab69fe865b510676faf4fe8bf",
+    "instructions.md": "62612b58051dab0dbbd7b99a687401da28f7ebfe591977553ab2c5168a651377",
+    "decision.schema.json": "40057252441d9608ca9facbe6afe0a8309a80299e31e656cec0112b0aec03c8a",
+    "start-server.sh": "8a9a387491853976bc57139ee0b6fe80fd70eadc50078e18a57f8ad99fd3277d"
+  }
+}

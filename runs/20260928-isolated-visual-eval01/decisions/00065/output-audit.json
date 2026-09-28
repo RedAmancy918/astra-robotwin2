@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "forbidden_tool_events": 0,
+  "forbidden_file_accesses": 0,
+  "startup_diagnostics": [
+    "Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."
+  ],
+  "file_trace_sha256": "4784e758fcc62d3006ac7dc78eb8dd28e49657f28ef3620f758cfeed9636e95e",
+  "event_count": 5,
+  "thread_ids": [
+    "01a0e735-26ae-7fa0-92a2-11ebd9aed212"
+  ]
+}

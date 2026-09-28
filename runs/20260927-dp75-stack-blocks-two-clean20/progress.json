@@ -1,0 +1,26 @@
+{
+  "status": "stopped_by_user",
+  "checkpoint_epoch": 75,
+  "completed": 2,
+  "planned": 20,
+  "successes": 0,
+  "reason": "User observed excessive jitter in the 75.ckpt failure video and requested continuing with 600.ckpt",
+  "stopped_at": "2026-09-27 12:30:22 +0800",
+  "evaluated_seeds": [
+    100000,
+    100001
+  ],
+  "partial_episode_may_exist": true,
+  "last_episode": {
+    "episode_index": 1,
+    "seed": 100001,
+    "success": false,
+    "counted": true,
+    "reason": "step_limit",
+    "actions": 800,
+    "step_limit": 800,
+    "wall_time_s": 125.08452892908826,
+    "error": null,
+    "video": "/mnt/data/yjh/astra-vla/runs/20260927-dp75-stack-blocks-two-clean20/videos/episode1.mp4"
+  }
+}

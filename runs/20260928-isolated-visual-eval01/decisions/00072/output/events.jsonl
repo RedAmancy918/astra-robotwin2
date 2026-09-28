@@ -1,0 +1,3 @@
+{"type":"thread.started","thread_id":"01a0e73d-2988-7343-974b-59e2d26476cf"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}

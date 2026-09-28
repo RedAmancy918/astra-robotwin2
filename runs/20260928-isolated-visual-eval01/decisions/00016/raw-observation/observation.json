@@ -1,0 +1,112 @@
+{
+  "ready": true,
+  "owner": "isolated-rgb-agent",
+  "epoch": 1,
+  "applied_epoch": 1,
+  "revision": 16,
+  "mode": "hold",
+  "busy": false,
+  "error": null,
+  "active_command": null,
+  "snapshot": {
+    "frame_id": 1299,
+    "captured_at": 1790580940.35577,
+    "instruction": "Stack the green block on the red block.",
+    "task_success": false,
+    "coordinates": "world; metres; quaternion wxyz",
+    "action_count": 19,
+    "policy_mode": "agent_only",
+    "dp_enabled": false,
+    "recording_fps": 25,
+    "physics_step": 2919,
+    "simulation_time_s": 11.676000554580241,
+    "episode_step_limit": null,
+    "episode_time_limit_s": null,
+    "terminal_failure": null,
+    "left_eef": [
+      -0.29792070388793945,
+      -0.31381121277809143,
+      0.9420462250709534,
+      0.6999931204889999,
+      5.0242197571802056e-05,
+      -5.4755808381656834e-05,
+      0.7141495821924116
+    ],
+    "right_eef": [
+      0.2551092505455017,
+      0.019042430445551872,
+      0.961980938911438,
+      0.5075756307905828,
+      -0.49056553139572234,
+      0.4848690300964089,
+      0.516347230153646
+    ],
+    "left_tcp": [
+      -0.30032301309872245,
+      -0.19383526440426854,
+      0.9420640352626478,
+      0.6999931204889999,
+      5.0242197571802056e-05,
+      -5.4755808381656834e-05,
+      0.7141495821924116
+    ],
+    "right_tcp": [
+      0.2546982647263006,
+      0.024856486965347976,
+      0.8421225720246355,
+      0.5075756307905828,
+      -0.49056553139572234,
+      0.4848690300964089,
+      0.516347230153646
+    ],
+    "control_interface": "POSE uses physical gripper center world xyz and quaternion wxyz; translations keep orientation",
+    "left_joints": [
+      -4.9328944442095235e-05,
+      7.794521479809191e-06,
+      0.0001266461331397295,
+      2.9768680178676732e-05,
+      -7.00842501828447e-05,
+      9.581849553796928e-06,
+      1.0
+    ],
+    "right_joints": [
+      0.0952216386795044,
+      2.218977451324463,
+      1.8575339317321777,
+      -1.1607459783554077,
+      0.0053999400697648525,
+      0.1009429469704628,
+      1.0
+    ],
+    "left_gripper_target": 1.0,
+    "right_gripper_target": 1.0,
+    "cameras": {
+      "head": {
+        "url": "/v1/frame/head",
+        "shape": [
+          240,
+          320,
+          3
+        ]
+      },
+      "left_wrist": {
+        "url": "/v1/frame/left_wrist",
+        "shape": [
+          240,
+          320,
+          3
+        ]
+      },
+      "right_wrist": {
+        "url": "/v1/frame/right_wrist",
+        "shape": [
+          240,
+          320,
+          3
+        ]
+      }
+    },
+    "simulation": "stepped during actions; paused between commands"
+  },
+  "frame_age_s": 0.34
+}

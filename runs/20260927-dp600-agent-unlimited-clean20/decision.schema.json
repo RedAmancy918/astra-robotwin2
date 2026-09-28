@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "kind": {"type": "string", "enum": ["dp", "eef"]},
+    "dp_actions": {"type": "integer", "enum": [6, 12, 24, 60, 120]},
+    "steps": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "properties": {
+          "arm": {"type": "string", "enum": ["left", "right"]},
+          "code": {"type": "string", "enum": ["X+", "X-", "Y+", "Y-", "Z+", "Z-", "OPEN", "CLOSE"]},
+          "level": {"type": "integer", "enum": [1, 2, 3]}
+        },
+        "required": ["arm", "code", "level"]
+      }
+    },
+    "visual_assessment": {"type": "string"},
+    "reason": {"type": "string"},
+    "memory": {"type": "string"}
+  },
+  "required": ["kind", "dp_actions", "steps", "visual_assessment", "reason", "memory"]
+}

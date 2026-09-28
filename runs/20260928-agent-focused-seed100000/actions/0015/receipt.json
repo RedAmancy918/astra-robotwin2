@@ -1,0 +1,13 @@
+{
+  "command_id": "4a26bee9-4f7f-422e-b528-626427fd49a6",
+  "client_id": "codex-focused-visual",
+  "status": "completed",
+  "fingerprint": "b72d5c6c354dc582cb3e3ae92e6c152ef00e1364d4299f4190a1cd2106946947",
+  "epoch": 1,
+  "submitted_at": 1790577528.5416248,
+  "started_at": 1790577528.545459,
+  "finished_at": 1790577528.7768574,
+  "revision": 15,
+  "task_success": true,
+  "video": "/mnt/data/yjh/astra-vla/runs/20260928-agent-focused-seed100000/videos/agent-seed100000-0.mp4"
+}

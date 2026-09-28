@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>停止状态 · 四视角预览</title>
+<style>
+*{box-sizing:border-box}body{margin:0;padding:28px;background:#11161f;color:#edf2f7;font:16px/1.5 system-ui,sans-serif}
+main{max-width:1440px;margin:auto}header{display:flex;gap:20px;align-items:center;justify-content:space-between;margin-bottom:24px}
+h1{font-size:25px;margin:0 0 6px}p{color:#a8b4c5;margin:0}.badge{padding:7px 14px;border-radius:20px;background:#34414e;white-space:nowrap}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}figure{margin:0;border:1px solid #354354;border-radius:12px;overflow:hidden;background:#18202c}
+figcaption{padding:11px 15px;display:flex;justify-content:space-between;gap:12px}small{color:#a8b4c5}img{display:block;width:100%;aspect-ratio:4/3;object-fit:contain;background:#080c12}.new{border-color:#4bc7b5}.new figcaption{background:#123c3d}
+a{color:inherit;text-decoration:none}footer{color:#9cabbc;font-size:13px;margin-top:20px}@media(max-width:720px){body{padding:16px}.grid{grid-template-columns:1fr}header{align-items:flex-start}h1{font-size:21px}}
+</style><main>
+<header><div><h1>四视角预览</h1><p>同一停止状态 · 第四相机从斜侧面向下俯视 45°</p></div><span class="badge">评测已停止</span></header>
+<section class="grid">
+<figure><figcaption>主摄像头 <small>原视角</small></figcaption><a href="head.png" target="_blank"><img src="head.png" alt="主摄像头"></a></figure>
+<figure class="new"><figcaption>第四视角 · 斜侧面 <small>俯视 45° · 1280 × 960</small></figcaption><a href="oblique.png" target="_blank"><img src="oblique.png" alt="第四相机斜侧面向下45度"></a></figure>
+<figure><figcaption>左腕摄像头 <small>原视角</small></figcaption><a href="left_wrist.png" target="_blank"><img src="left_wrist.png" alt="左腕摄像头"></a></figure>
+<figure><figcaption>右腕摄像头 <small>原视角</small></figcaption><a href="right_wrist.png" target="_blank"><img src="right_wrist.png" alt="右腕摄像头"></a></figure>
+</section><footer>从停止时保存的场景恢复后，仅渲染 RGB 画面。没有重新调用 Agent，没有执行新动作。点击任一画面查看原图。</footer>
+</main></html>

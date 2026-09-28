@@ -1,0 +1,12 @@
+{
+  "decision": {
+    "kind": "dp",
+    "dp_actions": 24,
+    "steps": [],
+    "visual_assessment": "Red is left and green is right on the table. Both grippers are open; neither block is visibly held.",
+    "reason": "Begin the policy-guided approach and orientation, then observe before further manipulation.",
+    "memory": "Initial approach. Red left, green right in head view; neither held. No motion calibration yet. Supplied memory identifies this as a non-executing connectivity test."
+  },
+  "views": "/mnt/data/yjh/astra-vla/runs/20260927-dp600-agent-unlimited-clean20/episodes/preflight/decision-00000-attempt-00001/three-views.jpg",
+  "executed": false
+}

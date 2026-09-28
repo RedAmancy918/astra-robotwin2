@@ -1,0 +1,8 @@
+{
+  "dp_to_agent_seconds": 15.0,
+  "first_grasp_miss_seconds": 16.2,
+  "grasp_and_lift_seconds": 17.2,
+  "lateral_transport_seconds": 17.8,
+  "return_to_dp_seconds": 20.4,
+  "final_seconds": 87.6
+}

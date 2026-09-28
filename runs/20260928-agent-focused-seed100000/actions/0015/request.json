@@ -1,0 +1,7 @@
+{
+  "time": 1790577528.5366955,
+  "controller": "Codex supervised visual control",
+  "observation_revision": 14,
+  "kind": "finish",
+  "reason": "Finalize three-view video for the successful single-scene experiment; retain the paused successful state."
+}

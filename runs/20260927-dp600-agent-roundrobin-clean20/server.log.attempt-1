@@ -1,0 +1,16 @@
+Initializing simulator before starting HTTP threads
+/mnt/data/yjh/conda_envs/robotwin/lib/python3.10/site-packages/sapien/__init__.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Warp DeprecationWarning: The namespace `warp.torch` will soon be removed from the public API. It can still be accessed from `warp._src.torch` but might be changed or removed without notice.
+Warp DeprecationWarning: The symbol `warp.torch.device_from_torch` will soon be removed from the public API. Use `warp.device_from_torch` instead.
+Simulator ready; starting HTTP service
+step: [92m1 / None[0mstep: [92m2 / None[0mstep: [92m3 / None[0mstep: [92m4 / None[0mstep: [92m5 / None[0mstep: [92m6 / None[0mstep: [92m1 / None[0mstep: [92m2 / None[0mstep: [92m3 / None[0mstep: [92m4 / None[0mstep: [92m5 / None[0mstep: [92m6 / None[0mstep: [92m7 / None[0mstep: [92m8 / None[0mstep: [92m9 / None[0mstep: [92m10 / None[0mstep: [92m11 / None[0mstep: [92m12 / None[0mTraceback (most recent call last):
+  File "/mnt/data/yjh/astra-vla/runs/20260927-dp600-agent-roundrobin-clean20/server.py", line 419, in run
+    try: result,detail=self.execute(c)
+  File "/mnt/data/yjh/astra-vla/runs/20260927-dp600-agent-roundrobin-clean20/server.py", line 347, in execute
+    detail=self.switch_episode(c['seed']) if c['kind']=='switch' else self.save_episode()
+  File "/mnt/data/yjh/astra-vla/runs/20260927-dp600-agent-roundrobin-clean20/server.py", line 218, in switch_episode
+    verified=verify(self,value)
+  File "/mnt/data/yjh/astra-vla/runs/20260927-dp600-agent-roundrobin-clean20/scene_state.py", line 127, in verify
+    raise RuntimeError('Restored episode failed verification: ' + str(result))
+RuntimeError: Restored episode failed verification: {'physical_max_abs_error': 0.11028963810531422, 'history_equal': True, 'rng_equal': True, 'action_count': 6}

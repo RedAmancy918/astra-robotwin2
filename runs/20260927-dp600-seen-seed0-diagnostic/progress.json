@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "completed": 1,
+  "planned": 1,
+  "successes": 1,
+  "success_rate": 1.0,
+  "elapsed_s": 103.41028451407328,
+  "last_episode": {
+    "episode_index": 0,
+    "seed": 0,
+    "success": true,
+    "counted": true,
+    "reason": "success",
+    "actions": 301,
+    "step_limit": 800,
+    "wall_time_s": 67.71126447292045,
+    "error": null,
+    "video": "/mnt/data/yjh/astra-vla/runs/20260927-dp600-seen-seed0-diagnostic/videos/episode0.mp4"
+  },
+  "seed_attempts": 1
+}

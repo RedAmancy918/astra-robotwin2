@@ -1,0 +1,25 @@
+{
+  "status": "complete",
+  "pilot_type": "single-scene interactive vision-agent takeover",
+  "completed_at": "2026-09-27 12:54:35 +0800",
+  "seed": 100000,
+  "checkpoint_epoch": 600,
+  "task_success": false,
+  "dp_to_agent_handoff_s": 0.10325042298063636,
+  "agent_to_dp_handoff_s": 0.22966687101870775,
+  "old_policy_command_cancelled": true,
+  "dp_actions_before_agent": 138,
+  "total_dp_actions": 800,
+  "agent_eef_steps_attempted": 20,
+  "agent_command_batches": 9,
+  "target_not_reached_batches": 4,
+  "total_task_action_calls": 820,
+  "visual_findings": [
+    "First grasp attempt missed the green block.",
+    "After a lower grasp, the green block visibly followed the right gripper during lift and lateral transport.",
+    "Several fixed-orientation EEF commands did not reach their requested positions."
+  ],
+  "object_ground_truth_or_expert_actions_used_by_agent": false,
+  "scope": "One selected known-failure scene; includes additional manual EEF actions; not an aggregate success-rate estimate.",
+  "source_sha256": "678dda5fd6a2f196a739f9be3e125a8c866abc803fb72530a1fc4715674dd638"
+}

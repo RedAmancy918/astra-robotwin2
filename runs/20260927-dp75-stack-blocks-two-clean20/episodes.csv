@@ -1,0 +1,3 @@
+episode_index,seed,success,counted,reason,actions,step_limit,wall_time_s,error,video
+0,100000,False,True,step_limit,800,800,128.67247858596966,,/mnt/data/yjh/astra-vla/runs/20260927-dp75-stack-blocks-two-clean20/videos/episode0.mp4
+1,100001,False,True,step_limit,800,800,125.08452892908826,,/mnt/data/yjh/astra-vla/runs/20260927-dp75-stack-blocks-two-clean20/videos/episode1.mp4

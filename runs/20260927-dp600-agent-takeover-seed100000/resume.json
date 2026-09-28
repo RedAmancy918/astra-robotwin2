@@ -1,0 +1,21 @@
+{
+  "time": 1790484560.0740125,
+  "event": "vision_agent_to_dp600_resume",
+  "handoff_applied_s": 0.22966687101870775,
+  "receipt": {
+    "command_id": "a708a569-ae13-4c5c-b439-cce846b79337",
+    "client_id": "dp600-controller",
+    "status": "completed",
+    "fingerprint": "d9755164ba04e6bff95740d17641cc40abc7c9cd9251b8a44cbb05bd63ac9427",
+    "epoch": 3,
+    "submitted_at": 1790484557.7821429,
+    "started_at": 1790484557.7823958,
+    "finished_at": 1790484559.9770017,
+    "revision": 12,
+    "actions_executed": 12,
+    "checkpoint": "/mnt/data/yjh/RoboTwin/XPolicyLab/policy/DP/checkpoints/yjh_dp50_clean-stack_blocks_two-aloha_agilex-joint-0/600.ckpt"
+  },
+  "before_actions": 158,
+  "after_actions": 170,
+  "task_success": false
+}

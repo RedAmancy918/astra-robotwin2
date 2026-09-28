@@ -1,0 +1,40 @@
+{
+  "created_at": "2026-09-28T14:50:08+0800",
+  "task": "stack_blocks_two",
+  "task_config": "demo_clean",
+  "seed": 100000,
+  "purpose": "Re-record original successful agent command sequence at true simulation-time cadence",
+  "source_run": "20260928-agent-focused-seed100000",
+  "source_result_sha256": "7369cfd704f19916104d2f24c189089b90a1ac718cda5cac32062f9205800f71",
+  "fps": 25,
+  "physics_steps_per_frame": 10,
+  "physics_dt_s": 0.004,
+  "controller": "Recorded Codex agent command replay with fresh motion planning; no model inference",
+  "dp_actions": 0,
+  "episode_limits": null,
+  "source_commands_sha256": {
+    "0005": "852f1d587a08b3a28a08b9f06ab3d39c2bf04def865668bb5ea21e84972b8a7c",
+    "0011": "87adf8c9059d6edc51891fc38622ecf0ab4a6c640879550bb4d3b3e888710270",
+    "0013": "fe33dce7052489722c5b7688e3320e9c1749a4b2254637791ab133507b98a7ab",
+    "0006": "098dcbaf10f647d18c87029c7d76a5418a41c0dfef5f3e115594492f61433374",
+    "0008": "e073796568b4c255ccdab6225a3b769d6844c8efdc774e820f61cfac49a44f77",
+    "0004": "de8fd8bc08de657fb77756268b377cb209a7565f0d4ca751113c7b1cee7fead6",
+    "0015": "75314ddd3e11fde2ab06264b4d47ec69c3e6b8df0c19f29171dc21214a966a34",
+    "0014": "0a098f7ca9485a0770d2a8f051f2cbb1d89229b40cab1afc38844e4da6cf7c05",
+    "0003": "a7585793b77467caf0fd667b2b60289574e5bf0d28e88e164d430f66974d23c0",
+    "0009": "42dcaaaf0fdc8a8def139ffaf3943bb0799626b3d8e1d6de52b38104983e81cd",
+    "0001": "85ddcf217626092eac295ef503602a6160de0bd4fa292cb0050963c1e2824738",
+    "0007": "7c9ad0f95f658c90ba87f15339b638068d746965188b186ccee69093c83e4472",
+    "0000": "9f5124b9c4e1092e5a14503dd94bf51f93511a9dffb4fbd32713f0f8cec5df3b",
+    "0012": "0d15805423fc62d2edaf5b85e29b9903956f345bac9c48d4ebaa440c5fa47fc0",
+    "0002": "be48f530ad9e3bc060d5555f976ec5a56bbe1589ad2b3dfbfca1e9e0fdf05a7c",
+    "0010": "9d6787d6d8e4237ac495ec0e64400e6bc59b2975a9d215cf4f4d825ffaa588af"
+  },
+  "code_sha256": {
+    "replay.py": "1064d8a79c387217ffe007efe131f3d475ea9947276be1916b82e33ddc8a4baa",
+    "audit_video.py": "09158e9a9785108fb32804746ccdb2618c98de24ff5e6316c757790b1b00ca99",
+    "server.py": "8dea05ba2d1495c0b27e625a5906c328f9746d1304035a050a5b0939272e8581",
+    "scene_state.py": "4d82eeaf47a4249274e6cb6359f33c8eda8fa803a6b183bfc0904a786d2b2ea5",
+    "client.py": "d86992fd7c812d9058243f8a8ad5f67e88ca662ae1c58527d07b73fa91dba304"
+  }
+}

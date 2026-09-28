@@ -1,0 +1,26 @@
+{
+  "time": 1790577126.6167707,
+  "controller": "Codex supervised visual control",
+  "observation_revision": 2,
+  "kind": "eef",
+  "reason": "Open fingertips straddle green in HEAD. Lower gripper center by 35mm to estimated cube center z0.775 before closing; inspect actual contact.",
+  "steps": [
+    {
+      "arm": "right",
+      "code": "POSE",
+      "pose": [
+        0.235,
+        0.02,
+        0.775,
+        0.5,
+        -0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "arm": "right",
+      "code": "CLOSE"
+    }
+  ]
+}

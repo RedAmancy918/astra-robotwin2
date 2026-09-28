@@ -1,0 +1,91 @@
+{
+  "ready": true,
+  "owner": "astra-vision-agent",
+  "epoch": 2,
+  "applied_epoch": 2,
+  "revision": 1659,
+  "mode": "hold",
+  "busy": false,
+  "error": null,
+  "active_command": null,
+  "snapshot": {
+    "frame_id": 43359,
+    "captured_at": 1790548843.7227118,
+    "seed": 100012,
+    "task": "stack_blocks_two",
+    "instruction": "Stack the green block on the red block.",
+    "task_success": false,
+    "coordinates": "world; metres; quaternion wxyz",
+    "action_count": 301,
+    "fixed_checkpoint_epoch": 600,
+    "episode_step_limit": null,
+    "episode_time_limit_s": null,
+    "terminal_failure": null,
+    "left_eef": [
+      -0.29583513736724854,
+      -0.31127816438674927,
+      0.9573883414268494,
+      0.706466249767092,
+      -0.0360246709549416,
+      0.036793193683670955,
+      0.7058710377407228
+    ],
+    "right_eef": [
+      0.23364292085170746,
+      -0.06424815952777863,
+      0.9841321706771851,
+      0.2986715154977312,
+      -0.6328627865700328,
+      0.2644566610623519,
+      0.6635832228325653
+    ],
+    "left_joints": [
+      -0.020770564675331116,
+      0.11720913648605347,
+      0.09557339549064636,
+      -0.08138810098171234,
+      2.0016579583170824e-05,
+      0.0012900989968329668,
+      1.0
+    ],
+    "right_joints": [
+      0.18248975276947021,
+      1.8861299753189087,
+      1.4507771730422974,
+      -1.070851445198059,
+      -0.00724687147885561,
+      -0.5525661706924438,
+      0.0
+    ],
+    "left_gripper_target": 1.0,
+    "right_gripper_target": 0.0,
+    "cameras": {
+      "head": {
+        "url": "/v1/frame/head",
+        "shape": [
+          240,
+          320,
+          3
+        ]
+      },
+      "left_wrist": {
+        "url": "/v1/frame/left_wrist",
+        "shape": [
+          240,
+          320,
+          3
+        ]
+      },
+      "right_wrist": {
+        "url": "/v1/frame/right_wrist",
+        "shape": [
+          240,
+          320,
+          3
+        ]
+      }
+    },
+    "simulation": "stepped during actions; paused between commands"
+  },
+  "frame_age_s": 0.0
+}

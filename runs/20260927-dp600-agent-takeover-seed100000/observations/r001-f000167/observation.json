@@ -1,0 +1,88 @@
+{
+  "ready": true,
+  "owner": "dp600-controller",
+  "epoch": 1,
+  "applied_epoch": 1,
+  "revision": 1,
+  "mode": "hold",
+  "busy": false,
+  "error": null,
+  "active_command": null,
+  "snapshot": {
+    "frame_id": 167,
+    "captured_at": 1790483804.2937224,
+    "seed": 100000,
+    "task": "stack_blocks_two",
+    "instruction": "Stack the green block on the red block.",
+    "task_success": false,
+    "coordinates": "world; metres; quaternion wxyz",
+    "action_count": 120,
+    "fixed_checkpoint_epoch": 600,
+    "left_eef": [
+      -0.2980298697948456,
+      -0.31379038095474243,
+      0.9418960213661194,
+      0.699678764716379,
+      -0.00013434407748521453,
+      -7.213056703880838e-05,
+      0.7144575585392122
+    ],
+    "right_eef": [
+      0.23666618764400482,
+      0.0025730084162205458,
+      0.976348876953125,
+      0.21131208293183582,
+      -0.6747660329381506,
+      0.21035544322802113,
+      0.6751211683129645
+    ],
+    "left_joints": [
+      0.0010470080887898803,
+      -0.00013264859444461763,
+      -0.0003772826457861811,
+      0.00015367900778073817,
+      0.0001463692751713097,
+      -0.0002799140347633511,
+      1.0
+    ],
+    "right_joints": [
+      0.14245252311229706,
+      2.1728110313415527,
+      1.8405767679214478,
+      -1.2370678186416626,
+      0.0029611452482640743,
+      -0.8037540316581726,
+      0.9994656443595886
+    ],
+    "left_gripper_target": 1.0,
+    "right_gripper_target": 0.9994656443595886,
+    "cameras": {
+      "head": {
+        "url": "/v1/frame/head",
+        "shape": [
+          240,
+          320,
+          3
+        ]
+      },
+      "left_wrist": {
+        "url": "/v1/frame/left_wrist",
+        "shape": [
+          240,
+          320,
+          3
+        ]
+      },
+      "right_wrist": {
+        "url": "/v1/frame/right_wrist",
+        "shape": [
+          240,
+          320,
+          3
+        ]
+      }
+    },
+    "simulation": "stepped during actions; paused between commands"
+  },
+  "frame_age_s": 0.72
+}

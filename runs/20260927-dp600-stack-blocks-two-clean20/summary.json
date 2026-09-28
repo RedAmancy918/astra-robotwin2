@@ -1,0 +1,50 @@
+{
+  "status": "complete",
+  "completed": 20,
+  "planned": 20,
+  "successes": 0,
+  "success_rate": 0.0,
+  "elapsed_s": 2575.5224247700535,
+  "last_episode": {
+    "episode_index": 19,
+    "seed": 100019,
+    "success": false,
+    "counted": true,
+    "reason": "step_limit",
+    "actions": 800,
+    "step_limit": 800,
+    "wall_time_s": 129.78594923298806,
+    "error": null,
+    "video": "/mnt/data/yjh/astra-vla/runs/20260927-dp600-stack-blocks-two-clean20/videos/episode19.mp4"
+  },
+  "seed_attempts": 20,
+  "wilson_95_percent": [
+    0.0,
+    16.112515805281937
+  ],
+  "checkpoint_epoch": 600,
+  "protocol": "RoboTwin demo_clean, expert-solvable seeds starting at 100000, 800 actions",
+  "evaluated_seeds": [
+    100000,
+    100001,
+    100002,
+    100003,
+    100004,
+    100005,
+    100006,
+    100007,
+    100008,
+    100009,
+    100010,
+    100011,
+    100012,
+    100013,
+    100014,
+    100015,
+    100016,
+    100017,
+    100018,
+    100019
+  ],
+  "expert_rejected_seeds": []
+}

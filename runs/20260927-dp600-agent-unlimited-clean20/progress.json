@@ -1,0 +1,19 @@
+{
+  "status": "stopped_by_user_after_migration",
+  "updated_at": 1790562472.6259074,
+  "runner_pid": 477932,
+  "planned": 20,
+  "completed": 0,
+  "successes": 0,
+  "failures": 0,
+  "pending": 20,
+  "current_seed": 100000,
+  "action_count": 178,
+  "agent_decisions": 7,
+  "episode_step_limit": null,
+  "episode_time_limit_s": null,
+  "inference_pid": 478955,
+  "inference_elapsed_s": 80.1,
+  "continued_in": "20260927-dp600-agent-roundrobin-clean20",
+  "stopped_at": "2026-09-28T10:27:52+08:00"
+}

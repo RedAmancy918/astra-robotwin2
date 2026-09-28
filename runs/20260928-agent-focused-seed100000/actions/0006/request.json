@@ -1,0 +1,22 @@
+{
+  "time": 1790577228.1677208,
+  "controller": "Codex supervised visual control",
+  "observation_revision": 5,
+  "kind": "eef",
+  "reason": "Right-to-left crossing was rejected by planner; held green remained unchanged. Use left hand to bring red toward center. HEAD red top near (100,99) gives estimated TCP x=-0.155,y=0.025; approach above red with downward orientation.",
+  "steps": [
+    {
+      "arm": "left",
+      "code": "POSE",
+      "pose": [
+        -0.155,
+        0.025,
+        0.84,
+        0.5,
+        -0.5,
+        0.5,
+        0.5
+      ]
+    }
+  ]
+}

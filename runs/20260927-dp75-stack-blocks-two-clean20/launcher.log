@@ -1,0 +1,3 @@
+[33m[INFO] Using socket port: 59121[0m
+[34m[1m[CONNECTING][0m DP75 evaluation -> 127.0.0.1:59121 (PID=476259, timeout=120s)
+[32m[1m[CONNECTED][0m DP75 evaluation ready on 127.0.0.1:59121 (PID=476259)

@@ -1,0 +1,204 @@
+{
+  "status": "executing",
+  "updated_at": 1790576658.1726885,
+  "runner_pid": 676882,
+  "control_mode": "agent_only",
+  "dp_enabled": false,
+  "initial_dp_actions": 0,
+  "round": 7,
+  "planned": 20,
+  "started": 20,
+  "completed": 0,
+  "successes": 0,
+  "failures": 0,
+  "pending": 20,
+  "current_seed": 100008,
+  "action_count": 6,
+  "agent_decisions": 6,
+  "episode_step_limit": null,
+  "episode_time_limit_s": null,
+  "decisions_per_visit": 1,
+  "scenes": [
+    {
+      "seed": 100000,
+      "status": "pending_next_round",
+      "visits": 7,
+      "action_count": 11,
+      "agent_decisions": 7,
+      "success": null,
+      "error": null
+    },
+    {
+      "seed": 100001,
+      "status": "pending_next_round",
+      "visits": 7,
+      "action_count": 16,
+      "agent_decisions": 7,
+      "success": null,
+      "error": null
+    },
+    {
+      "seed": 100002,
+      "status": "pending_next_round",
+      "visits": 7,
+      "action_count": 13,
+      "agent_decisions": 7,
+      "success": null,
+      "error": null
+    },
+    {
+      "seed": 100003,
+      "status": "pending_next_round",
+      "visits": 7,
+      "action_count": 10,
+      "agent_decisions": 7,
+      "success": null,
+      "error": null
+    },
+    {
+      "seed": 100004,
+      "status": "pending_next_round",
+      "visits": 7,
+      "action_count": 14,
+      "agent_decisions": 7,
+      "success": null,
+      "error": null
+    },
+    {
+      "seed": 100005,
+      "status": "pending_next_round",
+      "visits": 7,
+      "action_count": 11,
+      "agent_decisions": 7,
+      "success": null,
+      "error": null
+    },
+    {
+      "seed": 100006,
+      "status": "pending_next_round",
+      "visits": 7,
+      "action_count": 16,
+      "agent_decisions": 7,
+      "success": null,
+      "error": null
+    },
+    {
+      "seed": 100007,
+      "status": "pending_next_round",
+      "visits": 7,
+      "action_count": 9,
+      "agent_decisions": 7,
+      "success": null,
+      "error": null
+    },
+    {
+      "seed": 100008,
+      "status": "pending_next_round",
+      "visits": 6,
+      "action_count": 6,
+      "agent_decisions": 6,
+      "success": null,
+      "error": null
+    },
+    {
+      "seed": 100009,
+      "status": "pending_next_round",
+      "visits": 6,
+      "action_count": 10,
+      "agent_decisions": 6,
+      "success": null,
+      "error": null
+    },
+    {
+      "seed": 100010,
+      "status": "pending_next_round",
+      "visits": 6,
+      "action_count": 13,
+      "agent_decisions": 6,
+      "success": null,
+      "error": null
+    },
+    {
+      "seed": 100011,
+      "status": "pending_next_round",
+      "visits": 6,
+      "action_count": 7,
+      "agent_decisions": 6,
+      "success": null,
+      "error": null
+    },
+    {
+      "seed": 100012,
+      "status": "pending_next_round",
+      "visits": 6,
+      "action_count": 6,
+      "agent_decisions": 6,
+      "success": null,
+      "error": null
+    },
+    {
+      "seed": 100013,
+      "status": "pending_next_round",
+      "visits": 6,
+      "action_count": 14,
+      "agent_decisions": 6,
+      "success": null,
+      "error": null
+    },
+    {
+      "seed": 100014,
+      "status": "pending_next_round",
+      "visits": 6,
+      "action_count": 7,
+      "agent_decisions": 6,
+      "success": null,
+      "error": null
+    },
+    {
+      "seed": 100015,
+      "status": "pending_next_round",
+      "visits": 6,
+      "action_count": 14,
+      "agent_decisions": 6,
+      "success": null,
+      "error": null
+    },
+    {
+      "seed": 100016,
+      "status": "pending_next_round",
+      "visits": 6,
+      "action_count": 10,
+      "agent_decisions": 6,
+      "success": null,
+      "error": null
+    },
+    {
+      "seed": 100017,
+      "status": "pending_next_round",
+      "visits": 6,
+      "action_count": 12,
+      "agent_decisions": 6,
+      "success": null,
+      "error": null
+    },
+    {
+      "seed": 100018,
+      "status": "pending_next_round",
+      "visits": 6,
+      "action_count": 11,
+      "agent_decisions": 6,
+      "success": null,
+      "error": null
+    },
+    {
+      "seed": 100019,
+      "status": "pending_next_round",
+      "visits": 6,
+      "action_count": 17,
+      "agent_decisions": 6,
+      "success": null,
+      "error": null
+    }
+  ],
+  "command_id": "3498d72a-7fe9-4e2f-b473-d6283e7ea922"
+}

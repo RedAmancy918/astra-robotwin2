@@ -1,0 +1,7 @@
+{
+  "passed": false,
+  "reason": "Joint acceleration cache qacc differs after restore; positions, velocities, grippers, drives, observation history and RNG restore correctly",
+  "max_qacc_error": 0.11028963810531422,
+  "non_qacc_error_after_freeze_max": 1.9073486328125e-06,
+  "evaluation_episodes_affected": 0
+}

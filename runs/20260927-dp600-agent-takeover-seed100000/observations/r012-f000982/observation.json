@@ -1,0 +1,88 @@
+{
+  "ready": true,
+  "owner": "dp600-controller",
+  "epoch": 3,
+  "applied_epoch": 3,
+  "revision": 12,
+  "mode": "hold",
+  "busy": false,
+  "error": null,
+  "active_command": null,
+  "snapshot": {
+    "frame_id": 982,
+    "captured_at": 1790484564.6825387,
+    "seed": 100000,
+    "task": "stack_blocks_two",
+    "instruction": "Stack the green block on the red block.",
+    "task_success": false,
+    "coordinates": "world; metres; quaternion wxyz",
+    "action_count": 170,
+    "fixed_checkpoint_epoch": 600,
+    "left_eef": [
+      -0.29785218834877014,
+      -0.31300294399261475,
+      0.9453393816947937,
+      0.7001916471668836,
+      -0.012087580868545883,
+      0.01963191191463398,
+      0.7135826060527599
+    ],
+    "right_eef": [
+      0.07669182866811752,
+      -0.04881463199853897,
+      0.9752326011657715,
+      0.4299204045432448,
+      -0.5539643716237684,
+      0.4169221514545026,
+      0.578331946511176
+    ],
+    "left_joints": [
+      -0.0012114431010559201,
+      0.04030272737145424,
+      0.028601663187146187,
+      -0.033057574182748795,
+      -0.00040259340312331915,
+      0.011027772910892963,
+      0.992114782333374
+    ],
+    "right_joints": [
+      0.5345334410667419,
+      2.193781614303589,
+      1.8694463968276978,
+      -1.2075990438461304,
+      0.007495751138776541,
+      0.2677682042121887,
+      0.4771793782711029
+    ],
+    "left_gripper_target": 0.992114782333374,
+    "right_gripper_target": 0.4771793782711029,
+    "cameras": {
+      "head": {
+        "url": "/v1/frame/head",
+        "shape": [
+          240,
+          320,
+          3
+        ]
+      },
+      "left_wrist": {
+        "url": "/v1/frame/left_wrist",
+        "shape": [
+          240,
+          320,
+          3
+        ]
+      },
+      "right_wrist": {
+        "url": "/v1/frame/right_wrist",
+        "shape": [
+          240,
+          320,
+          3
+        ]
+      }
+    },
+    "simulation": "stepped during actions; paused between commands"
+  },
+  "frame_age_s": 0.654
+}

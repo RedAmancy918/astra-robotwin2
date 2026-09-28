@@ -1,0 +1,21 @@
+{
+  "versions": {
+    "torch": "2.7.1+cu128",
+    "torchvision": "0.22.1+cu128",
+    "numpy": "1.26.4",
+    "sapien": "3.0.1",
+    "mplib": "0.2.1",
+    "diffusers": "0.35.1",
+    "hydra-core": "1.2.0",
+    "numba": "0.61.2",
+    "diffusion_policy": "0.1.0"
+  },
+  "hardware": "NVIDIA GeForce RTX 5090, 595.91.07, 32607 MiB",
+  "source_sha256": {
+    "scripts/eval_policy_xpolicylab.py": "78821388d58daf8aa65db55c5952df3742486dd93e717ce6a96374a3795dfc7a",
+    "envs/_base_task.py": "bc5d680f8b16e3170b1f4cba7cc114faa4a46c25b9fafb319948ff482d9912f6",
+    "envs/stack_blocks_two.py": "4e92a679cb5be4ef87a1b842432c930560a2c9b539a4cbcee0161e2b2112f526",
+    "XPolicyLab/policy/DP/model.py": "f233733914d40ecca93b2f01e37400851e4127942d9c83d6cedbb3991d9ddb02",
+    "XPolicyLab/policy/DP/diffusion_policy/env_runner/dp_runner.py": "aba2e5f21bc48d64cb90e8aa3f59c5bce7ff57eadd30289dd29e7cc3dbaf1e27"
+  }
+}

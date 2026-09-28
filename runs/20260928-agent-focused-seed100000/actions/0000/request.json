@@ -1,0 +1,7 @@
+{
+  "time": 1790576964.5860775,
+  "controller": "Codex supervised visual control",
+  "observation_revision": 0,
+  "kind": "observe",
+  "reason": "Inspect fresh RGB scene and physical gripper-center pose before choosing approach."
+}

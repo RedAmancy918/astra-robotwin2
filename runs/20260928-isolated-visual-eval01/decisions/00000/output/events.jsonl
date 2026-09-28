@@ -1,0 +1,5 @@
+{"type":"thread.started","thread_id":"01a0e6e2-46b2-7042-971e-adbb9e466a4f"}
+{"type":"item.completed","item":{"id":"item_0","type":"error","message":"Code Mode is unavailable because code-mode host is disabled. Code mode will fail closed; enable `features.code_mode_host` and install `codex-code-mode-host`."}}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_1","type":"agent_message","text":"{\"kind\":\"eef\",\"steps\":[{\"arm\":\"right\",\"code\":\"POSE\",\"level\":1,\"pose\":[0.26,0.1,0.9,0.70710678,0,0.70710678,0]}],\"visual_assessment\":\"Green and red blocks are separate on the right side of the table; both grippers are open.\",\"reason\":\"Approach above the green block with the right gripper pointing downward, then refine alignment from the wrist view.\",\"memory\":\"Initial scene: green is image-right and farther back than red. Block world positions and table height are uncertain. Left arm remains open at its initial pose.\"}"}}
+{"type":"turn.completed","usage":{"input_tokens":7811,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":661,"reasoning_output_tokens":516}}

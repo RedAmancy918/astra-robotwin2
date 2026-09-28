@@ -1,0 +1,162 @@
+[
+  {
+    "episode_index": 0,
+    "seed": 100000,
+    "frames": 800,
+    "fps": 10.0,
+    "size_bytes": 3089096,
+    "final_frame_decoded": true
+  },
+  {
+    "episode_index": 1,
+    "seed": 100001,
+    "frames": 800,
+    "fps": 10.0,
+    "size_bytes": 2293607,
+    "final_frame_decoded": true
+  },
+  {
+    "episode_index": 2,
+    "seed": 100002,
+    "frames": 800,
+    "fps": 10.0,
+    "size_bytes": 2178251,
+    "final_frame_decoded": true
+  },
+  {
+    "episode_index": 3,
+    "seed": 100003,
+    "frames": 800,
+    "fps": 10.0,
+    "size_bytes": 3065495,
+    "final_frame_decoded": true
+  },
+  {
+    "episode_index": 4,
+    "seed": 100004,
+    "frames": 800,
+    "fps": 10.0,
+    "size_bytes": 3670790,
+    "final_frame_decoded": true
+  },
+  {
+    "episode_index": 5,
+    "seed": 100005,
+    "frames": 800,
+    "fps": 10.0,
+    "size_bytes": 3258320,
+    "final_frame_decoded": true
+  },
+  {
+    "episode_index": 6,
+    "seed": 100006,
+    "frames": 800,
+    "fps": 10.0,
+    "size_bytes": 2578635,
+    "final_frame_decoded": true
+  },
+  {
+    "episode_index": 7,
+    "seed": 100007,
+    "frames": 800,
+    "fps": 10.0,
+    "size_bytes": 2444761,
+    "final_frame_decoded": true
+  },
+  {
+    "episode_index": 8,
+    "seed": 100008,
+    "frames": 800,
+    "fps": 10.0,
+    "size_bytes": 3799736,
+    "final_frame_decoded": true
+  },
+  {
+    "episode_index": 9,
+    "seed": 100009,
+    "frames": 800,
+    "fps": 10.0,
+    "size_bytes": 2306709,
+    "final_frame_decoded": true
+  },
+  {
+    "episode_index": 10,
+    "seed": 100010,
+    "frames": 800,
+    "fps": 10.0,
+    "size_bytes": 4157240,
+    "final_frame_decoded": true
+  },
+  {
+    "episode_index": 11,
+    "seed": 100011,
+    "frames": 800,
+    "fps": 10.0,
+    "size_bytes": 4189338,
+    "final_frame_decoded": true
+  },
+  {
+    "episode_index": 12,
+    "seed": 100012,
+    "frames": 800,
+    "fps": 10.0,
+    "size_bytes": 2921834,
+    "final_frame_decoded": true
+  },
+  {
+    "episode_index": 13,
+    "seed": 100013,
+    "frames": 800,
+    "fps": 10.0,
+    "size_bytes": 2816707,
+    "final_frame_decoded": true
+  },
+  {
+    "episode_index": 14,
+    "seed": 100014,
+    "frames": 800,
+    "fps": 10.0,
+    "size_bytes": 4508064,
+    "final_frame_decoded": true
+  },
+  {
+    "episode_index": 15,
+    "seed": 100015,
+    "frames": 800,
+    "fps": 10.0,
+    "size_bytes": 4535245,
+    "final_frame_decoded": true
+  },
+  {
+    "episode_index": 16,
+    "seed": 100016,
+    "frames": 800,
+    "fps": 10.0,
+    "size_bytes": 3755271,
+    "final_frame_decoded": true
+  },
+  {
+    "episode_index": 17,
+    "seed": 100017,
+    "frames": 800,
+    "fps": 10.0,
+    "size_bytes": 2636007,
+    "final_frame_decoded": true
+  },
+  {
+    "episode_index": 18,
+    "seed": 100018,
+    "frames": 800,
+    "fps": 10.0,
+    "size_bytes": 4169431,
+    "final_frame_decoded": true
+  },
+  {
+    "episode_index": 19,
+    "seed": 100019,
+    "frames": 800,
+    "fps": 10.0,
+    "size_bytes": 4661950,
+    "final_frame_decoded": true
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "created_at": 1790586238.437809,
+  "source_run": "20260928-isolated-visual-eval01",
+  "source_checkpoint_sha256": "e0dbb059a598ede39d396c3699f80d29a2545109c7530ef054a493e6a695338b",
+  "restoration_verification": {
+    "physical_max_abs_error": 0.0,
+    "history_equal": true,
+    "rng_equal": true,
+    "action_count": 115,
+    "derived_acceleration_cache_error": 0.05441371537744999,
+    "derived_acceleration_cache_exact": false
+  },
+  "render_physical_state_max_abs_error": 0.0,
+  "control_actions_executed": 0,
+  "physics_steps_after_restore": 0,
+  "model_calls": 0,
+  "source_action_count": 115,
+  "scene_state": "User-stopped episode, restored without taking any new action",
+  "fourth_camera": {
+    "name": "oblique_camera",
+    "position_world_m": [
+      0.65,
+      -0.65,
+      1.719238815542512
+    ],
+    "look_at_world_m": [
+      0.0,
+      0.0,
+      0.8
+    ],
+    "downward_angle_degrees": 45.00000000000001,
+    "azimuth_position_degrees": -45.0,
+    "width": 1280,
+    "height": 960,
+    "vertical_fov_degrees": 50.0,
+    "placement_uses_object_ground_truth": false
+  },
+  "image_sha256": {
+    "head": "982621e5f3192e316d0a0588c123064899ef38bd4ffe1f9124eb6d33c58f719e",
+    "left_wrist": "023e01c68e0da2ed450dd9c464cf0bb6590c9b0ce56db3ed6b6a272dfac55f6a",
+    "right_wrist": "86b0b8076067a10bd5c982d27ca2f99af4021fa1310f0035ed92bedc7d85f01b",
+    "oblique": "bb42e4c07f2b9f819229867f948992a9584b941b25405c3805a7d47241bc767f"
+  }
+}

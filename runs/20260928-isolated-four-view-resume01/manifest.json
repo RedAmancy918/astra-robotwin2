@@ -1,0 +1,8 @@
+{
+  "run_id": "20260928-isolated-four-view-resume01",
+  "protocol_sha256": "4ed3010c4d0a6d9b4daaee6f1fa6ae6c687d8f9be96ff4dca8449e84760d2a5c",
+  "source_run": "20260928-isolated-visual-eval01",
+  "source_checkpoint_sha256": "e0dbb059a598ede39d396c3699f80d29a2545109c7530ef054a493e6a695338b",
+  "preflight_passed": true,
+  "created_at": 1790587141.0911121
+}

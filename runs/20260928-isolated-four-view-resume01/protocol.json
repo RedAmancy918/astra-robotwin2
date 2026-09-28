@@ -1,0 +1,87 @@
+{
+  "version": 1,
+  "frozen_at": 1790587141.0908675,
+  "task": "Stack green block on red block and release both grippers",
+  "episodes": 1,
+  "experiment_type": "Four-view continuation of user-stopped three-view episode",
+  "independent_fresh_episode": false,
+  "source_run": "20260928-isolated-visual-eval01",
+  "source_action_count": 115,
+  "source_agent_decisions": 72,
+  "source_checkpoint_sha256": "e0dbb059a598ede39d396c3699f80d29a2545109c7530ef054a493e6a695338b",
+  "model": "gpt-6-astra",
+  "reasoning_effort": "max",
+  "camera_names": [
+    "head",
+    "left_wrist",
+    "right_wrist",
+    "oblique"
+  ],
+  "camera_resolutions": {
+    "head": [
+      320,
+      240
+    ],
+    "left_wrist": [
+      320,
+      240
+    ],
+    "right_wrist": [
+      320,
+      240
+    ],
+    "oblique": [
+      1280,
+      960
+    ]
+  },
+  "fourth_camera": "User-approved fixed oblique 45-degree downward view. Extrinsics, intrinsics and object truth are withheld from policy.",
+  "decision_inputs": [
+    "Four current RGB images",
+    "Previous four-view RGB from this phase, when available",
+    "Robot TCP, joints and gripper targets",
+    "Own episode memory and last 12 decisions with sanitized execution receipts",
+    "Neutral task and robot-control interface"
+  ],
+  "inherited_memory": "Verified equal to the same isolated model own final memory and last 12 completed decisions; no parent conversation or outside strategy",
+  "prohibited_inputs": [
+    "Expert source/demonstrations",
+    "Other episode trajectories or prior success",
+    "Training dataset",
+    "Object ground-truth poses",
+    "Depth/segmentation",
+    "Camera calibration/table dimensions",
+    "Scene seed",
+    "Current assistant conversation",
+    "Host skills/memories/tools"
+  ],
+  "isolation": "Same bubblewrap private filesystem and PID namespace with input allowlist, no model tools, per-call file-access and model-event audit; provider transport retains network",
+  "episode_action_limit": null,
+  "episode_time_limit_s": null,
+  "dp_actions": 0,
+  "manual_robot_actions": false,
+  "expert_policy_execution": false,
+  "control": "Agent EEF poses/translations and gripper commands, executed by generic IK/motion planner",
+  "success": "Official success plus success on all 500 additional physics steps (2 seconds)",
+  "terminal_failure": "Block on floor or unstable official success; infrastructure problems reported separately",
+  "recording": "Four-view 1280x1016 composite at 25 fps / every 10 physics steps; inference pause omitted",
+  "limitations": [
+    "This is a continuation after changing observations, not an independent fresh evaluation",
+    "Derived simulator acceleration cache may differ after restoration; position/velocity/drive checks required",
+    "Model pretraining cannot be audited"
+  ],
+  "frozen_files": {
+    "server.py": "f57c2bb85b66cf4ffd7c14c8db86605db303585ab1a7fe429a48f4d22ffc9122",
+    "client.py": "d86992fd7c812d9058243f8a8ad5f67e88ca662ae1c58527d07b73fa91dba304",
+    "scene_state.py": "4d82eeaf47a4249274e6cb6359f33c8eda8fa803a6b183bfc0904a786d2b2ea5",
+    "camera_setup.py": "5a38521adc8daa72f5067c824bd7d9759e06a35ef34e88cd6ad02c02847ee2d5",
+    "isolation.py": "56de629a4bbb9fa6647aa173ed10ec0647215946c1b9d718812ffc1a6c054429",
+    "runner.py": "964ba27a88faa570967e10d6b26b5960cddffbef4bf5533afabded745a9cd2b4",
+    "instructions.md": "5d9e94708009b7d2ed3445d56a9d087d6e9a2d4b5c8234278a80c7c7ded764e6",
+    "decision.schema.json": "40057252441d9608ca9facbe6afe0a8309a80299e31e656cec0112b0aec03c8a",
+    "start-server.sh": "3f2a578734e34572d2caba8988d612b0f4a5aeb2fd6561d738904985d76761db",
+    "private/agent-continuation.json": "5b93f614222a10321410d78194b3eeb10cf833b6d7dc15884de0486ce565ca6a",
+    "private/resume-source.json": "2152663bdeb9fc7ba6b4e29bba8dbcdb66412cc0d85891ce8b2a509c4ff7a8a6",
+    "private/source-scene.pkl": "e0dbb059a598ede39d396c3699f80d29a2545109c7530ef054a493e6a695338b"
+  }
+}

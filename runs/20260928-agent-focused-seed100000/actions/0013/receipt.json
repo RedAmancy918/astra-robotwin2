@@ -1,0 +1,16 @@
+{
+  "command_id": "bbd65302-e8c1-4a7b-9ce8-d8e9b2133e6a",
+  "client_id": "codex-focused-visual",
+  "status": "completed",
+  "fingerprint": "7f5e796301cae98b153558009e47a851906d1f86d38e6e5e07a38820cfcb2be2",
+  "epoch": 1,
+  "submitted_at": 1790577459.9069128,
+  "started_at": 1790577459.90708,
+  "finished_at": 1790577461.0259194,
+  "revision": 13,
+  "official_latched": true,
+  "stable_success": true,
+  "successful_checks": 500,
+  "physics_steps": 500,
+  "duration_s": 2.0
+}

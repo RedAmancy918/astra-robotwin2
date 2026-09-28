@@ -1,0 +1,1111 @@
+{
+  "task": "Stack the green block on the red block; release both grippers.",
+  "robot": {
+    "coordinates": "world; metres; quaternion wxyz",
+    "left_tcp": [
+      -0.3003216760615796,
+      -0.19383703713529518,
+      0.9420872778635064,
+      0.6999948945679083,
+      7.683284792790225e-05,
+      -7.266700022945383e-05,
+      0.7141478393127595
+    ],
+    "right_tcp": [
+      0.2379830111651015,
+      0.005465228542010214,
+      0.8442089719785977,
+      0.5097582204057366,
+      -0.487603769487504,
+      0.4862702629550377,
+      0.5156843531424937
+    ],
+    "left_joints": [
+      -5.720445915358141e-05,
+      1.5545474525424652e-05,
+      0.00016446974768768996,
+      6.292457692325115e-05,
+      -7.278566772583872e-05,
+      2.211355786130298e-05,
+      1.0
+    ],
+    "right_joints": [
+      0.14021092653274536,
+      2.1437296867370605,
+      1.745042324066162,
+      -1.1203842163085938,
+      0.005999213084578514,
+      0.15219955146312714,
+      1.0
+    ],
+    "left_gripper_target": 1.0,
+    "right_gripper_target": 1.0
+  },
+  "memory": "Right TCP [0.2375,0.0053,0.8923]; X- moved 1.83 cm successfully. Previous grasps near x0.256 missed, and descent stalled near z0.824. Both grippers open. Lower 5 cm at the new alignment and reassess.",
+  "recent_actions": [
+    {
+      "decision": {
+        "kind": "eef",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2,
+            "pose": null
+          }
+        ],
+        "visual_assessment": "Green is near the right wrist image center and remains separate from red. Both grippers are open.",
+        "reason": "Lower 2 cm cautiously to approach green and reassess clearance before grasping.",
+        "memory": "Right X+2 cm succeeded; TCP is [0.255,0.022,0.901], pointing downward. Green is horizontally centered in the wrist view. Grasp depth and exact TCP alignment remain uncertain; no grasp established. Left remains open."
+      },
+      "receipt": {
+        "status": "completed",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2,
+            "pose": null,
+            "actual_tcp": [
+              0.25522862334638946,
+              0.022355803885842532,
+              0.8806583717246005,
+              0.4979881404998461,
+              -0.5025043786483977,
+              0.49557674516003114,
+              0.5038857519490733
+            ],
+            "target_xyz": [
+              0.25490880012512207,
+              0.02173588238656521,
+              1.000871639251709
+            ],
+            "actual_xyz": [
+              0.25510793924331665,
+              0.021899886429309845,
+              1.0006574392318726
+            ],
+            "displacement_m": [
+              0.00019913911819458008,
+              0.00016400404274463654,
+              -0.020214200019836426
+            ],
+            "position_error_m": 0.00033531382752552435,
+            "orientation_error_rad": 0.001957147562270501,
+            "planning": [
+              {
+                "arm": "left",
+                "status": "Success"
+              },
+              {
+                "arm": "right",
+                "status": "Success"
+              }
+            ]
+          }
+        ],
+        "error_code": null
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2,
+            "pose": null
+          }
+        ],
+        "visual_assessment": "Green remains near the right wrist image center, separate from red. Both grippers are open; no grasp is established.",
+        "reason": "Descend another 2 cm cautiously, then reassess grasp clearance and alignment.",
+        "memory": "Last Z-2 cm succeeded accurately. Right TCP is [0.255,0.022,0.881], pointing downward. Green remains centered in the wrist view, but exact grasp depth and camera-to-TCP alignment are uncertain. Left remains open."
+      },
+      "receipt": {
+        "status": "completed",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2,
+            "pose": null,
+            "actual_tcp": [
+              0.2554265055062095,
+              0.022346445156246376,
+              0.8613066153960958,
+              0.49813836540465267,
+              -0.50236015127329,
+              0.49562471833893584,
+              0.5038338872050077
+            ],
+            "target_xyz": [
+              0.25510793924331665,
+              0.021899886429309845,
+              0.9806574392318725
+            ],
+            "actual_xyz": [
+              0.2553046941757202,
+              0.021867195144295692,
+              0.9813055992126465
+            ],
+            "displacement_m": [
+              0.00019675493240356445,
+              -3.269128501415253e-05,
+              -0.019351840019226074
+            ],
+            "position_error_m": 0.0006781538057239572,
+            "orientation_error_rad": 0.00043982012417278685,
+            "planning": [
+              {
+                "arm": "left",
+                "status": "Success"
+              },
+              {
+                "arm": "right",
+                "status": "Success"
+              }
+            ]
+          }
+        ],
+        "error_code": null
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2,
+            "pose": null
+          }
+        ],
+        "visual_assessment": "Green remains centered in the right wrist view and separate from red. The open right gripper is above green.",
+        "reason": "Lower another 2 cm cautiously toward grasp depth, then reassess.",
+        "memory": "Right TCP is [0.2554,0.0223,0.8613], pointing downward. Last 2 cm descent succeeded accurately. Green remains centered, but grasp depth and camera-to-TCP offset are uncertain. No grasp established; both grippers remain open."
+      },
+      "receipt": {
+        "status": "completed",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2,
+            "pose": null,
+            "actual_tcp": [
+              0.2555857179021926,
+              0.022484102407615947,
+              0.8429913674041902,
+              0.4988326834307441,
+              -0.5015444991753969,
+              0.49510357813300965,
+              0.5044715217017444
+            ],
+            "target_xyz": [
+              0.2553046941757202,
+              0.021867195144295692,
+              0.9613055992126465
+            ],
+            "actual_xyz": [
+              0.25549429655075073,
+              0.021684806793928146,
+              0.9629886746406555
+            ],
+            "displacement_m": [
+              0.00018960237503051758,
+              -0.00018238835036754608,
+              -0.018316924571990967
+            ],
+            "position_error_m": 0.0017035132718399518,
+            "orientation_error_rad": 0.0027022442599227855,
+            "planning": [
+              {
+                "arm": "left",
+                "status": "Success"
+              },
+              {
+                "arm": "right",
+                "status": "Success"
+              }
+            ]
+          }
+        ],
+        "error_code": null
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2,
+            "pose": null
+          },
+          {
+            "arm": "right",
+            "code": "CLOSE",
+            "level": 1,
+            "pose": null
+          }
+        ],
+        "visual_assessment": "Green remains separate from red. The open right gripper is near green’s upper edge in the head view.",
+        "reason": "Descend 2 cm and attempt a grasp; inspect the result before lifting.",
+        "memory": "Right TCP is [0.2556,0.0225,0.8430], pointing downward. Last descent moved 1.83 cm down successfully. Grasp depth and alignment remain uncertain; no grasp confirmed. Left remains open."
+      },
+      "receipt": {
+        "status": "completed",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2,
+            "pose": null,
+            "actual_tcp": [
+              0.25566590148398016,
+              0.0228392084352246,
+              0.8253646706513499,
+              0.49988123745440594,
+              -0.5002468512298852,
+              0.4941894703794899,
+              0.5056170523644115
+            ],
+            "target_xyz": [
+              0.25549429655075073,
+              0.021684806793928146,
+              0.9429886746406555
+            ],
+            "actual_xyz": [
+              0.255635142326355,
+              0.021511588245630264,
+              0.9453573226928711
+            ],
+            "displacement_m": [
+              0.00014084577560424805,
+              -0.00017321854829788208,
+              -0.017631351947784424
+            ],
+            "position_error_m": 0.002379146021841601,
+            "orientation_error_rad": 0.004441257138350775,
+            "planning": [
+              {
+                "arm": "left",
+                "status": "Success"
+              },
+              {
+                "arm": "right",
+                "status": "Success"
+              }
+            ]
+          },
+          {
+            "arm": "right",
+            "code": "CLOSE",
+            "level": 1,
+            "pose": null,
+            "actual_tcp": [
+              0.255601171233457,
+              0.022874821716376403,
+              0.8256106198742417,
+              0.4999826239126539,
+              -0.5000182621620535,
+              0.49412226510232715,
+              0.5058085610386629
+            ],
+            "target_xyz": [
+              0.255635142326355,
+              0.021511588245630264,
+              0.9453573226928711
+            ],
+            "actual_xyz": [
+              0.2556009590625763,
+              0.02147674188017845,
+              0.9456024765968323
+            ],
+            "displacement_m": [
+              -3.4183263778686523e-05,
+              -3.4846365451812744e-05,
+              0.00024515390396118164
+            ],
+            "position_error_m": 0.00024996640041248107,
+            "orientation_error_rad": 0.0006441251398170082,
+            "planning": [
+              {
+                "arm": "left",
+                "status": "Success"
+              },
+              {
+                "arm": "right",
+                "status": "Success"
+              }
+            ]
+          }
+        ],
+        "error_code": null
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z+",
+            "level": 2,
+            "pose": null
+          }
+        ],
+        "visual_assessment": "Right gripper is closed over green, but a grasp is unconfirmed. Green and red remain separate; left gripper is open.",
+        "reason": "Lift 2 cm to check whether green follows the gripper before transporting it.",
+        "memory": "Right descent and CLOSE executed; TCP is [0.2556,0.0229,0.8256], pointing downward. Green has not yet been observed lifting. Test grasp with a small upward move. Left remains open."
+      },
+      "receipt": {
+        "status": "completed",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z+",
+            "level": 2,
+            "pose": null,
+            "actual_tcp": [
+              0.25546753206633593,
+              0.022691732216028316,
+              0.8435849441463084,
+              0.49911183417899224,
+              -0.501065537826425,
+              0.4948433664722409,
+              0.5049264762751273
+            ],
+            "target_xyz": [
+              0.2556009590625763,
+              0.02147674188017845,
+              0.9656024765968323
+            ],
+            "actual_xyz": [
+              0.25542449951171875,
+              0.021715933457016945,
+              0.9635809659957886
+            ],
+            "displacement_m": [
+              -0.00017645955085754395,
+              0.00023919157683849335,
+              0.0179784893989563
+            ],
+            "position_error_m": 0.002043246361467816,
+            "orientation_error_rad": 0.003551406832454639,
+            "planning": [
+              {
+                "arm": "left",
+                "status": "Success"
+              },
+              {
+                "arm": "right",
+                "status": "Success"
+              }
+            ]
+          }
+        ],
+        "error_code": null
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "OPEN",
+            "level": 1,
+            "pose": null
+          },
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2,
+            "pose": null
+          },
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2,
+            "pose": null
+          }
+        ],
+        "visual_assessment": "Green stayed stationary in the head view during the lift, indicating a missed grasp. Blocks remain separate; left gripper is open.",
+        "reason": "Reopen and descend below the previous closing height, then inspect alignment before retrying.",
+        "memory": "Right test lift reached TCP [0.2555,0.0227,0.8436], pointing downward. Green did not visibly follow; close at z0.8256 likely missed. Plan: reopen and descend about 4 cm. Grasp depth remains uncertain; left stays open."
+      },
+      "receipt": {
+        "status": "target_not_reached",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "OPEN",
+            "level": 1,
+            "pose": null,
+            "actual_tcp": [
+              0.2554671364154265,
+              0.022695201291011484,
+              0.8436051969545637,
+              0.4991093721609206,
+              -0.5010668474413372,
+              0.494816168425399,
+              0.5049542637518156
+            ],
+            "target_xyz": [
+              0.25542449951171875,
+              0.021715933457016945,
+              0.9635809659957886
+            ],
+            "actual_xyz": [
+              0.2554243803024292,
+              0.02171325869858265,
+              0.9636011719703674
+            ],
+            "displacement_m": [
+              -1.1920928955078125e-07,
+              -2.6747584342956543e-06,
+              2.0205974578857422e-05
+            ],
+            "position_error_m": 2.038258943848851e-05,
+            "orientation_error_rad": 7.796550695382559e-05,
+            "planning": [
+              {
+                "arm": "left",
+                "status": "Success"
+              },
+              {
+                "arm": "right",
+                "status": "Success"
+              }
+            ]
+          },
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2,
+            "pose": null,
+            "actual_tcp": [
+              0.25558241651971103,
+              0.022981092489676214,
+              0.8256767939618245,
+              0.4999964568378529,
+              -0.4999846385713831,
+              0.49408871298158963,
+              0.5058608979219807
+            ],
+            "target_xyz": [
+              0.2554243803024292,
+              0.02171325869858265,
+              0.9436011719703674
+            ],
+            "actual_xyz": [
+              0.2555869519710541,
+              0.02156703732907772,
+              0.9456684589385986
+            ],
+            "displacement_m": [
+              0.00016257166862487793,
+              -0.0001462213695049286,
+              -0.0179327130317688
+            ],
+            "position_error_m": 0.002078818329089389,
+            "orientation_error_rad": 0.0036382815266954274,
+            "planning": [
+              {
+                "arm": "left",
+                "status": "Success"
+              },
+              {
+                "arm": "right",
+                "status": "Success"
+              }
+            ]
+          },
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2,
+            "pose": null,
+            "actual_tcp": [
+              0.25482679795740515,
+              0.02504749701653403,
+              0.8241341552167526,
+              0.5083690739848291,
+              -0.48953311035326375,
+              0.48423234974064777,
+              0.5171433553167996
+            ],
+            "target_xyz": [
+              0.2555869519710541,
+              0.02156703732907772,
+              0.9256684589385986
+            ],
+            "actual_xyz": [
+              0.25528717041015625,
+              0.018843036144971848,
+              0.9439727663993835
+            ],
+            "displacement_m": [
+              -0.00029978156089782715,
+              -0.002724001184105873,
+              -0.0016956925392150879
+            ],
+            "position_error_m": 0.018508314970688482,
+            "orientation_error_rad": 0.040189077532808495,
+            "planning": [
+              {
+                "arm": "left",
+                "status": "Success"
+              },
+              {
+                "arm": "right",
+                "status": "Success"
+              }
+            ]
+          }
+        ],
+        "error_code": null
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z+",
+            "level": 2,
+            "pose": null
+          }
+        ],
+        "visual_assessment": "Green remains separate from red. Both grippers are open; the right gripper overlaps green in the head view.",
+        "reason": "The last descent stalled. Lift 2 cm to clear possible contact and reassess alignment rather than force downward.",
+        "memory": "Right TCP [0.2548,0.0250,0.8241]. Final requested 2 cm descent moved only about 1.5 mm downward and reported target_not_reached, suggesting contact or a motion constraint. Earlier close at z0.8256 missed. Both grippers open; grasp alignment remains uncertain."
+      },
+      "receipt": {
+        "status": "completed",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z+",
+            "level": 2,
+            "pose": null,
+            "actual_tcp": [
+              0.2546982647263006,
+              0.024856486965347976,
+              0.8421225720246355,
+              0.5075756307905828,
+              -0.49056553139572234,
+              0.4848690300964089,
+              0.516347230153646
+            ],
+            "target_xyz": [
+              0.25528717041015625,
+              0.018843036144971848,
+              0.9639727663993836
+            ],
+            "actual_xyz": [
+              0.2551092505455017,
+              0.019042430445551872,
+              0.961980938911438
+            ],
+            "displacement_m": [
+              -0.00017791986465454102,
+              0.00019939430058002472,
+              0.018008172512054443
+            ],
+            "position_error_m": 0.002009674179333074,
+            "orientation_error_rad": 0.003307339163395779,
+            "planning": [
+              {
+                "arm": "left",
+                "status": "Success"
+              },
+              {
+                "arm": "right",
+                "status": "Success"
+              }
+            ]
+          }
+        ],
+        "error_code": null
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Y-",
+            "level": 2,
+            "pose": null
+          }
+        ],
+        "visual_assessment": "Green remains separate from red and appears below center in the right wrist view. Both grippers are open.",
+        "reason": "Shift 2 cm toward the robot to refine alignment after the missed grasp and stalled descent.",
+        "memory": "Right TCP [0.2547,0.0249,0.8421]; recovery lift succeeded. Closing near z0.8256 missed, and further descent stalled near z0.824. Suspect horizontal misalignment; test Y-2 cm before descending again. Both grippers open; no grasp confirmed."
+      },
+      "receipt": {
+        "status": "completed",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Y-",
+            "level": 2,
+            "pose": null,
+            "actual_tcp": [
+              0.25666836004433174,
+              0.005194935434589467,
+              0.8410956835920071,
+              0.5079454710430718,
+              -0.4905327145944257,
+              0.4867629913717657,
+              0.5142283973005245
+            ],
+            "target_xyz": [
+              0.2551092505455017,
+              -0.0009575695544481282,
+              0.961980938911438
+            ],
+            "actual_xyz": [
+              0.25699692964553833,
+              -0.0001875029265647754,
+              0.9609744548797607
+            ],
+            "displacement_m": [
+              0.001887679100036621,
+              -0.019229933372116648,
+              -0.001006484031677246
+            ],
+            "position_error_m": 0.0022736193837395013,
+            "orientation_error_rad": 0.0057321571331476,
+            "planning": [
+              {
+                "arm": "left",
+                "status": "Success"
+              },
+              {
+                "arm": "right",
+                "status": "Success"
+              }
+            ]
+          }
+        ],
+        "error_code": null
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2,
+            "pose": null
+          },
+          {
+            "arm": "right",
+            "code": "CLOSE",
+            "level": 1,
+            "pose": null
+          },
+          {
+            "arm": "right",
+            "code": "Z+",
+            "level": 2,
+            "pose": null
+          }
+        ],
+        "visual_assessment": "Green is now near the right wrist image center after the Y correction. Blocks remain separate; both grippers are open.",
+        "reason": "Retry grasping at the corrected alignment, then lift 2 cm to test whether green follows.",
+        "memory": "Right TCP [0.2567,0.0052,0.8411]. Y-2 cm succeeded and centered green visually. Earlier grasp at y0.023,z0.826 missed; deeper descent stalled near z0.824. No grasp confirmed. Left remains open."
+      },
+      "receipt": {
+        "status": "completed",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2,
+            "pose": null,
+            "actual_tcp": [
+              0.25661489303500756,
+              0.005746680214586313,
+              0.8250113529943981,
+              0.5097078908435694,
+              -0.4882053075129452,
+              0.4849288381955881,
+              0.5164275995861064
+            ],
+            "target_xyz": [
+              0.25699692964553833,
+              -0.0001875029265647754,
+              0.9409744548797607
+            ],
+            "actual_xyz": [
+              0.2570597231388092,
+              -0.000609090318903327,
+              0.9448421001434326
+            ],
+            "displacement_m": [
+              6.279349327087402e-05,
+              -0.0004215873923385516,
+              -0.016132354736328125
+            ],
+            "position_error_m": 0.003891061402468432,
+            "orientation_error_rad": 0.008178894582787028,
+            "planning": [
+              {
+                "arm": "left",
+                "status": "Success"
+              },
+              {
+                "arm": "right",
+                "status": "Success"
+              }
+            ]
+          },
+          {
+            "arm": "right",
+            "code": "CLOSE",
+            "level": 1,
+            "pose": null,
+            "actual_tcp": [
+              0.25644292573756844,
+              0.005755665546905717,
+              0.8255560162324358,
+              0.5098704066692704,
+              -0.4876838999869415,
+              0.4848141907616572,
+              0.5168672774828752
+            ],
+            "target_xyz": [
+              0.2570597231388092,
+              -0.000609090318903327,
+              0.9448421001434326
+            ],
+            "actual_xyz": [
+              0.2569701075553894,
+              -0.000748153543099761,
+              0.9453784823417664
+            ],
+            "displacement_m": [
+              -8.96155834197998e-05,
+              -0.00013906322419643402,
+              0.0005363821983337402
+            ],
+            "position_error_m": 0.0005613157719189036,
+            "orientation_error_rad": 0.001420898180171719,
+            "planning": [
+              {
+                "arm": "left",
+                "status": "Success"
+              },
+              {
+                "arm": "right",
+                "status": "Success"
+              }
+            ]
+          },
+          {
+            "arm": "right",
+            "code": "Z+",
+            "level": 2,
+            "pose": null,
+            "actual_tcp": [
+              0.256318053043718,
+              0.00549304935350996,
+              0.8434590162611407,
+              0.508945287234559,
+              -0.4888577207795932,
+              0.485614986144153,
+              0.51591754057032
+            ],
+            "target_xyz": [
+              0.2569701075553894,
+              -0.000748153543099761,
+              0.9653784823417664
+            ],
+            "actual_xyz": [
+              0.25679633021354675,
+              -0.0005494707729667425,
+              0.9633058309555054
+            ],
+            "displacement_m": [
+              -0.00017377734184265137,
+              0.0001986827701330185,
+              0.017927348613739014
+            ],
+            "position_error_m": 0.0020893915804978467,
+            "orientation_error_rad": 0.0038868886568032305,
+            "planning": [
+              {
+                "arm": "left",
+                "status": "Success"
+              },
+              {
+                "arm": "right",
+                "status": "Success"
+              }
+            ]
+          }
+        ],
+        "error_code": null
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z+",
+            "level": 3,
+            "pose": null
+          }
+        ],
+        "visual_assessment": "Green changed orientation after the grasp retry, but a secure grasp remains uncertain. Red remains separate; left gripper is open.",
+        "reason": "Lift 5 cm to verify whether green follows and establish transport clearance.",
+        "memory": "Right retry closed near [0.2564,0.0058,0.8256], then lifted to [0.2563,0.0055,0.8435]. Green visibly shifted/rotated; grasp unconfirmed. Right remains closed, left open."
+      },
+      "receipt": {
+        "status": "completed",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z+",
+            "level": 3,
+            "pose": null,
+            "actual_tcp": [
+              0.2558605489569622,
+              0.005566520632048592,
+              0.891592425560176,
+              0.5080366836169372,
+              -0.4899201324486579,
+              0.48609931286117725,
+              0.5153488623805091
+            ],
+            "target_xyz": [
+              0.25679633021354675,
+              -0.0005494707729667425,
+              1.0133058309555054
+            ],
+            "actual_xyz": [
+              0.2563110291957855,
+              -0.0001133864134317264,
+              1.011457085609436
+            ],
+            "displacement_m": [
+              -0.00048530101776123047,
+              0.0004360843595350161,
+              0.048151254653930664
+            ],
+            "position_error_m": 0.00196049636599621,
+            "orientation_error_rad": 0.0031700137958452245,
+            "planning": [
+              {
+                "arm": "left",
+                "status": "Success"
+              },
+              {
+                "arm": "right",
+                "status": "Success"
+              }
+            ]
+          }
+        ],
+        "error_code": null
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "OPEN",
+            "level": 1,
+            "pose": null
+          },
+          {
+            "arm": "right",
+            "code": "X-",
+            "level": 2,
+            "pose": null
+          }
+        ],
+        "visual_assessment": "Green stayed stationary in the head view and became smaller in the wrist view during the lift, indicating another missed grasp.",
+        "reason": "Reopen and shift left 2 cm at clearance to test improved alignment before descending.",
+        "memory": "The 4.8 cm lift reached right TCP [0.2559,0.0056,0.8916], but green did not follow. Wrist-image centering has not produced a grasp; camera-to-TCP alignment remains uncertain. Correct X cautiously and reassess. Left remains open."
+      },
+      "receipt": {
+        "status": "completed",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "OPEN",
+            "level": 1,
+            "pose": null,
+            "actual_tcp": [
+              0.25586073121082203,
+              0.005566264586305245,
+              0.8916073101315068,
+              0.5080320008186816,
+              -0.48992485249674805,
+              0.48607540901828794,
+              0.5153715376288364
+            ],
+            "target_xyz": [
+              0.2563110291957855,
+              -0.0001133864134317264,
+              1.011457085609436
+            ],
+            "actual_xyz": [
+              0.25631123781204224,
+              -0.00011809285206254572,
+              1.0114717483520508
+            ],
+            "displacement_m": [
+              2.086162567138672e-07,
+              -4.706438630819321e-06,
+              1.4662742614746094e-05
+            ],
+            "position_error_m": 1.5400977446724764e-05,
+            "orientation_error_rad": 6.722403840729096e-05,
+            "planning": [
+              {
+                "arm": "left",
+                "status": "Success"
+              },
+              {
+                "arm": "right",
+                "status": "Success"
+              }
+            ]
+          },
+          {
+            "arm": "right",
+            "code": "X-",
+            "level": 2,
+            "pose": null,
+            "actual_tcp": [
+              0.23754344931996868,
+              0.005316060612701498,
+              0.8923138777064504,
+              0.5089055415096012,
+              -0.48869102338070813,
+              0.48665411122552693,
+              0.5151349430151558
+            ],
+            "target_xyz": [
+              0.23631123781204225,
+              -0.00011809285206254572,
+              1.0114717483520508
+            ],
+            "actual_xyz": [
+              0.238070547580719,
+              -0.0005235050339251757,
+              1.0121705532073975
+            ],
+            "displacement_m": [
+              -0.018240690231323242,
+              -0.00040541218186262995,
+              0.0006988048553466797
+            ],
+            "position_error_m": 0.001935938564422989,
+            "orientation_error_rad": 0.0032718688721369246,
+            "planning": [
+              {
+                "arm": "left",
+                "status": "Success"
+              },
+              {
+                "arm": "right",
+                "status": "Success"
+              }
+            ]
+          }
+        ],
+        "error_code": null
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 3,
+            "pose": null
+          }
+        ],
+        "visual_assessment": "Green remains separate from red. The open right gripper is above green; no grasp is established.",
+        "reason": "Approach at the corrected X position, then inspect alignment before closing or descending farther.",
+        "memory": "Right TCP [0.2375,0.0053,0.8923]; X- moved 1.83 cm successfully. Previous grasps near x0.256 missed, and descent stalled near z0.824. Both grippers open. Lower 5 cm at the new alignment and reassess."
+      },
+      "receipt": {
+        "status": "completed",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 3,
+            "pose": null,
+            "actual_tcp": [
+              0.2379830111651015,
+              0.005465228542010214,
+              0.8442089719785977,
+              0.5097582204057366,
+              -0.487603769487504,
+              0.4862702629550377,
+              0.5156843531424937
+            ],
+            "target_xyz": [
+              0.238070547580719,
+              -0.0005235050339251757,
+              0.9621705532073974
+            ],
+            "actual_xyz": [
+              0.2385563999414444,
+              -0.0007188816089183092,
+              0.9640481472015381
+            ],
+            "displacement_m": [
+              0.00048585236072540283,
+              -0.00019537657499313354,
+              -0.048122406005859375
+            ],
+            "position_error_m": 0.0019492520948588478,
+            "orientation_error_rad": 0.003071399534139587,
+            "planning": [
+              {
+                "arm": "left",
+                "status": "Success"
+              },
+              {
+                "arm": "right",
+                "status": "Success"
+              }
+            ]
+          }
+        ],
+        "error_code": null
+      }
+    }
+  ],
+  "image_order": [
+    "previous.jpg",
+    "head.jpg",
+    "left_wrist.jpg",
+    "right_wrist.jpg"
+  ],
+  "episode_action_limit": null,
+  "episode_time_limit_s": null
+}

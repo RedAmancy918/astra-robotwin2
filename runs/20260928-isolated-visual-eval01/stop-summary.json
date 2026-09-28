@@ -1,0 +1,30 @@
+{
+  "status": "stopped_by_user",
+  "stopped_at": 1790585941.827321,
+  "planned": 1,
+  "completed": 0,
+  "successes": 0,
+  "interrupted": 1,
+  "agent_decisions": 72,
+  "action_count": 115,
+  "dp_actions": 0,
+  "official_success_at_stop": false,
+  "terminal_failure_at_stop": null,
+  "checkpoint": {
+    "command_id": "7f694f0b-60ec-48a2-92e7-4f02aa261992",
+    "client_id": "user-stop-camera-preview",
+    "status": "completed",
+    "fingerprint": "5d9ed5dbce237a0f8910ae82bd419017a662b0cd365be7d0b3f61987fdeb6674",
+    "epoch": 2,
+    "submitted_at": 1790585941.4145377,
+    "started_at": 1790585941.4202092,
+    "finished_at": 1790585941.4852018,
+    "revision": 73,
+    "seed": 4885058,
+    "action_count": 115,
+    "history_sha256": null,
+    "checkpoint_sha256": "e0dbb059a598ede39d396c3699f80d29a2545109c7530ef054a493e6a695338b"
+  },
+  "video": "/mnt/data/yjh/astra-vla/runs/20260928-isolated-visual-eval01/videos/agent-seed4885058-0.mp4",
+  "reason": "User requested stop; not counted as task failure"
+}

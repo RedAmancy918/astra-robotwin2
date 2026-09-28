@@ -1,0 +1,301 @@
+{
+  "passed": true,
+  "validation_seeds": [
+    999010,
+    999011
+  ],
+  "excluded_from_evaluation": true,
+  "dp_request_rejected": true,
+  "dp_rejection_mutated_scene": false,
+  "agent_schema_rejects_dp": true,
+  "tests": [
+    {
+      "kind": "eef",
+      "seed": 999010,
+      "receipt": {
+        "command_id": "c80ac3e2-ac22-4813-bd9b-e90ab3801cff",
+        "client_id": "agent-only-verifier",
+        "status": "completed",
+        "fingerprint": "d13a09a5887d39935a14abd3e236afa0f6770624ccfae54733382c5bda16ecc8",
+        "epoch": 1,
+        "submitted_at": 1790566342.8703713,
+        "started_at": 1790566342.870573,
+        "finished_at": 1790566343.1414697,
+        "revision": 1,
+        "steps": [
+          {
+            "arm": "left",
+            "code": "CLOSE",
+            "level": 1,
+            "target_xyz": [
+              -0.2979237139225006,
+              -0.31380388140678406,
+              0.9419986009597778
+            ],
+            "actual_xyz": [
+              -0.2979236841201782,
+              -0.31380409002304077,
+              0.9419998526573181
+            ],
+            "displacement_m": [
+              2.9802322387695312e-08,
+              -2.086162567138672e-07,
+              1.2516975402832031e-06
+            ],
+            "position_error_m": 1.2693130635647092e-06
+          }
+        ]
+      }
+    },
+    {
+      "kind": "checkpoint",
+      "seed": 999010,
+      "receipt": {
+        "command_id": "561beb73-3482-41cf-83e5-7f29d8fea305",
+        "client_id": "agent-only-verifier",
+        "status": "completed",
+        "fingerprint": "80e68cfc91e310f2ed837cb774664d218b59a81a2941af96378091d9a9f1e4dc",
+        "epoch": 1,
+        "submitted_at": 1790566343.1945357,
+        "started_at": 1790566343.1947625,
+        "finished_at": 1790566343.2306027,
+        "revision": 2,
+        "seed": 999010,
+        "action_count": 1,
+        "history_sha256": null,
+        "checkpoint_sha256": "48f4c59ebf5bd31898175598ba29a18a6a21a25c3aaf8f3ee09730f604d03699"
+      }
+    },
+    {
+      "kind": "switch",
+      "seed": 999011,
+      "receipt": {
+        "command_id": "7ba5a267-1918-4450-9225-902e455527e2",
+        "client_id": "agent-only-verifier",
+        "status": "completed",
+        "fingerprint": "aade674fc70a33074d01dac0efddcc05693fdc6218360bec545a52ee95741c9d",
+        "epoch": 1,
+        "submitted_at": 1790566343.3016667,
+        "started_at": 1790566343.301889,
+        "finished_at": 1790566366.4088163,
+        "revision": 3,
+        "seed": 999011,
+        "restored": false,
+        "action_count": 0
+      }
+    },
+    {
+      "kind": "eef",
+      "seed": 999011,
+      "receipt": {
+        "command_id": "d1bd899f-ec7d-4f99-8bb1-77dee3a24f64",
+        "client_id": "agent-only-verifier",
+        "status": "completed",
+        "fingerprint": "9e7ecf3669f4cc3d91c29c436b7d3789d103254f1466f45fe3d9a29ae92f70e7",
+        "epoch": 1,
+        "submitted_at": 1790566366.4716432,
+        "started_at": 1790566366.4718673,
+        "finished_at": 1790566366.938022,
+        "revision": 4,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "CLOSE",
+            "level": 1,
+            "target_xyz": [
+              0.30643314123153687,
+              -0.31279975175857544,
+              0.940998375415802
+            ],
+            "actual_xyz": [
+              0.30643320083618164,
+              -0.31279996037483215,
+              0.9409996867179871
+            ],
+            "displacement_m": [
+              5.960464477539063e-08,
+              -2.086162567138672e-07,
+              1.3113021850585938e-06
+            ],
+            "position_error_m": 1.3291301203356837e-06
+          },
+          {
+            "arm": "left",
+            "code": "OPEN",
+            "level": 1,
+            "target_xyz": [
+              -0.2979237735271454,
+              -0.31380409002304077,
+              0.9419999718666077
+            ],
+            "actual_xyz": [
+              -0.2979236841201782,
+              -0.3138042092323303,
+              0.9420009255409241
+            ],
+            "displacement_m": [
+              8.940696716308594e-08,
+              -1.1920928955078125e-07,
+              9.5367431640625e-07
+            ],
+            "position_error_m": 9.652456486643342e-07
+          }
+        ]
+      }
+    },
+    {
+      "kind": "checkpoint",
+      "seed": 999011,
+      "receipt": {
+        "command_id": "c5729e9a-775d-4f52-afad-3daf58081f69",
+        "client_id": "agent-only-verifier",
+        "status": "completed",
+        "fingerprint": "8dbb503b09c22bba5576ecfbd14d98620a032f73047cc031c47a757e0099b784",
+        "epoch": 1,
+        "submitted_at": 1790566366.9913268,
+        "started_at": 1790566366.9913912,
+        "finished_at": 1790566367.0284853,
+        "revision": 5,
+        "seed": 999011,
+        "action_count": 2,
+        "history_sha256": null,
+        "checkpoint_sha256": "9b0ae77fcfb818d4cdb2db3f47a1b6c0944839356269112d8863dd2999ca98d2"
+      }
+    },
+    {
+      "kind": "switch",
+      "seed": 999010,
+      "receipt": {
+        "command_id": "1bdb8b84-e911-48e2-8072-4b78f8aa17a0",
+        "client_id": "agent-only-verifier",
+        "status": "completed",
+        "fingerprint": "45da63fb78676ab0d4d558f01574d436c7421fce4508bcdd26b68a0b04a0c902",
+        "epoch": 1,
+        "submitted_at": 1790566367.0961764,
+        "started_at": 1790566367.0962317,
+        "finished_at": 1790566390.3025265,
+        "revision": 6,
+        "seed": 999010,
+        "restored": true,
+        "physical_max_abs_error": 0.0,
+        "history_equal": true,
+        "rng_equal": true,
+        "action_count": 1,
+        "derived_acceleration_cache_error": 1.2528730113990605,
+        "derived_acceleration_cache_exact": false
+      }
+    },
+    {
+      "kind": "eef",
+      "seed": 999010,
+      "receipt": {
+        "command_id": "11cfddd2-6d3b-48bd-b6ea-2018dea244fb",
+        "client_id": "agent-only-verifier",
+        "status": "completed",
+        "fingerprint": "682871b65ba21b69901799cdd1207c579a8655d8154313da9ad1d3b349d7302a",
+        "epoch": 1,
+        "submitted_at": 1790566390.367332,
+        "started_at": 1790566390.3676288,
+        "finished_at": 1790566390.5981772,
+        "revision": 7,
+        "steps": [
+          {
+            "arm": "left",
+            "code": "OPEN",
+            "level": 1,
+            "target_xyz": [
+              -0.2979236841201782,
+              -0.31380409002304077,
+              0.9419998526573181
+            ],
+            "actual_xyz": [
+              -0.2979238033294678,
+              -0.3138042092323303,
+              0.9420010447502136
+            ],
+            "displacement_m": [
+              -1.1920928955078125e-07,
+              -1.1920928955078125e-07,
+              1.1920928955078125e-06
+            ],
+            "position_error_m": 1.20395480851675e-06
+          }
+        ]
+      }
+    },
+    {
+      "kind": "switch",
+      "seed": 999011,
+      "receipt": {
+        "command_id": "4431b3df-178c-45ce-97d6-16069b6bdc47",
+        "client_id": "agent-only-verifier",
+        "status": "completed",
+        "fingerprint": "13d8d722bc3bcff9507ad2fe930f791e4d3f97b31123b9e523f91a07541f578a",
+        "epoch": 1,
+        "submitted_at": 1790566390.694921,
+        "started_at": 1790566390.6951327,
+        "finished_at": 1790566413.9884892,
+        "revision": 8,
+        "seed": 999011,
+        "restored": true,
+        "physical_max_abs_error": 0.0,
+        "history_equal": true,
+        "rng_equal": true,
+        "action_count": 2,
+        "derived_acceleration_cache_error": 0.5803503086790442,
+        "derived_acceleration_cache_exact": false
+      }
+    },
+    {
+      "kind": "switch",
+      "seed": 999010,
+      "receipt": {
+        "command_id": "57653ead-0f37-4393-9880-7a7d0982ff02",
+        "client_id": "agent-only-verifier",
+        "status": "completed",
+        "fingerprint": "6d47819928984a336da353ac9cd01fe5a47325ade69a1d6d68b863ba3e2f7ee0",
+        "epoch": 1,
+        "submitted_at": 1790566414.050913,
+        "started_at": 1790566414.051241,
+        "finished_at": 1790566437.325877,
+        "revision": 9,
+        "seed": 999010,
+        "restored": true,
+        "physical_max_abs_error": 0.0,
+        "history_equal": true,
+        "rng_equal": true,
+        "action_count": 2,
+        "derived_acceleration_cache_error": 1.8457274953834713,
+        "derived_acceleration_cache_exact": false
+      }
+    },
+    {
+      "kind": "finish",
+      "seed": 999010,
+      "receipt": {
+        "command_id": "0c2201a5-9b87-4e48-9792-631334d0c4dc",
+        "client_id": "agent-only-verifier",
+        "status": "completed",
+        "fingerprint": "60eafbfd7029b53fc8a11bc55f75c6ee0100e05e4c68338d3bbc890ce7637125",
+        "epoch": 1,
+        "submitted_at": 1790566437.3916936,
+        "started_at": 1790566437.3917649,
+        "finished_at": 1790566437.4402325,
+        "revision": 10,
+        "task_success": false,
+        "video": "/mnt/data/yjh/astra-vla/runs/20260928-agent-only-roundrobin-clean20/videos/agent-seed999010-4.mp4"
+      }
+    }
+  ],
+  "verified": [
+    "EEF execution from home pose",
+    "restorable physical state",
+    "joint and gripper drive targets",
+    "action counters",
+    "Python/NumPy/Torch/CUDA RNG",
+    "EEF continuation after restore"
+  ],
+  "limitations": [
+    "derived acceleration cache and contact solver warm-start cache are not bitwise restored"
+  ]
+}

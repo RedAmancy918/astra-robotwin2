@@ -1,0 +1,7 @@
+{
+  "source_run": "20260928-isolated-visual-eval01",
+  "seed": 4885058,
+  "checkpoint_sha256": "e0dbb059a598ede39d396c3699f80d29a2545109c7530ef054a493e6a695338b",
+  "source_action_count": 115,
+  "source_agent_decisions": 72
+}

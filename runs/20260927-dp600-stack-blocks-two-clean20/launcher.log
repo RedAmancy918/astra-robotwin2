@@ -1,0 +1,7 @@
+/mnt/data/yjh/conda_envs/robotwin/etc/conda/activate.d/~cuda-nvcc_activate.sh: line 41: NVCC_PREPEND_FLAGS: unbound variable
+
+Restart after fixing strict-shell conda activation; no episodes had run.
+[33m[INFO] Using socket port: 35981[0m
+[34m[1m[CONNECTING][0m DP600 evaluation -> 127.0.0.1:35981 (PID=472341, timeout=120s)
+[34m[1m[CONNECTING][0m DP600 evaluation still waiting for 127.0.0.1:35981 (30/120s)
+[32m[1m[CONNECTED][0m DP600 evaluation ready on 127.0.0.1:35981 (PID=472341)

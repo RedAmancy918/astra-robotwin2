@@ -1,0 +1,2 @@
+episode_index,seed,success,counted,reason,actions,step_limit,wall_time_s,error,video
+0,0,True,True,success,301,800,67.71126447292045,,/mnt/data/yjh/astra-vla/runs/20260927-dp600-seen-seed0-diagnostic/videos/episode0.mp4

@@ -1,0 +1,22 @@
+{
+  "time": 1790577070.8817897,
+  "controller": "Codex supervised visual control",
+  "observation_revision": 1,
+  "kind": "eef",
+  "reason": "The downward orientation was reached with 2.6mm reference error. Green is directly below the right approach. Lower TCP to z0.81 while keeping the observed lateral target; inspect finger clearance before final descent.",
+  "steps": [
+    {
+      "arm": "right",
+      "code": "POSE",
+      "pose": [
+        0.235,
+        0.02,
+        0.81,
+        0.5,
+        -0.5,
+        0.5,
+        0.5
+      ]
+    }
+  ]
+}

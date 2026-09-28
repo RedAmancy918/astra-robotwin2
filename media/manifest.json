@@ -1,0 +1,38 @@
+{
+  "video_count": 4,
+  "selection": "Four representative videos requested by the user; no other videos are included.",
+  "videos": [
+    {
+      "title": "DP600：未见场景失败",
+      "path": "runs/20260927-dp600-stack-blocks-two-clean20/videos/episode0.mp4",
+      "seed": 100000,
+      "outcome": "failed_at_800_action_limit",
+      "bytes": 3089096,
+      "sha256": "e212c4c3527516c23771747163e4348dfefc26d83c17a5990eafcacea2b2e1dd"
+    },
+    {
+      "title": "DP600 + Agent：单局控制来源标注",
+      "path": "runs/20260927-dp600-agent-roundrobin-clean20/exports/20260928-control-annotated/seed100000-control-annotated.mp4",
+      "seed": 100000,
+      "outcome": "interrupted_by_user",
+      "bytes": 7164699,
+      "sha256": "765dadfcce3c81e71452c7334f617ecea76edad0565eb41f60688d3ce0ecb9dc"
+    },
+    {
+      "title": "三视角隔离 Agent：停止前全过程",
+      "path": "runs/20260928-isolated-visual-eval01/videos/agent-seed4885058-0.mp4",
+      "seed": 4885058,
+      "outcome": "interrupted_by_user",
+      "bytes": 25006373,
+      "sha256": "1f2006e37fe0e28d4361d02a476c57c07f21c9e7d0596d893493b6a2cc8d71d1"
+    },
+    {
+      "title": "四视角隔离 Agent：稳定堆叠成功",
+      "path": "runs/20260928-isolated-four-view-resume01/videos/agent-seed4885058-0.mp4",
+      "seed": 4885058,
+      "outcome": "official_success_and_500_of_500_stability_checks",
+      "bytes": 10679700,
+      "sha256": "ea0e21af4b1abd2554191311dc4ac33f101f465fcbaec0638df23f4f81e462c0"
+    }
+  ]
+}

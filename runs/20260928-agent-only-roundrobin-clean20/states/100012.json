@@ -1,0 +1,310 @@
+{
+  "seed": 100012,
+  "started_at": 1790566471.1130369,
+  "decision_index": 6,
+  "inference_attempt": 6,
+  "history": [
+    {
+      "decision": {
+        "kind": "eef",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Y+",
+            "level": 3
+          }
+        ],
+        "visual_assessment": "Green is above and right of red in HEAD and near the bottom center of RIGHT WRIST. Both grippers are open.",
+        "reason": "Advance the right hand toward green while calibrating image motion.",
+        "memory": "Initial approach; neither hand holds a block. Right EEF starts (0.306,-0.313,0.941). HEAD green≈(297,100), red≈(263,146); RIGHT WRIST green≈(146,217). Testing right Y+50mm."
+      },
+      "receipt": {
+        "command_id": "30949cc5-68f3-49a7-b03c-f7dff938a922",
+        "client_id": "astra-agent-only",
+        "status": "completed",
+        "fingerprint": "3fad8885836892cc82c63d9c57ceeaf29c410f4fd79fc039efad51df9a55c0f4",
+        "epoch": 2,
+        "submitted_at": 1790567191.0701375,
+        "started_at": 1790567191.07028,
+        "finished_at": 1790567191.40489,
+        "revision": 48,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Y+",
+            "level": 3,
+            "target_xyz": [
+              0.30643314123153687,
+              -0.26279975175857545,
+              0.940998375415802
+            ],
+            "actual_xyz": [
+              0.30637139081954956,
+              -0.2635325491428375,
+              0.9397386908531189
+            ],
+            "displacement_m": [
+              -6.175041198730469e-05,
+              0.049267202615737915,
+              -0.0012596845626831055
+            ],
+            "position_error_m": 0.0014586330303486433
+          }
+        ]
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 3
+          }
+        ],
+        "visual_assessment": "Green remains at the bottom of RIGHT WRIST; neither block has moved. Both grippers are open.",
+        "reason": "Lower the right hand to approach green and calibrate vertical image motion before fine alignment.",
+        "memory": "Approaching green with empty, open right hand at (0.306,-0.264,0.940). HEAD green≈(297,100), red≈(263,146). Right Y+50mm succeeded and moved green downward in wrist view. Now testing Z-50mm; left remains home/open."
+      },
+      "receipt": {
+        "command_id": "5cd812c3-b029-40b0-8dfc-b327cb7b9180",
+        "client_id": "astra-agent-only",
+        "status": "target_not_reached",
+        "fingerprint": "5fafaecef952928e7a74acd8ff41cbd9a2b8ce66a2ef1032efe8795b22abbeb9",
+        "epoch": 2,
+        "submitted_at": 1790568517.509496,
+        "started_at": 1790568517.5095809,
+        "finished_at": 1790568517.8548493,
+        "revision": 108,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 3,
+            "target_xyz": [
+              0.30637139081954956,
+              -0.2635325491428375,
+              0.8897386908531189
+            ],
+            "actual_xyz": [
+              0.3039921820163727,
+              -0.24567699432373047,
+              0.8768278360366821
+            ],
+            "displacement_m": [
+              -0.00237920880317688,
+              0.017855554819107056,
+              -0.06291085481643677
+            ],
+            "position_error_m": 0.022162392572065835
+          }
+        ]
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2
+          }
+        ],
+        "visual_assessment": "Green is enlarged near the lower center of RIGHT WRIST; both blocks remain on the table. Both grippers are open.",
+        "reason": "Use a smaller descent and reobserve alignment after the previous downward motion overshot and drifted forward.",
+        "memory": "Approaching green with open right hand at (0.304,-0.246,0.877); left home/open. HEAD green≈(296,100), red≈(263,146). RIGHT WRIST green≈(149,188). Y+ moved green down-image; Z- enlarged it and moved it upward. Previous Z-50 actually moved Z-63/Y+18mm, missing target by 22mm. Now cautiously descending 20mm; no grasp established."
+      },
+      "receipt": {
+        "command_id": "953afb1e-2b62-4c58-8541-c2b5988df62e",
+        "client_id": "astra-agent-only",
+        "status": "completed",
+        "fingerprint": "cfa1bfa4af09e83621104fe7b72bf2086cc73dc165c6a9d44aede2f1f260ab96",
+        "epoch": 2,
+        "submitted_at": 1790569989.4293182,
+        "started_at": 1790569989.4293888,
+        "finished_at": 1790569992.3649035,
+        "revision": 168,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2,
+            "target_xyz": [
+              0.3039921820163727,
+              -0.24567699432373047,
+              0.8568278360366821
+            ],
+            "actual_xyz": [
+              0.30345824360847473,
+              -0.2453298568725586,
+              0.8569812178611755
+            ],
+            "displacement_m": [
+              -0.0005339384078979492,
+              0.000347137451171875,
+              -0.019846618175506592
+            ],
+            "position_error_m": 0.0006550729864065796
+          }
+        ]
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Y+",
+            "level": 2
+          }
+        ],
+        "visual_assessment": "Green remains on the table, slightly left of center in RIGHT WRIST. Both grippers are open; neither holds a block.",
+        "reason": "Advance toward green at the current height, then inspect fore-aft alignment before descending further.",
+        "memory": "Approaching green with open right hand at (0.303,-0.245,0.857); left home/open. HEAD green≈(296,99), red≈(263,146). RIGHT WRIST green≈(150,168), bottom≈222. Last Z-20 succeeded and moved green upward≈20px. Y+ moves green down-image. Testing Y+20 to improve fore-aft alignment; no grasp established."
+      },
+      "receipt": {
+        "command_id": "7dafed58-521f-4a7e-8dd4-617868768aed",
+        "client_id": "astra-agent-only",
+        "status": "completed",
+        "fingerprint": "822cbb73d134272353ae03219b918132cbb6ac628379e32c32ce7b2ad9432513",
+        "epoch": 2,
+        "submitted_at": 1790571635.5444813,
+        "started_at": 1790571635.5473106,
+        "finished_at": 1790571635.8023694,
+        "revision": 228,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Y+",
+            "level": 2,
+            "target_xyz": [
+              0.30345824360847473,
+              -0.2253298568725586,
+              0.8569812178611755
+            ],
+            "actual_xyz": [
+              0.30336523056030273,
+              -0.2260749489068985,
+              0.8568702340126038
+            ],
+            "displacement_m": [
+              -9.301304817199707e-05,
+              0.019254907965660095,
+              -0.00011098384857177734
+            ],
+            "position_error_m": 0.0007590329251164355
+          }
+        ]
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2
+          }
+        ],
+        "visual_assessment": "Green is enlarged near the lower center of RIGHT WRIST. Both blocks remain on the table; both grippers are open.",
+        "reason": "Lower 20 mm toward grasp height, then inspect alignment before closing.",
+        "memory": "Approaching green with open right hand at (0.303,-0.226,0.857); left home/open. HEAD green≈(295,99), red≈(263,146). RIGHT WRIST green≈(150,184), bottom cropped. Y+20 succeeded and shifted green downward≈18px; Z-20 previously shifted it upward≈20px. No grasp established; descending cautiously."
+      },
+      "receipt": {
+        "command_id": "ae440e98-455b-4d42-80c8-4fb13e1835aa",
+        "client_id": "astra-agent-only",
+        "status": "completed",
+        "fingerprint": "c4d381a69ac78d0aa5dfde0bab14006c9420ac7486d58db3de998cf4d6d1eeea",
+        "epoch": 2,
+        "submitted_at": 1790573432.929311,
+        "started_at": 1790573432.9294183,
+        "finished_at": 1790573433.2344446,
+        "revision": 288,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2,
+            "target_xyz": [
+              0.30336523056030273,
+              -0.2260749489068985,
+              0.8368702340126037
+            ],
+            "actual_xyz": [
+              0.30342745780944824,
+              -0.2269570678472519,
+              0.837022066116333
+            ],
+            "displacement_m": [
+              6.222724914550781e-05,
+              -0.0008821189403533936,
+              -0.019848167896270752
+            ],
+            "position_error_m": 0.0008972508251259875
+          }
+        ]
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Y+",
+            "level": 2
+          }
+        ],
+        "visual_assessment": "Green remains on the table, slightly left of center in RIGHT WRIST, with its bottom now visible. Both grippers are open.",
+        "reason": "Advance 20 mm toward green at the current height, then reassess alignment before further descent or closing.",
+        "memory": "Approaching green; neither hand holds anything. Right EEF≈(0.303,-0.227,0.837), open; left home/open. HEAD green≈(296,99), red≈(263,146). RIGHT WRIST green≈(148,158), bottom≈218. Last Z-20 succeeded, shifting green upward≈26px. Y+ moves it downward. Now advancing Y+20 for fore-aft alignment."
+      },
+      "receipt": {
+        "command_id": "d5228863-2be7-46aa-af93-80ee773ce414",
+        "client_id": "astra-agent-only",
+        "status": "completed",
+        "fingerprint": "93b175b6ba4cfa2ad0cd49c399eaf4842753feb278a9fff01f234647ada3cfaa",
+        "epoch": 2,
+        "submitted_at": 1790575240.362692,
+        "started_at": 1790575240.3661616,
+        "finished_at": 1790575240.6286366,
+        "revision": 348,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Y+",
+            "level": 2,
+            "target_xyz": [
+              0.30342745780944824,
+              -0.2069570678472519,
+              0.837022066116333
+            ],
+            "actual_xyz": [
+              0.3033469617366791,
+              -0.20786237716674805,
+              0.8364983797073364
+            ],
+            "displacement_m": [
+              -8.049607276916504e-05,
+              0.019094690680503845,
+              -0.000523686408996582
+            ],
+            "position_error_m": 0.001048957595265684
+          }
+        ]
+      }
+    }
+  ],
+  "memory": "Approaching green; neither hand holds anything. Right EEF≈(0.303,-0.227,0.837), open; left home/open. HEAD green≈(296,99), red≈(263,146). RIGHT WRIST green≈(148,158), bottom≈218. Last Z-20 succeeded, shifting green upward≈26px. Y+ moves it downward. Now advancing Y+20 for fore-aft alignment.",
+  "action_count": 6,
+  "visits": 6,
+  "episode_status": "pending_next_round",
+  "pending_command": null,
+  "initial_observation_saved": true,
+  "pending_decision": null,
+  "previous_views": "/mnt/data/yjh/astra-vla/runs/20260928-agent-only-roundrobin-clean20/episodes/100012/decision-00005-attempt-00006/three-views.jpg"
+}

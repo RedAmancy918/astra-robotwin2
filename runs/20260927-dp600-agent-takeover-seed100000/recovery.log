@@ -1,0 +1,7 @@
+{"status": "running", "remaining_dp_actions": 530, "additional_dp_actions": 120, "task_success": false, "total_action_count": 290}
+{"status": "running", "remaining_dp_actions": 410, "additional_dp_actions": 240, "task_success": false, "total_action_count": 410}
+{"status": "running", "remaining_dp_actions": 290, "additional_dp_actions": 360, "task_success": false, "total_action_count": 530}
+{"status": "running", "remaining_dp_actions": 170, "additional_dp_actions": 480, "task_success": false, "total_action_count": 650}
+{"status": "running", "remaining_dp_actions": 50, "additional_dp_actions": 600, "task_success": false, "total_action_count": 770}
+{"status": "running", "remaining_dp_actions": 0, "additional_dp_actions": 650, "task_success": false, "total_action_count": 820}
+{"status": "complete", "remaining_dp_actions": 0, "additional_dp_actions": 650, "task_success": false, "total_action_count": 820}

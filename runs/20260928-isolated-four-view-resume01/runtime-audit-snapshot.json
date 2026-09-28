@@ -1,0 +1,12 @@
+{
+  "checked_at": 1790587303.7608476,
+  "passed": true,
+  "four_current_rgb_inputs_per_call": true,
+  "input_dimensions_verified": true,
+  "protocol_files_unchanged": true,
+  "audited_model_calls": 2,
+  "all_completed_output_audits_passed": true,
+  "model_motion_batches_matched": 2,
+  "forbidden_tool_events": 0,
+  "forbidden_file_accesses": 0
+}

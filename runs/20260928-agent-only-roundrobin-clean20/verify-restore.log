@@ -1,0 +1,11 @@
+{"kind": "eef", "seed": 999010, "status": "completed", "restored": null, "physical_error": null}
+{"kind": "checkpoint", "seed": 999010, "status": "completed", "restored": null, "physical_error": null}
+{"kind": "switch", "seed": 999011, "status": "completed", "restored": false, "physical_error": null}
+{"kind": "eef", "seed": 999011, "status": "completed", "restored": null, "physical_error": null}
+{"kind": "checkpoint", "seed": 999011, "status": "completed", "restored": null, "physical_error": null}
+{"kind": "switch", "seed": 999010, "status": "completed", "restored": true, "physical_error": 0.0}
+{"kind": "eef", "seed": 999010, "status": "completed", "restored": null, "physical_error": null}
+{"kind": "switch", "seed": 999011, "status": "completed", "restored": true, "physical_error": 0.0}
+{"kind": "switch", "seed": 999010, "status": "completed", "restored": true, "physical_error": 0.0}
+{"kind": "finish", "seed": 999010, "status": "completed", "restored": null, "physical_error": null}
+AGENT-ONLY RESTORE VERIFICATION PASSED

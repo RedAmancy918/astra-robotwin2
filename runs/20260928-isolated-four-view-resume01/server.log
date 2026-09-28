@@ -1,0 +1,7 @@
+Initializing simulator before starting HTTP threads
+/mnt/data/yjh/conda_envs/robotwin/lib/python3.10/site-packages/sapien/__init__.py:18: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+Warp DeprecationWarning: The namespace `warp.torch` will soon be removed from the public API. It can still be accessed from `warp._src.torch` but might be changed or removed without notice.
+Warp DeprecationWarning: The symbol `warp.torch.device_from_torch` will soon be removed from the public API. Use `warp.device_from_torch` instead.
+Simulator ready; starting HTTP service
+step: [92m116 / None[0mstep: [92m117 / None[0mstep: [92m118 / None[0mstep: [92m119 / None[0mstep: [92m120 / None[0mstep: [92m121 / None[0mstep: [92m122 / None[0mstep: [92m123 / None[0mstep: [92m124 / None[0mstep: [92m125 / None[0mstep: [92m126 / None[0mstep: [92m127 / None[0m

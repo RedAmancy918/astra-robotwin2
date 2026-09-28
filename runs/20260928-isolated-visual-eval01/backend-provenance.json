@@ -1,0 +1,12 @@
+{
+  "recorded_at": 1790580145.3856425,
+  "read_content_for_policy": false,
+  "files": {
+    "envs/stack_blocks_two.py": "4e92a679cb5be4ef87a1b842432c930560a2c9b539a4cbcee0161e2b2112f526",
+    "envs/_base_task.py": "bc5d680f8b16e3170b1f4cba7cc114faa4a46c25b9fafb319948ff482d9912f6",
+    "envs/robot/robot.py": "3dcd80acc8cab489a4c5edb507cc460dab1724be0226b8d5c4c1b218dee605cb",
+    "env_cfg/task_config/demo_clean.yml": "3acfcd508078a51e3a48fd7e2f6e61c1b9a6ced0cc44dedd149b55114248e2ab"
+  },
+  "git_head": "ea8b21121ebb3cd201ff5b3fe361944ac94eda3f",
+  "git_status": "M XPolicyLab\n M envs/_base_task.py\n M scripts/test_render.py\n?? env_cfg/task_config/yjh_dp50_clean.yml\n?? env_cfg/task_config/yjh_smoke.yml"
+}

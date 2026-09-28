@@ -1,0 +1,19 @@
+{
+  "frames": 6278,
+  "duration_s": 1255.6,
+  "resolution": [
+    960,
+    584
+  ],
+  "full_decode": "passed",
+  "files": {
+    "all20-control-annotated.mp4": {
+      "bytes": 167139125,
+      "sha256": "7c68ee61ceb4ca8fc597dadabb2b626051a410b7152022f58c1fb05876fc31d6"
+    },
+    "seed100000-control-annotated.mp4": {
+      "bytes": 7164699,
+      "sha256": "765dadfcce3c81e71452c7334f617ecea76edad0565eb41f60688d3ce0ecb9dc"
+    }
+  }
+}

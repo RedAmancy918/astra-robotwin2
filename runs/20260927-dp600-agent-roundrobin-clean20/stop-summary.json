@@ -1,0 +1,13 @@
+{
+  "status": "stopped_by_user",
+  "stopped_at": "2026-09-28T10:27:52+08:00",
+  "round": 36,
+  "planned": 20,
+  "successes": 0,
+  "terminal_failures": 0,
+  "interrupted": 20,
+  "total_agent_decisions": 715,
+  "final_success_rate": null,
+  "observed_success_fraction": 0.0,
+  "note": "User stopped before any episode reached a terminal state; interrupted scenes are not scored as terminal failures. Logs, decisions, videos and existing scene checkpoints retained. Seed 100000 has final RGB/proprioception snapshots and video but no portable physics checkpoint."
+}

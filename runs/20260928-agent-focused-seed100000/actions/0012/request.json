@@ -1,0 +1,13 @@
+{
+  "time": 1790577430.256465,
+  "controller": "Codex supervised visual control",
+  "observation_revision": 11,
+  "kind": "eef",
+  "reason": "HEAD and right wrist show green aligned just above red. Release right gripper so green settles on red; left is already open and clear. Judge success using unmodified official task check.",
+  "steps": [
+    {
+      "arm": "right",
+      "code": "OPEN"
+    }
+  ]
+}

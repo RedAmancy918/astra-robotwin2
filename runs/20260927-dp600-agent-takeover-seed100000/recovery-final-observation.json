@@ -1,0 +1,88 @@
+{
+  "ready": true,
+  "owner": "dp600-controller",
+  "epoch": 3,
+  "applied_epoch": 3,
+  "revision": 18,
+  "mode": "hold",
+  "busy": false,
+  "error": null,
+  "active_command": null,
+  "snapshot": {
+    "frame_id": 1389,
+    "captured_at": 1790484749.4489436,
+    "seed": 100000,
+    "task": "stack_blocks_two",
+    "instruction": "Stack the green block on the red block.",
+    "task_success": false,
+    "coordinates": "world; metres; quaternion wxyz",
+    "action_count": 820,
+    "fixed_checkpoint_epoch": 600,
+    "left_eef": [
+      -0.2948998212814331,
+      -0.31146565079689026,
+      0.9541786313056946,
+      0.7102628231464245,
+      -0.036852843371350634,
+      0.03398909275631734,
+      0.7021490807265363
+    ],
+    "right_eef": [
+      0.031402744352817535,
+      -0.13047140836715698,
+      0.9850940108299255,
+      0.5101382619306113,
+      -0.4588031690563894,
+      0.4972361498940864,
+      0.5310506727391789
+    ],
+    "left_joints": [
+      -0.028294365853071213,
+      0.10608088225126266,
+      0.08215221762657166,
+      -0.0762738585472107,
+      0.0034105696249753237,
+      -0.004191667772829533,
+      1.0
+    ],
+    "right_joints": [
+      0.7431130409240723,
+      2.0108954906463623,
+      1.6268047094345093,
+      -1.084150791168213,
+      0.01811077445745468,
+      0.7780845761299133,
+      0.10396844148635864
+    ],
+    "left_gripper_target": 1.0,
+    "right_gripper_target": 0.10396844148635864,
+    "cameras": {
+      "head": {
+        "url": "/v1/frame/head",
+        "shape": [
+          240,
+          320,
+          3
+        ]
+      },
+      "left_wrist": {
+        "url": "/v1/frame/left_wrist",
+        "shape": [
+          240,
+          320,
+          3
+        ]
+      },
+      "right_wrist": {
+        "url": "/v1/frame/right_wrist",
+        "shape": [
+          240,
+          320,
+          3
+        ]
+      }
+    },
+    "simulation": "stepped during actions; paused between commands"
+  },
+  "frame_age_s": 0.098
+}

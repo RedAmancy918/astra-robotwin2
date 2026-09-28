@@ -1,0 +1,88 @@
+{
+  "ready": true,
+  "owner": "vision-agent",
+  "epoch": 2,
+  "applied_epoch": 2,
+  "revision": 10,
+  "mode": "hold",
+  "busy": false,
+  "error": null,
+  "active_command": null,
+  "snapshot": {
+    "frame_id": 818,
+    "captured_at": 1790484413.4059734,
+    "seed": 100000,
+    "task": "stack_blocks_two",
+    "instruction": "Stack the green block on the red block.",
+    "task_success": false,
+    "coordinates": "world; metres; quaternion wxyz",
+    "action_count": 156,
+    "fixed_checkpoint_epoch": 600,
+    "left_eef": [
+      -0.298096626996994,
+      -0.3138747215270996,
+      0.9423707127571106,
+      0.6994387603975436,
+      0.0011506463830286457,
+      0.00033484993442145505,
+      0.7146915309012485
+    ],
+    "right_eef": [
+      0.07752799242734909,
+      0.01843845285475254,
+      1.0148860216140747,
+      0.23559126090107943,
+      -0.6177821324627215,
+      0.11735934677803794,
+      0.7409917532069331
+    ],
+    "left_joints": [
+      0.0016700298292562366,
+      -0.00010486068640602753,
+      0.0010416554287075996,
+      3.0031938877073117e-05,
+      0.00010002298949984834,
+      0.0021200813353061676,
+      1.0
+    ],
+    "right_joints": [
+      0.45616304874420166,
+      2.9147450923919678,
+      3.413455009460449,
+      -1.8279517889022827,
+      -0.004355772864073515,
+      -0.577928900718689,
+      0.0
+    ],
+    "left_gripper_target": 1.0,
+    "right_gripper_target": 0.0,
+    "cameras": {
+      "head": {
+        "url": "/v1/frame/head",
+        "shape": [
+          240,
+          320,
+          3
+        ]
+      },
+      "left_wrist": {
+        "url": "/v1/frame/left_wrist",
+        "shape": [
+          240,
+          320,
+          3
+        ]
+      },
+      "right_wrist": {
+        "url": "/v1/frame/right_wrist",
+        "shape": [
+          240,
+          320,
+          3
+        ]
+      }
+    },
+    "simulation": "stepped during actions; paused between commands"
+  },
+  "frame_age_s": 0.127
+}

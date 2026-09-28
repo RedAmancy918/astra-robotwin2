@@ -1,0 +1,55 @@
+[
+  {
+    "port": 8769,
+    "kind": "checkpoint",
+    "receipt": {
+      "command_id": "d9bd30ba-2743-4c30-a9b6-c2d06294a157",
+      "client_id": "user-requested-stop",
+      "status": "completed",
+      "fingerprint": "6d2dffd92bcbfe6a6cf527901415a06e52e7fd82ddf094edc5d1b34c266c65e7",
+      "epoch": 3,
+      "submitted_at": 1790562471.7979763,
+      "started_at": 1790562471.8007443,
+      "finished_at": 1790562472.0137043,
+      "revision": 2050,
+      "seed": 100009,
+      "action_count": 459,
+      "history_sha256": "4ccab9d476f25e82cf265508370adacedad9703e4545dd8dfe0a351ed52a9c31",
+      "checkpoint_sha256": "64c8b9be1fc1f7b3b28fe5f1fc1410e90d0673ee178729eed992ceecdbeed9f4"
+    }
+  },
+  {
+    "port": 8769,
+    "kind": "finish",
+    "receipt": {
+      "command_id": "a7870f9a-3297-4ade-b151-c8f6dd58027a",
+      "client_id": "user-requested-stop",
+      "status": "completed",
+      "fingerprint": "3922b04117a98a99c993d52f23e4a16469ddfe210b2370c73f2f637eae37a120",
+      "epoch": 3,
+      "submitted_at": 1790562472.111141,
+      "started_at": 1790562472.1113951,
+      "finished_at": 1790562472.1828134,
+      "revision": 2051,
+      "task_success": false,
+      "video": "/mnt/data/yjh/astra-vla/runs/20260927-dp600-agent-roundrobin-clean20/videos/agent-seed100009-678.mp4"
+    }
+  },
+  {
+    "port": 8768,
+    "kind": "finish",
+    "receipt": {
+      "command_id": "f91846cc-0e0f-4974-812d-a2a605b5d6f9",
+      "client_id": "user-requested-stop",
+      "status": "completed",
+      "fingerprint": "8118a31e5f8107cb31a6871a0a018ffb4329152f320fc392357d3cfc01e6e132",
+      "epoch": 2,
+      "submitted_at": 1790562472.3199394,
+      "started_at": 1790562472.320113,
+      "finished_at": 1790562472.5264592,
+      "revision": 44,
+      "task_success": false,
+      "video": "/mnt/data/yjh/astra-vla/runs/20260927-dp600-agent-unlimited-clean20/videos/agent-seed100000-0.mp4"
+    }
+  }
+]

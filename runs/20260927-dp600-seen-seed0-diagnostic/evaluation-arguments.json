@@ -1,0 +1,22 @@
+{
+  "task_name": "stack_blocks_two",
+  "task_config": "demo_clean",
+  "policy_name": "DP",
+  "ckpt_name": "yjh_dp50_clean-stack_blocks_two-aloha_agilex-joint-0",
+  "ckpt_setting": "600",
+  "bench_name": "RoboTwin",
+  "env_cfg_type": "aloha_agilex",
+  "host": "127.0.0.1",
+  "port": 52645,
+  "protocol": "ws",
+  "seed": -1,
+  "test_num": 1,
+  "eval_batch": false,
+  "expert_check": true,
+  "action_type": "joint",
+  "frequency": 30,
+  "xpolicylab_root": "/mnt/data/yjh/RoboTwin/XPolicyLab",
+  "evaluation_id": "20260927-dp600-seen-seed0-diagnostic",
+  "trial_id": "dp600-clean20",
+  "action_case_id": "stack_blocks_two"
+}

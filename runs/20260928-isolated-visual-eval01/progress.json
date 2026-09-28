@@ -1,0 +1,16 @@
+{
+  "status": "stopped_by_user",
+  "updated_at": 1790585941.8274262,
+  "runner_pid": 722292,
+  "planned": 1,
+  "completed": 0,
+  "successes": 0,
+  "pending": 0,
+  "action_count": 115,
+  "agent_decisions": 72,
+  "dp_actions": 0,
+  "control": "isolated_rgb_proprio_agent",
+  "episode_step_limit": null,
+  "episode_time_limit_s": null,
+  "interrupted": 1
+}

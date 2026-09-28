@@ -1,0 +1,39 @@
+{
+  "time": 1790577257.6688783,
+  "controller": "Codex supervised visual control",
+  "observation_revision": 6,
+  "kind": "eef",
+  "reason": "HEAD shows open left fingers straddling red. Descend to calibrated grasp height, close, and lift vertically 8cm for visual grasp verification; right maintains its verified green grasp.",
+  "steps": [
+    {
+      "arm": "left",
+      "code": "POSE",
+      "pose": [
+        -0.155,
+        0.025,
+        0.775,
+        0.5,
+        -0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "arm": "left",
+      "code": "CLOSE"
+    },
+    {
+      "arm": "left",
+      "code": "POSE",
+      "pose": [
+        -0.155,
+        0.025,
+        0.855,
+        0.5,
+        -0.5,
+        0.5,
+        0.5
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "status": "failed_before_evaluation",
+  "reason": "Legacy fixed_checkpoint_epoch observation field referenced removed CHECKPOINT_EPOCH constant",
+  "formal_episodes_started": 0,
+  "fix": "Replace legacy checkpoint field with policy_mode=agent_only and dp_enabled=false"
+}

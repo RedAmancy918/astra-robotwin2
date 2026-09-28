@@ -1,0 +1,68 @@
+{
+  "status": "passed",
+  "scope": "3 sampled frames of training episode 0; not an exhaustive dataset or live-simulator check",
+  "raw_data": "/mnt/data/yjh/RoboTwin/data/yjh_dp50_clean/stack_blocks_two/aloha_agilex/data/episode_0000000.hdf5",
+  "training_data": "/mnt/data/yjh/RoboTwin/XPolicyLab/policy/DP/data/yjh_dp50_clean-stack_blocks_two-aloha_agilex-joint.zarr",
+  "checks": [
+    {
+      "episode": 0,
+      "frame": 0,
+      "cameras": {
+        "cam_head": {
+          "HDF_vs_Zarr_max_pixel_difference": 0,
+          "DP_adapter_vs_Zarr_normalized_max_difference": 0.0
+        },
+        "cam_left_wrist": {
+          "HDF_vs_Zarr_max_pixel_difference": 0,
+          "DP_adapter_vs_Zarr_normalized_max_difference": 0.0
+        },
+        "cam_right_wrist": {
+          "HDF_vs_Zarr_max_pixel_difference": 0,
+          "DP_adapter_vs_Zarr_normalized_max_difference": 0.0
+        }
+      },
+      "state_max_difference": 0.0,
+      "action_max_difference": 0.0
+    },
+    {
+      "episode": 0,
+      "frame": 100,
+      "cameras": {
+        "cam_head": {
+          "HDF_vs_Zarr_max_pixel_difference": 0,
+          "DP_adapter_vs_Zarr_normalized_max_difference": 0.0
+        },
+        "cam_left_wrist": {
+          "HDF_vs_Zarr_max_pixel_difference": 0,
+          "DP_adapter_vs_Zarr_normalized_max_difference": 0.0
+        },
+        "cam_right_wrist": {
+          "HDF_vs_Zarr_max_pixel_difference": 0,
+          "DP_adapter_vs_Zarr_normalized_max_difference": 0.0
+        }
+      },
+      "state_max_difference": 0.0,
+      "action_max_difference": 0.0
+    },
+    {
+      "episode": 0,
+      "frame": 323,
+      "cameras": {
+        "cam_head": {
+          "HDF_vs_Zarr_max_pixel_difference": 0,
+          "DP_adapter_vs_Zarr_normalized_max_difference": 0.0
+        },
+        "cam_left_wrist": {
+          "HDF_vs_Zarr_max_pixel_difference": 0,
+          "DP_adapter_vs_Zarr_normalized_max_difference": 0.0
+        },
+        "cam_right_wrist": {
+          "HDF_vs_Zarr_max_pixel_difference": 0,
+          "DP_adapter_vs_Zarr_normalized_max_difference": 0.0
+        }
+      },
+      "state_max_difference": 0.0,
+      "action_max_difference": 0.0
+    }
+  ]
+}

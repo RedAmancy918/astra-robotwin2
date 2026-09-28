@@ -1,0 +1,42 @@
+diff --git a/XPolicyLab b/XPolicyLab
+--- a/XPolicyLab
++++ b/XPolicyLab
+@@ -1 +1 @@
+-Subproject commit fa431ecd893ee706883e64fe5fe1464ec8cd928d
++Subproject commit fa431ecd893ee706883e64fe5fe1464ec8cd928d-dirty
+diff --git a/envs/_base_task.py b/envs/_base_task.py
+index ace13e6..c8ccd39 100644
+--- a/envs/_base_task.py
++++ b/envs/_base_task.py
+@@ -215,7 +215,7 @@ class Base_Task(gym.Env):
+         sapien.render.set_camera_shader_dir("rt")
+         sapien.render.set_ray_tracing_samples_per_pixel(32)
+         sapien.render.set_ray_tracing_path_depth(8)
+-        sapien.render.set_ray_tracing_denoiser("oidn")
++        sapien.render.set_ray_tracing_denoiser(os.environ.get("ROBOTWIN_RAY_TRACING_DENOISER", "none"))
+ 
+         # declare sapien scene
+         scene_config = sapien.SceneConfig()
+@@ -1701,6 +1701,9 @@ class Base_Task(gym.Env):
+ 
+         # ========== Control Loop ==========
+         while now_left_id < left_n_step or now_right_id < right_n_step:
++            control_tick = getattr(self, "control_tick", None)
++            if control_tick is not None and control_tick():
++                return
+ 
+             if (now_left_id < left_n_step and now_left_id / left_n_step <= now_right_id / right_n_step):
+                 if topp_left_flag:
+diff --git a/scripts/test_render.py b/scripts/test_render.py
+index 3897dc0..6707b79 100644
+--- a/scripts/test_render.py
++++ b/scripts/test_render.py
+@@ -48,7 +48,7 @@ class Sapien_TEST(gym.Env):
+         sapien.render.set_camera_shader_dir("rt")
+         sapien.render.set_ray_tracing_samples_per_pixel(32)
+         sapien.render.set_ray_tracing_path_depth(8)
+-        sapien.render.set_ray_tracing_denoiser("oidn")
++        sapien.render.set_ray_tracing_denoiser(os.environ.get("ROBOTWIN_RAY_TRACING_DENOISER", "none"))
+ 
+         # declare sapien scene
+         scene_config = sapien.SceneConfig()

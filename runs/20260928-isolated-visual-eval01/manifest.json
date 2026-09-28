@@ -1,0 +1,9 @@
+{
+  "run_id": "20260928-isolated-visual-eval01",
+  "protocol_sha256": "1d9b6e729babdb4ff3b1c313c7a7c55095c94a3cadf97527438dfcc4430af95e",
+  "seed_commitment_sha256": "af874df45ba93b00bddb9f73ed0a47f25c2aff54d1b0ffaf72c96d5aa0809bb4",
+  "training_seed_overlap": false,
+  "known_previous_seed_overlap": false,
+  "private_seed_withheld_from_model": true,
+  "created_at": 1790579948.7857366
+}

@@ -1,0 +1,263 @@
+{
+  "task": "Stack the green block on the red block; release both grippers.",
+  "robot": {
+    "coordinates": "world; metres; quaternion wxyz",
+    "left_tcp": [
+      -0.3003239443886149,
+      -0.1938293800017547,
+      0.9420095547417724,
+      0.6999997444170235,
+      2.6530097619441406e-06,
+      -1.2823939045891741e-05,
+      0.714143093255553
+    ],
+    "right_tcp": [
+      0.30099687690738125,
+      -0.1261509495413583,
+      0.8665565964319101,
+      0.6975837571883884,
+      -0.030077589360591978,
+      0.030095450384046374,
+      0.7152387742505073
+    ],
+    "left_joints": [
+      3.055396575746272e-07,
+      -3.4078916542057414e-06,
+      1.8653810911928304e-05,
+      -1.4948257742730675e-08,
+      -1.6528607602595002e-06,
+      6.013942197569122e-07,
+      1.0
+    ],
+    "right_joints": [
+      0.0008287904202006757,
+      1.7995259761810303,
+      -0.05150618031620979,
+      1.766113042831421,
+      0.004058885853737593,
+      0.015654923394322395,
+      1.0
+    ],
+    "left_gripper_target": 1.0,
+    "right_gripper_target": 1.0
+  },
+  "memory": "Right Y+ 5 cm succeeded; TCP now [0.305,-0.144,0.939]. The earlier large downward-facing POSE failed. Green appears left of wrist center; block coordinates and table height remain uncertain. Left gripper stays open.",
+  "recent_actions": [
+    {
+      "decision": {
+        "kind": "eef",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "POSE",
+            "level": 1,
+            "pose": [
+              0.26,
+              0.1,
+              0.9,
+              0.70710678,
+              0,
+              0.70710678,
+              0
+            ]
+          }
+        ],
+        "visual_assessment": "Green and red blocks are separate on the right side of the table; both grippers are open.",
+        "reason": "Approach above the green block with the right gripper pointing downward, then refine alignment from the wrist view.",
+        "memory": "Initial scene: green is image-right and farther back than red. Block world positions and table height are uncertain. Left arm remains open at its initial pose."
+      },
+      "receipt": {
+        "status": "planning_failed",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "POSE",
+            "level": 1,
+            "pose": [
+              0.26,
+              0.1,
+              0.9,
+              0.70710678,
+              0.0,
+              0.70710678,
+              0.0
+            ],
+            "actual_tcp": [
+              0.30523330021526407,
+              -0.19280614275938956,
+              0.9409998065256668,
+              0.7035627325192287,
+              -5.6454357327116235e-06,
+              -6.058705845468637e-06,
+              0.710633155250652
+            ],
+            "target_xyz": [
+              0.26,
+              0.1,
+              1.02
+            ],
+            "actual_xyz": [
+              0.30643317103385925,
+              -0.3128001391887665,
+              0.9409997463226318
+            ],
+            "displacement_m": [
+              2.9802322387695312e-08,
+              -3.8743019104003906e-07,
+              1.3709068298339844e-06
+            ],
+            "position_error_m": 0.42284871333328317,
+            "orientation_error_rad": 2.100187568648747,
+            "planning": [
+              {
+                "arm": "left",
+                "status": "Success"
+              },
+              {
+                "arm": "right",
+                "status": "Fail"
+              }
+            ]
+          }
+        ],
+        "error_code": null
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Y+",
+            "level": 3,
+            "pose": null
+          }
+        ],
+        "visual_assessment": "Blocks remain separate. Green is visible near the lower edge of the right wrist image; both grippers are open.",
+        "reason": "The large downward-facing approach failed. Try a small forward translation while preserving orientation.",
+        "memory": "Previous right POSE failed with no meaningful movement. Right TCP remains approximately [0.305,-0.193,0.941]. Block positions and table height remain uncertain. Left gripper stays open; approach incrementally."
+      },
+      "receipt": {
+        "status": "completed",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Y+",
+            "level": 3,
+            "pose": null,
+            "actual_tcp": [
+              0.30511851703809256,
+              -0.14353479190412433,
+              0.9392683135539505,
+              0.7034036209043567,
+              -0.0013928216699349626,
+              0.001329442889835053,
+              0.7107880406478702
+            ],
+            "target_xyz": [
+              0.30643317103385925,
+              -0.2628001391887665,
+              0.9409997463226318
+            ],
+            "actual_xyz": [
+              0.30637165904045105,
+              -0.26352736353874207,
+              0.9397303462028503
+            ],
+            "displacement_m": [
+              -6.151199340820312e-05,
+              0.049272775650024414,
+              -0.0012694001197814941
+            ],
+            "position_error_m": 0.0014642457596427314,
+            "orientation_error_rad": 0.0038766633002278944,
+            "planning": [
+              {
+                "arm": "left",
+                "status": "Success"
+              },
+              {
+                "arm": "right",
+                "status": "Success"
+              }
+            ]
+          }
+        ],
+        "error_code": null
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 3,
+            "pose": null
+          }
+        ],
+        "visual_assessment": "Blocks remain separate. Green is barely visible at the bottom-left of the right wrist view; both grippers are open.",
+        "reason": "Lower the right gripper 5 cm to improve the block view and approach its height without another large pose change.",
+        "memory": "Right Y+ 5 cm succeeded; TCP now [0.305,-0.144,0.939]. The earlier large downward-facing POSE failed. Green appears left of wrist center; block coordinates and table height remain uncertain. Left gripper stays open."
+      },
+      "receipt": {
+        "status": "target_not_reached",
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 3,
+            "pose": null,
+            "actual_tcp": [
+              0.30099687690738125,
+              -0.1261509495413583,
+              0.8665565964319101,
+              0.6975837571883884,
+              -0.030077589360591978,
+              0.030095450384046374,
+              0.7152387742505073
+            ],
+            "target_xyz": [
+              0.30637165904045105,
+              -0.26352736353874207,
+              0.8897303462028503
+            ],
+            "actual_xyz": [
+              0.3039902150630951,
+              -0.24567905068397522,
+              0.8767582178115845
+            ],
+            "displacement_m": [
+              -0.002381443977355957,
+              0.017848312854766846,
+              -0.06297212839126587
+            ],
+            "position_error_m": 0.02219255871183864,
+            "orientation_error_rad": 0.08256442199646194,
+            "planning": [
+              {
+                "arm": "left",
+                "status": "Success"
+              },
+              {
+                "arm": "right",
+                "status": "Success"
+              }
+            ]
+          }
+        ],
+        "error_code": null
+      }
+    }
+  ],
+  "image_order": [
+    "previous.jpg",
+    "head.jpg",
+    "left_wrist.jpg",
+    "right_wrist.jpg"
+  ],
+  "episode_action_limit": null,
+  "episode_time_limit_s": null
+}

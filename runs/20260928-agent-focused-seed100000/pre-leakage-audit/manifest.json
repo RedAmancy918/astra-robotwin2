@@ -1,0 +1,28 @@
+{
+  "started_at": "2026-09-28T14:28:43+0800",
+  "task": "stack_blocks_two",
+  "task_config": "demo_clean",
+  "seed": 100000,
+  "mode": "single-scene Codex-supervised visual interface debugging",
+  "source_run": "20260928-agent-only-roundrobin-clean20",
+  "start": "fresh original scene; prior run retained",
+  "dp_actions": 0,
+  "action_interface": "World TCP xyz+quaternion wxyz; EEF displacement and OPEN/CLOSE; planner status and TCP feedback",
+  "observations": [
+    "head RGB",
+    "left wrist RGB",
+    "right wrist RGB",
+    "robot proprioception",
+    "camera calibration"
+  ],
+  "no_object_truth_to_controller": true,
+  "code_sha256": {
+    "control.py": "f2ac8264f58c6ab276db6a5bf0b524d9ecdcf552d3a5f7a66ef7dd2559cca526",
+    "server.py": "90209aeb2abdfb231f09d700cc525b29c4b67a50cde9238f385843a224ccb7d0",
+    "scene_state.py": "4d82eeaf47a4249274e6cb6359f33c8eda8fa803a6b183bfc0904a786d2b2ea5",
+    "client.py": "d86992fd7c812d9058243f8a8ad5f67e88ca662ae1c58527d07b73fa91dba304"
+  },
+  "step_limit": null,
+  "time_limit_s": null,
+  "comparability": "Modified interface and Codex-in-the-loop control; not the prior unattended RGB-only CLI agent evaluation."
+}

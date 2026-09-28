@@ -1,0 +1,52 @@
+{
+  "time": 1790577329.6305144,
+  "controller": "Codex supervised visual control",
+  "observation_revision": 8,
+  "kind": "eef",
+  "reason": "Red followed left hand into clear center. Lower to the same TCP height used for grasp, release gently onto table, retreat vertically and left to clear space for green.",
+  "steps": [
+    {
+      "arm": "left",
+      "code": "POSE",
+      "pose": [
+        0,
+        -0.1,
+        0.775,
+        0.5,
+        -0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "arm": "left",
+      "code": "OPEN"
+    },
+    {
+      "arm": "left",
+      "code": "POSE",
+      "pose": [
+        0,
+        -0.1,
+        0.91,
+        0.5,
+        -0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "arm": "left",
+      "code": "POSE",
+      "pose": [
+        -0.2,
+        -0.03,
+        0.91,
+        0.5,
+        -0.5,
+        0.5,
+        0.5
+      ]
+    }
+  ]
+}

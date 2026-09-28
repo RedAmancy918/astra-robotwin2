@@ -1,0 +1,31 @@
+{
+  "source": "RoboTwin Base_Task.take_action actual first guard",
+  "unlimited_cases": [
+    {
+      "action_count": 0,
+      "would_stop": false
+    },
+    {
+      "action_count": 799,
+      "would_stop": false
+    },
+    {
+      "action_count": 800,
+      "would_stop": false
+    },
+    {
+      "action_count": 9999,
+      "would_stop": false
+    },
+    {
+      "action_count": 10000,
+      "would_stop": false
+    },
+    {
+      "action_count": 1000000,
+      "would_stop": false
+    }
+  ],
+  "original_800_guard_stops": true,
+  "official_success_still_stops": true
+}

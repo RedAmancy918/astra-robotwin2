@@ -1,0 +1,928 @@
+{
+  "seed": 100012,
+  "started_at": 1790496179.6613026,
+  "decision_index": 35,
+  "inference_attempt": 35,
+  "history": [
+    {
+      "decision": {
+        "kind": "eef",
+        "dp_actions": 6,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "X+",
+            "level": 1
+          },
+          {
+            "arm": "right",
+            "code": "X+",
+            "level": 1
+          },
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 1
+          }
+        ],
+        "visual_assessment": "Green appears slightly right of the open finger gap. Red remains separate on the table; no grasp is verified.",
+        "reason": "Fine-align with green and lower slightly before attempting a grasp.",
+        "memory": "Right open at (0.227,-0.065,0.970); left parked open. Last X+18.4 mm and Z-18 mm succeeded. Green near head (294,101), red (262,147); X+ moves fingers right. Applying X+10,Z-5, then inspect. Earlier wrist-centered approach at (0.264,0.072) missed; DP stalled. Verify any grasp with a small lift before transport."
+      },
+      "receipt": {
+        "command_id": "14e0ff4b-52ba-4553-af98-01f0a393b945",
+        "client_id": "astra-vision-agent",
+        "status": "completed",
+        "fingerprint": "f9d52ed9199e4064cd6f7c7bab59d5a389ab41f96c0dcf1e60bfa0cfcdc2b515",
+        "epoch": 2,
+        "submitted_at": 1790539302.2540858,
+        "started_at": 1790539302.254167,
+        "finished_at": 1790539302.9491553,
+        "revision": 1375,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "X+",
+            "level": 1,
+            "target_xyz": [
+              0.2317068922519684,
+              -0.06510554999113083,
+              0.970359742641449
+            ],
+            "actual_xyz": [
+              0.23028869926929474,
+              -0.06493929028511047,
+              0.9700644612312317
+            ],
+            "displacement_m": [
+              0.003581807017326355,
+              0.00016625970602035522,
+              -0.00029528141021728516
+            ],
+            "position_error_m": 0.001458116846199462
+          },
+          {
+            "arm": "right",
+            "code": "X+",
+            "level": 1,
+            "target_xyz": [
+              0.23528869926929474,
+              -0.06493929028511047,
+              0.9700644612312317
+            ],
+            "actual_xyz": [
+              0.233878031373024,
+              -0.0647784098982811,
+              0.9697882533073425
+            ],
+            "displacement_m": [
+              0.003589332103729248,
+              0.00016088038682937622,
+              -0.00027620792388916016
+            ],
+            "position_error_m": 0.001446429130533014
+          },
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 1,
+            "target_xyz": [
+              0.233878031373024,
+              -0.0647784098982811,
+              0.9647882533073425
+            ],
+            "actual_xyz": [
+              0.23392610251903534,
+              -0.06482432782649994,
+              0.9663060903549194
+            ],
+            "displacement_m": [
+              4.807114601135254e-05,
+              -4.591792821884155e-05,
+              -0.0034821629524230957
+            ],
+            "position_error_m": 0.001519292135900052
+          }
+        ]
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "dp_actions": 6,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "CLOSE",
+            "level": 1
+          },
+          {
+            "arm": "right",
+            "code": "Z+",
+            "level": 2
+          }
+        ],
+        "visual_assessment": "Green appears between the open right fingers. Red remains separate on the table; no grasp is verified.",
+        "reason": "Test the apparent alignment by closing and lifting 20 mm. Verify green follows before lateral transport.",
+        "memory": "Right starts open at (0.234,-0.065,0.966); left parked open. Green near head (295,100), red (262,147). Latest corrections achieved X+7.2 mm and Z-3.5 mm. Now close and lift 20 mm to test grasp; inspect whether green follows. Earlier wrist-centered approach missed; DP stalled."
+      },
+      "receipt": {
+        "command_id": "e160faae-3355-4c99-b434-d869d00c42f2",
+        "client_id": "astra-vision-agent",
+        "status": "completed",
+        "fingerprint": "6aa557735958e6e4ec2cffeeffadbb607a2abc09c79866b63486bfe45802a22d",
+        "epoch": 2,
+        "submitted_at": 1790541140.5659416,
+        "started_at": 1790541140.5679903,
+        "finished_at": 1790541141.0945346,
+        "revision": 1432,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "CLOSE",
+            "level": 1,
+            "target_xyz": [
+              0.23392610251903534,
+              -0.06482432782649994,
+              0.9663060903549194
+            ],
+            "actual_xyz": [
+              0.23392607271671295,
+              -0.06482408195734024,
+              0.9663003087043762
+            ],
+            "displacement_m": [
+              -2.9802322387695312e-08,
+              2.4586915969848633e-07,
+              -5.781650543212891e-06
+            ],
+            "position_error_m": 5.786952810067182e-06
+          },
+          {
+            "arm": "right",
+            "code": "Z+",
+            "level": 2,
+            "target_xyz": [
+              0.23392607271671295,
+              -0.06482408195734024,
+              0.9863003087043762
+            ],
+            "actual_xyz": [
+              0.23369988799095154,
+              -0.06453860551118851,
+              0.9842554926872253
+            ],
+            "displacement_m": [
+              -0.00022618472576141357,
+              0.0002854764461517334,
+              0.01795518398284912
+            ],
+            "position_error_m": 0.002076999970022158
+          }
+        ]
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "dp_actions": 6,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "OPEN",
+            "level": 1
+          },
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2
+          },
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2
+          }
+        ],
+        "visual_assessment": "Green appears stationary while the right fingers rose; the grasp missed. Red remains separate, and the left gripper is open.",
+        "reason": "Reopen and descend below the unsuccessful grasp height, then inspect before closing again.",
+        "memory": "Right likely empty at (0.234,-0.065,0.984); left parked open. Latest lift achieved +18 mm but green stayed near head (290,99); red near (262,146). Reopening and descending toward Z≈0.948 at unchanged XY. Inspect finger engagement before closing. Earlier wrist-centered approach at (0.264,0.072) missed and stalled near Z=0.947; DP stalled. X+ moves fingers right."
+      },
+      "receipt": {
+        "command_id": "61fac2cb-2728-47ac-97c4-58d3d52129c9",
+        "client_id": "astra-vision-agent",
+        "status": "completed",
+        "fingerprint": "8822373b45e40e0491eb05bd5f35047c0ea92405b810be496e0856da2e0eca78",
+        "epoch": 2,
+        "submitted_at": 1790543007.1851425,
+        "started_at": 1790543007.1852558,
+        "finished_at": 1790543007.965096,
+        "revision": 1489,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "OPEN",
+            "level": 1,
+            "target_xyz": [
+              0.23369988799095154,
+              -0.06453860551118851,
+              0.9842554926872253
+            ],
+            "actual_xyz": [
+              0.23370006680488586,
+              -0.06454049795866013,
+              0.9842637181282043
+            ],
+            "displacement_m": [
+              1.7881393432617188e-07,
+              -1.8924474716186523e-06,
+              8.225440979003906e-06
+            ],
+            "position_error_m": 8.442227854957587e-06
+          },
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2,
+            "target_xyz": [
+              0.23370006680488586,
+              -0.06454049795866013,
+              0.9642637181282043
+            ],
+            "actual_xyz": [
+              0.2339000105857849,
+              -0.06468847393989563,
+              0.9662812948226929
+            ],
+            "displacement_m": [
+              0.00019994378089904785,
+              -0.00014797598123550415,
+              -0.017982423305511475
+            ],
+            "position_error_m": 0.0020328527060970583
+          },
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2,
+            "target_xyz": [
+              0.2339000105857849,
+              -0.06468847393989563,
+              0.9462812948226929
+            ],
+            "actual_xyz": [
+              0.2340593934059143,
+              -0.0647071972489357,
+              0.9481750130653381
+            ],
+            "displacement_m": [
+              0.00015938282012939453,
+              -1.872330904006958e-05,
+              -0.018106281757354736
+            ],
+            "position_error_m": 0.0019005057822015017
+          }
+        ]
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "dp_actions": 6,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "CLOSE",
+            "level": 1
+          },
+          {
+            "arm": "right",
+            "code": "Z+",
+            "level": 2
+          }
+        ],
+        "visual_assessment": "Green appears between the open right fingers at the lower approach height. Red remains separate; no grasp is verified.",
+        "reason": "Test this deeper grasp and verify green follows a small lift before transport.",
+        "memory": "Right at (0.234,-0.065,0.948); left parked open. Last descent achieved -36 mm. Green near head (292,103), red (262,145). Previous grasp at Z=0.966 missed. Now close and lift 20 mm; inspect green movement. X+ moves fingers right. Earlier wrist-centered approach and DP stalled."
+      },
+      "receipt": {
+        "command_id": "956fdd7c-de8a-4366-9b9e-5aafb9c25981",
+        "client_id": "astra-vision-agent",
+        "status": "completed",
+        "fingerprint": "b6c2949cca2cd5591d470761457bde68b447456e891406b190fcbfd9ad6044b8",
+        "epoch": 2,
+        "submitted_at": 1790544910.4799407,
+        "started_at": 1790544910.4800375,
+        "finished_at": 1790544910.9837153,
+        "revision": 1546,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "CLOSE",
+            "level": 1,
+            "target_xyz": [
+              0.2340593934059143,
+              -0.0647071972489357,
+              0.9481750130653381
+            ],
+            "actual_xyz": [
+              0.23405955731868744,
+              -0.06470764428377151,
+              0.9481685161590576
+            ],
+            "displacement_m": [
+              1.6391277313232422e-07,
+              -4.470348358154297e-07,
+              -6.496906280517578e-06
+            ],
+            "position_error_m": 6.514330261773439e-06
+          },
+          {
+            "arm": "right",
+            "code": "Z+",
+            "level": 2,
+            "target_xyz": [
+              0.23405955731868744,
+              -0.06470764428377151,
+              0.9681685161590576
+            ],
+            "actual_xyz": [
+              0.23386985063552856,
+              -0.06453252583742142,
+              0.966170072555542
+            ],
+            "displacement_m": [
+              -0.0001897066831588745,
+              0.00017511844635009766,
+              0.018001556396484375
+            ],
+            "position_error_m": 0.002015051347315944
+          }
+        ]
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "dp_actions": 6,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z+",
+            "level": 2
+          }
+        ],
+        "visual_assessment": "Green remains partly obscured beside the closed right fingers. Its movement after the lift is inconclusive; red remains separate.",
+        "reason": "Make another small diagnostic lift to verify attachment before lateral transport.",
+        "memory": "Right closed at (0.234,-0.065,0.966); left open. Closing at Z=0.948 then lifting 18 mm changed visible green center approximately (292,103) to (289,99), but occlusion prevents grasp confirmation. Red near (262,146). Further Z+20 diagnostic lift. Current XY allowed descent to 0.948; earlier approach at (0.265,0.070) stalled there. X+ moves fingers right; DP previously stalled."
+      },
+      "receipt": {
+        "command_id": "94372293-80a6-49ea-bc7a-2fe922cd2f6c",
+        "client_id": "astra-vision-agent",
+        "status": "completed",
+        "fingerprint": "3660376ef0ab576b9370461956b208bbf4ee57f65e6f892d2369d8879bce498e",
+        "epoch": 2,
+        "submitted_at": 1790546785.448608,
+        "started_at": 1790546785.4487696,
+        "finished_at": 1790546785.7557104,
+        "revision": 1603,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z+",
+            "level": 2,
+            "target_xyz": [
+              0.23386985063552856,
+              -0.06453252583742142,
+              0.986170072555542
+            ],
+            "actual_xyz": [
+              0.23364292085170746,
+              -0.06424815952777863,
+              0.9841321706771851
+            ],
+            "displacement_m": [
+              -0.00022692978382110596,
+              0.00028436630964279175,
+              0.017962098121643066
+            ],
+            "position_error_m": 0.0020701220714382388
+          }
+        ]
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "dp_actions": 6,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "OPEN",
+            "level": 1
+          },
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2
+          },
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2
+          },
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2
+          }
+        ],
+        "visual_assessment": "Green stayed stationary while the right fingers rose again, indicating a missed grasp. Red remains separate; left gripper is open.",
+        "reason": "Reopen and approach approximately 18 mm below the previous unsuccessful grasp height, then inspect before closing.",
+        "memory": "Right appears empty at (0.234,-0.064,0.984); left open. Green stayed near head (289,98) through the second 18 mm lift; red near (262,146). Grasps at Z=0.966 and 0.948 missed. Reopen and descend toward Z≈0.930 at unchanged XY; inspect engagement. X+ moves fingers right. Earlier approach at (0.265,0.070) stalled near 0.947; DP previously stalled."
+      },
+      "receipt": {
+        "command_id": "cc011e76-74c9-4b92-932a-ce68181270ab",
+        "client_id": "astra-vision-agent",
+        "status": "completed",
+        "fingerprint": "437fbbf9924767b302ddecdee558bde72df583371ecf75e108a4edabaa9bc50b",
+        "epoch": 2,
+        "submitted_at": 1790548913.8253057,
+        "started_at": 1790548913.8257363,
+        "finished_at": 1790548914.8198175,
+        "revision": 1660,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "OPEN",
+            "level": 1,
+            "target_xyz": [
+              0.23364292085170746,
+              -0.06424815952777863,
+              0.9841321706771851
+            ],
+            "actual_xyz": [
+              0.2336430698633194,
+              -0.06425004452466965,
+              0.984140157699585
+            ],
+            "displacement_m": [
+              1.4901161193847656e-07,
+              -1.8849968910217285e-06,
+              7.987022399902344e-06
+            ],
+            "position_error_m": 8.207797789675125e-06
+          },
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2,
+            "target_xyz": [
+              0.2336430698633194,
+              -0.06425004452466965,
+              0.9641401576995849
+            ],
+            "actual_xyz": [
+              0.23384147882461548,
+              -0.06438422948122025,
+              0.9661614298820496
+            ],
+            "displacement_m": [
+              0.00019840896129608154,
+              -0.00013418495655059814,
+              -0.0179787278175354
+            ],
+            "position_error_m": 0.0020354146884830012
+          },
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2,
+            "target_xyz": [
+              0.23384147882461548,
+              -0.06438422948122025,
+              0.9461614298820495
+            ],
+            "actual_xyz": [
+              0.23400041460990906,
+              -0.06442314386367798,
+              0.9481874108314514
+            ],
+            "displacement_m": [
+              0.0001589357852935791,
+              -3.8914382457733154e-05,
+              -0.017974019050598145
+            ],
+            "position_error_m": 0.0020325780969862556
+          },
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2,
+            "target_xyz": [
+              0.23400041460990906,
+              -0.06442314386367798,
+              0.9281874108314514
+            ],
+            "actual_xyz": [
+              0.23412197828292847,
+              -0.06435516476631165,
+              0.9302099943161011
+            ],
+            "displacement_m": [
+              0.00012156367301940918,
+              6.797909736633301e-05,
+              -0.017977416515350342
+            ],
+            "position_error_m": 0.0020273733836307355
+          }
+        ]
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "dp_actions": 6,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "CLOSE",
+            "level": 1
+          },
+          {
+            "arm": "right",
+            "code": "Z+",
+            "level": 2
+          }
+        ],
+        "visual_assessment": "Green is partly obscured between the open right fingers. Red remains separate. The descent reached Z=0.930 without reported obstruction.",
+        "reason": "Test this deeper grasp with a small lift; verify green follows before transporting.",
+        "memory": "Right starts open at (0.234,-0.064,0.930); left open and parked. Green near head (289,104), red (260,145). Grasps at Z=0.966 and 0.948 missed. Now close and lift 20 mm to test deeper engagement. If green stays stationary, reassess XY rather than assume attachment. X+ moves fingers right; earlier wrist-center alignment and DP stalled."
+      },
+      "receipt": {
+        "command_id": "68e01702-5d55-4222-b808-eaf0ef93dccb",
+        "client_id": "astra-vision-agent",
+        "status": "completed",
+        "fingerprint": "8016b5df9347df041545a21bc1d186d63a16ed354ae352c99b5cf70c5e750fe8",
+        "epoch": 2,
+        "submitted_at": 1790550846.0730357,
+        "started_at": 1790550846.073352,
+        "finished_at": 1790550846.5749764,
+        "revision": 1717,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "CLOSE",
+            "level": 1,
+            "target_xyz": [
+              0.23412197828292847,
+              -0.06435516476631165,
+              0.9302099943161011
+            ],
+            "actual_xyz": [
+              0.23412233591079712,
+              -0.06435582786798477,
+              0.9302032589912415
+            ],
+            "displacement_m": [
+              3.5762786865234375e-07,
+              -6.631016731262207e-07,
+              -6.735324859619141e-06
+            ],
+            "position_error_m": 6.777330041096067e-06
+          },
+          {
+            "arm": "right",
+            "code": "Z+",
+            "level": 2,
+            "target_xyz": [
+              0.23412233591079712,
+              -0.06435582786798477,
+              0.9502032589912415
+            ],
+            "actual_xyz": [
+              0.2339717298746109,
+              -0.06428518146276474,
+              0.9481684565544128
+            ],
+            "displacement_m": [
+              -0.00015060603618621826,
+              7.064640522003174e-05,
+              0.017965197563171387
+            ],
+            "position_error_m": 0.0020415910583733393
+          }
+        ]
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "dp_actions": 6,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z+",
+            "level": 2
+          }
+        ],
+        "visual_assessment": "Green is partly obscured beside the closed right fingers; attachment remains uncertain. Red is unchanged on the table.",
+        "reason": "Make another small diagnostic lift to distinguish a held block from an occluded, stationary block before transport.",
+        "memory": "Right closed at (0.234,-0.064,0.948), after closing at Z=0.930 and lifting 18 mm. Green's apparent movement is inconclusive; compare after another 20 mm lift. Red near head (260,146); green near (287,101). Left parked open. Earlier grasps at Z=0.966 and 0.948 missed. If green stays stationary, reopen and correct XY rather than repeat unchanged grasps. X+ moves fingers right; prior DP stalled."
+      },
+      "receipt": {
+        "command_id": "3f34340b-b7e0-46cd-8f86-fa78babe0d1d",
+        "client_id": "astra-vision-agent",
+        "status": "completed",
+        "fingerprint": "e5b9165036e7f2c826991622be3059adfb06f110d0f0690b190114481528b15c",
+        "epoch": 2,
+        "submitted_at": 1790552820.9137414,
+        "started_at": 1790552820.9138093,
+        "finished_at": 1790552821.2443442,
+        "revision": 1774,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z+",
+            "level": 2,
+            "target_xyz": [
+              0.2339717298746109,
+              -0.06428518146276474,
+              0.9681684565544129
+            ],
+            "actual_xyz": [
+              0.23378239572048187,
+              -0.06410500407218933,
+              0.9661563634872437
+            ],
+            "displacement_m": [
+              -0.00018933415412902832,
+              0.00018017739057540894,
+              0.01798790693283081
+            ],
+            "position_error_m": 0.0020289972461648895
+          }
+        ]
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "dp_actions": 6,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "OPEN",
+            "level": 1
+          },
+          {
+            "arm": "right",
+            "code": "Y+",
+            "level": 2
+          }
+        ],
+        "visual_assessment": "Green stayed nearly stationary while the right fingers rose, indicating another missed grasp. Red remains separate; left is open.",
+        "reason": "Reopen and test a small correction away from the robot instead of repeating the unsuccessful vertical approach.",
+        "memory": "Right apparently empty at (0.234,-0.064,0.966); left parked open. Green near head (289,99), red (260,146). Green did not follow two lifts after closing at Z=0.930; grasps at 0.948 and 0.966 also missed. Now OPEN,Y+20; inspect alignment before descent. X+ moves fingers right. Earlier wrist-center approach at (0.264,0.072) missed; DP stalled."
+      },
+      "receipt": {
+        "command_id": "88aa3c93-cf0a-4df7-a69c-44e0c3eeaebb",
+        "client_id": "astra-vision-agent",
+        "status": "completed",
+        "fingerprint": "14c1887ebb5f6690162a5deea31d53c63fd3eb9b4662e90eedecd2910cedb6b2",
+        "epoch": 2,
+        "submitted_at": 1790554698.6037097,
+        "started_at": 1790554698.6038103,
+        "finished_at": 1790554699.1070092,
+        "revision": 1831,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "OPEN",
+            "level": 1,
+            "target_xyz": [
+              0.23378239572048187,
+              -0.06410500407218933,
+              0.9661563634872437
+            ],
+            "actual_xyz": [
+              0.2337823212146759,
+              -0.06410586833953857,
+              0.9661639332771301
+            ],
+            "displacement_m": [
+              -7.450580596923828e-08,
+              -8.642673492431641e-07,
+              7.569789886474609e-06
+            ],
+            "position_error_m": 7.619332522699361e-06
+          },
+          {
+            "arm": "right",
+            "code": "Y+",
+            "level": 2,
+            "target_xyz": [
+              0.2337823212146759,
+              -0.04410586833953857,
+              0.9661639332771301
+            ],
+            "actual_xyz": [
+              0.23204390704631805,
+              -0.04510205239057541,
+              0.9669254422187805
+            ],
+            "displacement_m": [
+              -0.0017384141683578491,
+              0.019003815948963165,
+              0.0007615089416503906
+            ],
+            "position_error_m": 0.0021434463726673868
+          }
+        ]
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "dp_actions": 6,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2
+          }
+        ],
+        "visual_assessment": "Green remains partly obscured by the open right fingers and separate from red. The Y+ correction completed; no grasp is verified.",
+        "reason": "Descend 20 mm at the corrected XY, then inspect engagement before closing.",
+        "memory": "Right open at (0.232,-0.045,0.967); left parked open. Y+ achieved 19 mm. Green near head (294,94), red (260,146). Now descend 20 mm and inspect. Prior grasps at Y=-0.064 and Z=0.966/0.948/0.930 missed. X+ moves fingers right; Y+ moves them upward in head view. Earlier wrist-center approach and DP stalled. Verify any grasp with a small lift."
+      },
+      "receipt": {
+        "command_id": "187667b5-60f7-4d0c-8ad7-698ecb93c993",
+        "client_id": "astra-vision-agent",
+        "status": "completed",
+        "fingerprint": "0a9b01ff69bc0203112f278e87b0d8452bbf295a798ec5d09d912a79caa67593",
+        "epoch": 2,
+        "submitted_at": 1790556604.2300298,
+        "started_at": 1790556604.230264,
+        "finished_at": 1790556604.5612085,
+        "revision": 1888,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "Z-",
+            "level": 2,
+            "target_xyz": [
+              0.23204390704631805,
+              -0.04510205239057541,
+              0.9469254422187805
+            ],
+            "actual_xyz": [
+              0.23221571743488312,
+              -0.0451684296131134,
+              0.9490297436714172
+            ],
+            "displacement_m": [
+              0.00017181038856506348,
+              -6.637722253799438e-05,
+              -0.01789569854736328
+            ],
+            "position_error_m": 0.0021123468817549392
+          }
+        ]
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "dp_actions": 6,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "CLOSE",
+            "level": 1
+          },
+          {
+            "arm": "right",
+            "code": "Z+",
+            "level": 2
+          }
+        ],
+        "visual_assessment": "Green appears within the open right-finger gap, partly occluded. Red remains separate; no grasp is verified.",
+        "reason": "Test the corrected Y alignment, then use a small lift to check whether green follows.",
+        "memory": "Right starts open at (0.232,-0.045,0.949); left parked open. Last descent achieved 17.9 mm. Green near head (291,100), red (260,146). Now close and lift 20 mm; verify attachment before transport. Earlier grasps at Y=-0.064 and Z=0.966/0.948/0.930 missed. X+ moves fingers right; Y+ moves them upward. Earlier wrist-center approach and DP stalled."
+      },
+      "receipt": {
+        "command_id": "26ff14a2-4173-40da-8749-814ccb76f391",
+        "client_id": "astra-vision-agent",
+        "status": "completed",
+        "fingerprint": "188d388b6a481c269b1bf7556195db8cdfa985db65582c3f5effc6d45940c143",
+        "epoch": 2,
+        "submitted_at": 1790558541.0448396,
+        "started_at": 1790558541.04505,
+        "finished_at": 1790558541.594535,
+        "revision": 1945,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "CLOSE",
+            "level": 1,
+            "target_xyz": [
+              0.23221571743488312,
+              -0.0451684296131134,
+              0.9490297436714172
+            ],
+            "actual_xyz": [
+              0.2322157323360443,
+              -0.04516838863492012,
+              0.9490212202072144
+            ],
+            "displacement_m": [
+              1.4901161193847656e-08,
+              4.0978193283081055e-08,
+              -8.52346420288086e-06
+            ],
+            "position_error_m": 8.52357573291404e-06
+          },
+          {
+            "arm": "right",
+            "code": "Z+",
+            "level": 2,
+            "target_xyz": [
+              0.2322157323360443,
+              -0.04516838863492012,
+              0.9690212202072144
+            ],
+            "actual_xyz": [
+              0.23202022910118103,
+              -0.04499693214893341,
+              0.9670515060424805
+            ],
+            "displacement_m": [
+              -0.00019550323486328125,
+              0.0001714564859867096,
+              0.018030285835266113
+            ],
+            "position_error_m": 0.0019868046537549434
+          }
+        ]
+      }
+    },
+    {
+      "decision": {
+        "kind": "eef",
+        "dp_actions": 6,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "X-",
+            "level": 2
+          }
+        ],
+        "visual_assessment": "Green remains partly occluded; the latest 18 mm lift does not clearly confirm attachment. Red remains separate, and the left gripper is open.",
+        "reason": "Make a small leftward diagnostic motion to expose green and check whether it follows, rather than begin transport.",
+        "memory": "Right closed at (0.232,-0.045,0.967), after closing at Z=0.949 and lifting 18 mm; grasp unconfirmed. Green near head (289,99), red (260,146). Now X-20 diagnostic: compare green movement against stationary red. Left parked open. Prior grasps at Y=-0.064 and several heights missed; prior DP stalled. X+ moves fingers right; Y+ moves them upward. Avoid further unchanged grasp attempts."
+      },
+      "receipt": {
+        "command_id": "0b04163f-1d2e-492d-b69b-b2ab0beba7a1",
+        "client_id": "astra-vision-agent",
+        "status": "completed",
+        "fingerprint": "bfc20fd4e447d0c3177f3febe6b8d4c84addfd4fb0489c9eb17d1173b0a93f3c",
+        "epoch": 2,
+        "submitted_at": 1790560580.3951087,
+        "started_at": 1790560580.3953211,
+        "finished_at": 1790560580.692742,
+        "revision": 2002,
+        "steps": [
+          {
+            "arm": "right",
+            "code": "X-",
+            "level": 2,
+            "target_xyz": [
+              0.21202022910118104,
+              -0.04499693214893341,
+              0.9670515060424805
+            ],
+            "actual_xyz": [
+              0.2136799693107605,
+              -0.04538585618138313,
+              0.9676154255867004
+            ],
+            "displacement_m": [
+              -0.018340259790420532,
+              -0.0003889240324497223,
+              0.0005639195442199707
+            ],
+            "position_error_m": 0.001795551368985325
+          }
+        ]
+      }
+    }
+  ],
+  "memory": "Right closed at (0.232,-0.045,0.967), after closing at Z=0.949 and lifting 18 mm; grasp unconfirmed. Green near head (289,99), red (260,146). Now X-20 diagnostic: compare green movement against stationary red. Left parked open. Prior grasps at Y=-0.064 and several heights missed; prior DP stalled. X+ moves fingers right; Y+ moves them upward. Avoid further unchanged grasp attempts.",
+  "action_count": 314,
+  "warmup_done": true,
+  "visits": 35,
+  "episode_status": "pending_next_round",
+  "pending_command": null,
+  "pending_decision": null,
+  "previous_views": "/mnt/data/yjh/astra-vla/runs/20260927-dp600-agent-roundrobin-clean20/episodes/100012/decision-00034-attempt-00035/three-views.jpg"
+}

@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "completed": 20,
+  "planned": 20,
+  "successes": 0,
+  "success_rate": 0.0,
+  "elapsed_s": 2575.5224247700535,
+  "last_episode": {
+    "episode_index": 19,
+    "seed": 100019,
+    "success": false,
+    "counted": true,
+    "reason": "step_limit",
+    "actions": 800,
+    "step_limit": 800,
+    "wall_time_s": 129.78594923298806,
+    "error": null,
+    "video": "/mnt/data/yjh/astra-vla/runs/20260927-dp600-stack-blocks-two-clean20/videos/episode19.mp4"
+  },
+  "seed_attempts": 20
+}

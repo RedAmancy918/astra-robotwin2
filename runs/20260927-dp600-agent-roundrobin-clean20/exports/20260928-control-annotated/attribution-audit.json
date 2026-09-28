@@ -1,0 +1,29 @@
+{
+  "frames": 6278,
+  "all_active_frames_matched": true,
+  "executed_action_commands": 735,
+  "agent_decisions": 715,
+  "frame_counts_by_controller": {
+    "System": 2084,
+    "DP600": 3039,
+    "Agent": 1155
+  },
+  "action_commands_by_kind": {
+    "dp": 161,
+    "eef": 574
+  },
+  "warmup_dp_commands": 20,
+  "source_sha256": {
+    "source/roundrobin/video-frames.jsonl": "40e6fc6c2a4b28d46d880c74cf97c909b1c768c3b8673a40dc870ba0bba4a9af",
+    "source/roundrobin/commands.jsonl": "bc5cf0353bb6bbe71e29a755d330b7f7f2bed20f209d0f3ce4e5a025a4b572f4",
+    "source/roundrobin/decisions.jsonl": "57038adea58441954d79ac98d80bbe41fb72c995411017b0bf871b65b6a17065",
+    "source/roundrobin/events.jsonl": "741d5becc8b98047e524bbd1b529511955c32c13217a0c1db02f65cbe99ce654",
+    "source/roundrobin/visits.jsonl": "9d7214b3f74a954463076d717ee83778576fbff50b43e8a1f2dc3705676bc770",
+    "source/serial/video-frames.jsonl": "3975d49287f734db47171f3798a2e51dc7b8d78f6ea7391ef31aa09f85f0a57c",
+    "source/serial/commands.jsonl": "28a3c0780249749a142eccd54fc2abeadd8c170291a005fdfe4523b037bf9e93",
+    "source/serial/decisions.jsonl": "e178e58a7ceb93e59235772d29e4c0039a123b6a0f03352d8cadeb82359e4e77",
+    "source/serial/events.jsonl": "d02175653d1551568a740be057c7386ab06b91f308ff7bde517d9593fc75c78a"
+  },
+  "matching": "Original backend clock: started_at <= frame.time <= finished_at, matching mode/kind; then command_id joined to executed decisions. Counts cross-checked against receipts.",
+  "limitation": "5 fps recorded observations, not every physics step. A command receipt is retrospective. Within an EEF batch, the action counter identifies the current or most recent subcommand. System frames are not attributed to either policy."
+}
